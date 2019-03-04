@@ -100,9 +100,9 @@ The dataset package has the following structure:
 The MUSCIMA++ annotations are provided as XML files.
 The data itself is inside <CropObject> elements:
 
-    <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
+    <CropObject xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
       <Id>25</Id>
-      <MLClassName>grace-notehead-full</MLClassName>
+      <ClassName>grace-notehead-full</ClassName>
       <Top>119</Top>
       <Left>413</Left>
       <Width>16</Width>
