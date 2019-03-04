@@ -266,7 +266,7 @@ To get the indexes for a test set (in this case, writer-independnet):
         | cut -f 1
 
 
-## Known issues
+# Known issues
 
 The MUSCIMA++ dataset is not perfect, as is always the case with extensive
 human-annotated datasets. In the interest of full disclosure and managing
@@ -283,7 +283,7 @@ We hope that this dataset is going to eventually become an OMR community effort,
 with all the bells and whistles -- including co-authorship credit for future
 versions, esp. if you come up with bug-hunting and/or annotation automation.
 
-### Staff removal artifacts
+## Staff removal artifacts
 
 The CVC-MUSCIMA dataset has had staff lines removed automatically with very high
 accuracy, based on a precise writing and scanning setup (using a standard notation
@@ -292,7 +292,7 @@ errors in staff removal: sometimes, the staff removal algorithm took with it
 some pixels that were also legitimate part of a symbol. This manifests itself
 most frequently with stems.
 
-### Human Errors
+## Human Errors
 
 Annotators also might have made mistakes that slipped both through automated
 validation and manual quality control. In automated validation, there is
@@ -310,7 +310,7 @@ other users will be able to benefit from your discoveries as well,
 and keep releasing corrected versions.
 
 
-### UPDATE (0.9.1) 
+## UPDATE (0.9.1) 
 
 2017-08-17: Huge thanks to [Alexander Pacha](https://alexanderpacha.com) 
 for a thorough look at all the symbols and providing the ERRATA file.
