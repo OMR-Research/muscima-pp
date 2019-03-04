@@ -68,9 +68,9 @@ The dataset package has the following structure:
     +--+ MUSCIMA-pp_v1.0/
        |
        +--+ data/                               ... Contains the data files.
-       |  +--+ cropobjects_manual/              ... Contains the annotation files without automatically
+       |  +--+ nodes_manual/              ... Contains the annotation files without automatically
        |  |                                         extracted staff objects and their relationships.
-       |  +--+ cropobjects_withstaff/           ... Contains the annotation files enriched by staff objects,
+       |  +--+ nodes_withstaff/           ... Contains the annotation files enriched by staff objects,
        |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
        |  |                                         using scripts from the ``muscima’’ package.
        |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
@@ -98,9 +98,9 @@ The dataset package has the following structure:
 ## Data Formats
 
 The MUSCIMA++ annotations are provided as XML files.
-The data itself is inside <CropObject> elements:
+The data itself is inside <Node> elements:
 
-    <CropObject xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
+    <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
       <Id>25</Id>
       <ClassName>grace-notehead-full</ClassName>
       <Top>119</Top>
@@ -110,51 +110,51 @@ The data itself is inside <CropObject> elements:
       <Mask>1:5 0:11 (...) 1:4 0:6 1:5 0:1</Mask>
       <Outlinks>12 24 26</Outlinks>
       <Inlinks>13</Inlinks>
-    </CropObject>
+    </Node>
 
-The CropObjects are themselves kept as a list, which is the top-level
+The Nodes are themselves kept as a list, which is the top-level
 element in the data files:
 
-    <CropObjectList>
-      <CropObjects>
-        <CropObject xml:id="..."> ... </CropObject>
-        <CropObject xml:id="..."> ... </CropObject>
-      </CropObjects>
-    </CropObjectList>
+    <NodeList>
+      <Nodes>
+        <Node xml:id="..."> ... </Node>
+        <Node xml:id="..."> ... </Node>
+      </Nodes>
+    </NodeList>
 
 
->   NOTE: Parsing (muscima.io.parse_cropobject_list()) is only implemented for files that consist of a single `<CropObjectList>`.
+>   NOTE: Parsing (muscima.io.parse_Node_list()) is only implemented for files that consist of a single `<NodeList>`.
 
 
-The value of the xml:id attribute of the <CropObject> element
-is a string that uniquely identifies the CropObject
+The value of the xml:id attribute of the <Node> element
+is a string that uniquely identifies the Node
 in the entire dataset. It is derived from a global dataset name and version
 identifier (the + signs in MUSCIMA++ 1.0 unfortunately do not comply
-with the XML specification for the xml:id value), a CropObjectList identifier
+with the XML specification for the xml:id value), a NodeList identifier
 which is unique within the dataset (derived from the filename:
 usually in the format CVC-MUSCIMA_W-{:02}_N-{:02}_D-ideal),
-and the number of the CropObject within the given CropObjectList
+and the number of the Node within the given NodeList
 (which matches the <Id> value). The delimiter is three underscores
 (___), in order to comply with XML rules for the xml:id attribute.
 
 
 
-### Individual elements of a `<CropObject>`
+### Individual elements of a `<Node>`
 
-* <Id> is the integer ID of the CropObject inside a given
-  <CropObjectList> (which generally corresponds to one XML file
-  of CropObjects -- see below for unique ID policy and dataset namespaces).
-* <MLClassName> is the name of the object's class (such as
+* <Id> is the integer ID of the Node inside a given
+  <NodeList> (which generally corresponds to one XML file
+  of Nodes -- see below for unique ID policy and dataset namespaces).
+* <ClassName> is the name of the object's class (such as
   notehead-full, beam, numeral_3, etc.).
 * <Top> is the vertical coordinate of the upper left corner of the object's
   bounding box.
 * <Left> is the horizontal coordinate of the upper left corner of
   the object's bounding box.
-* <Width>: the amount of rows that the CropObject spans.
-* <Height>: the amount of columns that the CropObject spans.
+* <Width>: the width of the symbol
+* <Height>: the height of the symbol
 * <Mask>: a run-length-encoded binary (0/1) array that denotes the area
-  within the CropObject's bounding box (specified by top, left,
-  height and width) that the CropObject actually occupies. If
+  within the Node's bounding box (specified by top, left,
+  height and width) that the Node actually occupies. If
   the mask is not given, the object is understood to occupy the entire
   bounding box (within MUSCIMA++ 1.0, all objects have explicit masks,
   but the format enables annotating bounding boxes only). The run-length
@@ -162,49 +162,49 @@ and the number of the CropObject within the given CropObjectList
   in the C order, using the flatten() method of numpy
   arrays. (The mask lines might get quite long, but e.g. the lxml library
   has no problems with parsing them.)
-* <Inlinks>: whitespace-separated objid list, representing CropObjects
-  **from** which a relationship leads to this CropObject. (Relationships are
-  directed edges, forming a directed graph of CropObjects.) The objids are
-  valid in the same scope as the CropObject's objid: don't mix
-  CropObjects from multiple scopes (e.g., multiple CropObjectLists)!
-  If you are using CropObjects from multiple CropObjectLists at the same
+* <Inlinks>: whitespace-separated objid list, representing Nodes
+  **from** which a relationship leads to this Node. (Relationships are
+  directed edges, forming a directed graph of Nodes.) The objids are
+  valid in the same scope as the Node's objid: don't mix
+  Nodes from multiple scopes (e.g., multiple NodeLists)!
+  If you are using Nodes from multiple NodeLists at the same
   time, make sure to check against the uid.
-* <Outlinks>: whitespace-separate objid list, representing CropObjects
-  **to** which a relationship leads to this CropObject. (Relationships are
-  directed edges, forming a directed graph of CropObjects.) The objids are
-  valid in the same scope as the CropObject's objid: don't mix
-  CropObjects from multiple scopes (e.g., multiple CropObjectLists)!
-  If you are using CropObjects from multiple CropObjectLists at the same
+* <Outlinks>: whitespace-separate objid list, representing Nodes
+  **to** which a relationship leads to this Node. (Relationships are
+  directed edges, forming a directed graph of Nodes.) The objids are
+  valid in the same scope as the Node's objid: don't mix
+  Nodes from multiple scopes (e.g., multiple NodeLists)!
+  If you are using Nodes from multiple NodeLists at the same
   time, make sure to check against the uid.
 
-The parser function provided for CropObjects does *not* check against
-the presence of other sub-elements. You can therefore extend CropObjects
+The parser function provided for Nodes does *not* check against
+the presence of other sub-elements. You can therefore extend Nodes
 for your own purposes.
 
-> NOTE: The full description of the format is also given in the muscima package, module musicma.cropobject. In case these two versions do not match, the authoritative document is the package documentation.
+> NOTE: The full description of the format is also given in the muscima package, module mung.Node. In case these two versions do not match, the authoritative document is the package documentation.
 
 
 ### Unique IDs policy
 
-Each CropObject has two identifiers: one is a dataset-wide
+Each Node has two identifiers: one is a dataset-wide
 unique identifier, and one is an integer ID that is valid
 within the scope of annotation of one document.
 
-The xml:id serves to identify the CropObject uniquely,
+The xml:id serves to identify the Node uniquely,
 at least within the MUSCIMA dataset system. (We anticipate further
 versions of the dataset, and need to plan for that.)
 
-To uniquely identify a CropObject, we need three "levels":
+To uniquely identify a Node, we need three "levels":
 
 * The "global", **dataset-level identification**: which dataset is this
-  CropObject coming from? (For this dataset: MUSCIMA-pp_1.0.
+  Node coming from? (For this dataset: MUSCIMA-pp_1.0.
   Unfortunately, rules for XML NAME-type attributes do not allow
   the + character in the attribute value.)
 * The "local", **document-level identification**: which document
-  (within the given dataset) is this CropObject coming from?
+  (within the given dataset) is this Node coming from?
   For MUSCIMA++ 1.0, this will usually be a string like
   CVC-MUSCIMA_W-35_N-08_D-ideal, derived from the filename
-  under which the CropObjectList containing the given CropObject
+  under which the NodeList containing the given Node
   is stored.
 * The **within-document identification**, which is an integer
   identical to the <Id>.
@@ -212,30 +212,30 @@ To uniquely identify a CropObject, we need three "levels":
 These three components are joined together into one string by
 a delimiter: ___
 
-The full xml:id of a CropObject then might look like this:
+The full xml:id of a Node then might look like this:
 
   `MUSCIMA-pp_0.9__CVC-MUSCIMA_W-35_N-08_D-ideal___611`
 
-You will need to use UIDs whenever you are combining CropObjects
+You will need to use UIDs whenever you are combining Nodes
 from different documents, and/or datasets. (If you are really combining
 datasets, make sure you know what you are doing -- some annotation
 instructions may change between versions, so objects of the same class
 might not exactly correspond to each other...)
 
 On the other hand, the <Id> field is intended to uniquely identify
-a CropObject *within the scope of one CropObject list* (one annotation
+a Node *within the scope of one Node list* (one annotation
 document), and enable integer manipulation. (We admit this is a bit
 of a legacy issue, connected to the annotation tool, which assumes
-that there is an integer identification of CropObjects when annotating
+that there is an integer identification of Nodes when annotating
 a single document.)
 
-> CAUTION: The scope of unique identification within MUSCIMA++ is only within a `<CropObjectList>`. Don't use objid to mix CropObjects from multiple files! Use their uid attribute, which is taken from the <CropObject> element's xml:id.
+> CAUTION: The scope of unique identification within MUSCIMA++ is only within a `<NodeList>`. Don't use objid to mix Nodes from multiple files! Use their uid attribute, which is taken from the <Node> element's xml:id.
 
 
 ## Classes
 The list of symbol classes used for MUSCIMA++ is provided in
 the `specifications/mff-muscima-classes-annot.xml` file. See the
-muscima.io module documentation for details on the CropObject classes file
+muscima.io module documentation for details on the Node classes file
 format. (You do not have to worry about this unless you want to perform symbol
 relationship validation.)
 
@@ -261,7 +261,7 @@ Both of the test sets contain one instance of each page (so there are
 
 To get the indexes for a test set (in this case, writer-independnet):
 
-    paste <(seq 140) <(ls data/cropobjects/) 
+    paste <(seq 140) <(ls data/Nodes/) 
         | grep -f specifications/testset-independent.txt
         | cut -f 1
 
@@ -305,7 +305,7 @@ on inherently imperfect human judgment.
 
 Moral of the story: if your models are doing weird things, cross-validate,
 isolate the problematic data points, and drop us a line. We will try
-to maintain a list of "known offender" CropObjects this way, so that
+to maintain a list of "known offender" Nodes this way, so that
 other users will be able to benefit from your discoveries as well,
 and keep releasing corrected versions.
 
