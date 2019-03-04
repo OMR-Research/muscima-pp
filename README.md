@@ -143,14 +143,18 @@ Dataset directory structure
 
 The dataset package has the following structure:
 
-+--+ MUSCIMA++_0.9/
++--+ MUSCIMA-pp_v1.0/
    |
    +--+ data/                               ... Contains the data files.
-   |  +--+ cropobjects/                     ... Contains the annotation files
+   |  +--+ cropobjects_manual/              ... Contains the annotation files without automatically
+   |  |                                         extracted staff objects and their relationships.
+   |  +--+ cropobjects_withstaff/           ... Contains the annotation files enriched by staff objects,
+   |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
+   |  |                                         using scripts from the ``muscima’’ package.
    |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
    |  |  +...
    |  |
-   |  +--+ images/                          ... Put corresponding CVC-MUSCIMA symbol-only image files here.
+   |  +--+ images/                          ... Put corresponding CVC-MUSCIMA image files here.
    |                                            (Analogously, use e.g. data/fulls/ for full images.)
    |
    +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
@@ -164,9 +168,10 @@ The dataset package has the following structure:
    | 
    +--- LICENSE                             ... The legal stuff (CC-BY-NC-SA 4.0, which is fine 
    |                                            unless you want to make money off of this data).
+   +--- ERRATA                              ... File which lists errors in the data and their corrections. 
    +--- README                              ... This file.
 
-
+I
 
 
 
