@@ -1,0 +1,134 @@
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-02_N-06_D-ideal___629    really a hairpin-decr or rather an accent?	NOCHANGE	Debatable, but I would say hairpin. Analogous to situation with 628.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-02_N-17_D-ideal___521    is a line and not a duration dot	FIXED	Changed class to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-06_N-02_D-ideal___436    clearly not a sharp	FIXED	Changed to slur.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-06_N-02_D-ideal___441    really a duration dot?	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-06_N-02_D-ideal___442    really a duration dot?	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-07_N-08_D-ideal___126    not only a notehead but also something different	NOCHANGE	Standard inaccuracy, not worth fixing.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-07_N-08_D-ideal___150    not only a notehead but also something different	NOCHANGE	Standard inaccuracy, not worth fixing.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-07_N-08_D-ideal___159    not only a notehead but also something different	NOCHANGE	Standard inaccuracy, not worth fixing.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-09_N-13_D-ideal___347    notehead-empty instead of notehead-full	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-10_N-01_D-ideal___362    likely a to be a flat instead of a sharp	FIXED	Changed to flat.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-10_N-07_D-ideal___57     just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-10_N-07_D-ideal___9      just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-12_D-ideal___482    sharp instead of natural	FIXED	Changed to sharp.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-12_D-ideal___483    sharp instead of natural	FIXED	Changed to sharp.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-12_D-ideal___566    dot instead of thick_barline	FIXED	Deleted extraneous thick_barline symbol (misapplication of CC select?)
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-20_D-ideal___385    notehead-empty instead of notehead-full	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-20_D-ideal___422    likely a stem instead of a notehead-full	FIXED	Changed to stem, fixed relationships.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-20_D-ideal___587    really a notehead-full?	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-11_N-20_D-ideal___675    really a tenuto?	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-02_D-ideal___279    really a beam?	FIXED	Deleted spurious mini-beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___382    notehead-empty instead of notehead-full	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___383    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___384    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___385    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___386    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___387    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___388    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___389    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___390    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___393    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___394    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___395    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___396    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___397    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___398    notehead-empty instead of notehead-full	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___599    hairpin-decr instead of hairpin-cresc	FIXED	Changed to hairpin-decr
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___600    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___601    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___602    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___603    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___604    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-13_N-16_D-ideal___616    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-14_N-08_D-ideal___110    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-14_N-08_D-ideal___457    really a stem?	FIXED	Changed to 16th_flag.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-14_N-08_D-ideal___458    really a stem?	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-14_N-08_D-ideal___646    just broken	FIXED	Deleted spurious symbol.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-14_N-08_D-ideal___91     just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-16_N-06_D-ideal___407    hairpin-decr instead of hairpin-cresc	FIXED	Changed to hairpin-decr.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-16_N-06_D-ideal___415    hairpin-decr instead of hairpin-cresc	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-16_N-06_D-ideal___788    natural instead of a sharp	FIXED	Changed to natural.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-17_N-18_D-ideal___267    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-17_N-18_D-ideal___337    just broken	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-17_N-18_D-ideal___488    just broken	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-17_N-18_D-ideal___525    stem with notehead	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-18_N-09_D-ideal___303    natural instead of a sharp	FIXED	Changed to natural.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-18_N-12_D-ideal___272    definitely not a stem. Rather a dot	FIXED	Deleted spurious symbol.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-18_N-12_D-ideal___71     not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-18_N-12_D-ideal___83     not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-18_N-12_D-ideal___85     not only a notehead but also something different	FIXED	Edited mask. This was worth changing.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-20_N-16_D-ideal___340    hairpin-decr instead of hairpin-cresc	FIXED	Changed to hairpin-decr.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___10     not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___22     not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___283    really a stem?	FIXED	Edited mask. Stem, bud badly marked.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___29     not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___30     not only a notehead but also something different -> actually there were some more of these, but I just stopped noting them after a while, since this is really a minor issue	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___6      not only a notehead but also something different	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-22_N-10_D-ideal___694    f-clef instead of g-clef	FIXED	Changed to f-clef.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___238    contains two dots, whereas all other repeat-dot instances only contain one dot	FIXED	Split into two repeat-dots.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___246    contains two dots, whereas all other repeat-dot instances only contain one dot	FIXED	Split into two repeat-dots.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___257    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___3      just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___327    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___351    really a beam?	FIXED	Removed spurious object.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___379    just broken	FIXED	Edited mask. I have no idea how that happened.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___570    missing	FIXED	Added flag symbol and relationships.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___571    missing	FIXED	Added flag symbol and relationships.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___572    missing	FIXED	Added flag symbol and relationships.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___573    missing	FIXED	Added flag symbol and relationships.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-24_N-07_D-ideal___522    contains two dots, whereas all other repeat-dot instances only contain one dot	FIXED	Split into two repeat-dots.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-25_N-20_D-ideal___572    likely a natural instead of a sharp	FIXED	Changed to natural, and deleted extra relationship to 81.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-26_N-11_D-ideal___672    definitely not a f-clef	FIXED	Deleted spurious object.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-27_N-02_D-ideal___101    notehead-empty instead of notehead-full	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-29_N-15_D-ideal___354    mask contains more than just the sixteenth-rest	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-32_N-20_D-ideal___183    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-32_N-20_D-ideal___546    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-32_N-20_D-ideal___606    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-34_N-03_D-ideal___346    really a duration dot?	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-34_N-03_D-ideal___448    barline/stem instead of notehead-full	FIXED	Changed to stem.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___485    definitely not a natural	FIXED	Deleted spurious symbol.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-15_D-ideal___47     really a quarter_rest?	FIXED	Deleted spurious object.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-37_N-17_D-ideal___199    likely to be something else	NOCHANGE	That is actually a stem.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-39_N-12_D-ideal___545    g-clef instead of f-clef	FIXED	Changed to g-clef.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-39_N-12_D-ideal___546    g-clef instead of f-clef	FIXED	Changed to g-clef.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-40_N-19_D-ideal___157    definitely not a stem	FIXED	Deleted spurious object.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-40_N-19_D-ideal___280    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-40_N-19_D-ideal___288    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-40_N-19_D-ideal___529    just broken	FIXED	Edited mask.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-41_N-16_D-ideal___325    notehead-empty instead of notehead-full	FIXED	Changed to notehead-empty.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-43_N-14_D-ideal___473    clearly not a staccato-dot	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-43_N-14_D-ideal___474    clearly not a staccato-dot	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-43_N-14_D-ideal___475    clearly not a staccato-dot	FIXED	Changed to beam.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-44_N-06_D-ideal___499    barline/stem instead of duration dot	FIXED	Changed to stem.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-44_N-06_D-ideal___500    barline/stem instead of duration dot	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-44_N-06_D-ideal___501    barline/stem instead of duration dot	FIXED	dtto
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-45_N-01_D-ideal___472    natural instead of flat	FIXED	Changed to natural.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-49_N-03_D-ideal___30     f-clef instead of c-clef	FIXED	Changed to f-clef.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-04_D-ideal___144    really a quarter_rest?	NOCHANGE	Yes.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-04_D-ideal___145    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-04_D-ideal___146    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___554    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___555    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___556    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___557    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___558    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___559    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___561    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___562    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___563    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___564    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___565    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___566    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___567    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___569    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___571    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___572    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___573    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___574    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-08_D-ideal___677    hairpin-cresc instead of hairpin-decr	FIXED	Changed to hairpin-cresc.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___435    really a quarter_rest?	NOCHANGE	Yes.
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___437    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___440    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___457    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___460    really a quarter_rest?	NOCHANGE
+MUSCIMA-pp_0.9___CVC-MUSCIMA_W-50_N-15_D-ideal___463    really a quarter_rest?	NOCHANGE

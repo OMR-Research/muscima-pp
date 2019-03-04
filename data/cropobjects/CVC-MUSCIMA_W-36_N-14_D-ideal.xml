@@ -3,7 +3,7 @@
 <CropObjects>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___0">
 	<Id>0</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>346</Top>
 	<Left>469</Left>
 	<Width>26</Width>
@@ -13,7 +13,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___1">
 	<Id>1</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>425</Top>
 	<Left>477</Left>
 	<Width>17</Width>
@@ -23,7 +23,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___2">
 	<Id>2</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>611</Top>
 	<Left>457</Left>
 	<Width>28</Width>
@@ -33,7 +33,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___3">
 	<Id>3</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>248</Top>
 	<Left>559</Left>
 	<Width>26</Width>
@@ -43,7 +43,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___4">
 	<Id>4</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>245</Top>
 	<Left>645</Left>
 	<Width>24</Width>
@@ -53,7 +53,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___5">
 	<Id>5</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>248</Top>
 	<Left>715</Left>
 	<Width>24</Width>
@@ -63,17 +63,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___6">
 	<Id>6</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>241</Top>
 	<Left>807</Left>
 	<Width>28</Width>
 	<Height>30</Height>
 	<Mask>0:14 1:3 0:24 1:5 0:22 1:6 0:3 1:2 0:16 1:14 0:13 1:16 0:11 1:18 0:9 1:19 0:8 1:20 0:7 1:21 0:6 1:23 0:5 1:22 0:5 1:23 0:4 1:23 0:5 1:23 0:3 1:25 0:3 1:24 0:3 1:25 0:4 1:23 0:5 1:23 0:4 1:23 0:5 1:22 0:6 1:21 0:7 1:21 0:7 1:20 0:8 1:20 0:8 1:17 0:11 1:17 0:11 1:16 0:20 1:4 0:24 1:4 0:16</Mask>
-	<Outlinks>20 18 12</Outlinks>
+	<Outlinks>12 18 20</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___7">
 	<Id>7</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>242</Top>
 	<Left>891</Left>
 	<Width>23</Width>
@@ -83,7 +83,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___8">
 	<Id>8</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>244</Top>
 	<Left>978</Left>
 	<Width>28</Width>
@@ -93,7 +93,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___9">
 	<Id>9</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>272</Top>
 	<Left>561</Left>
 	<Width>17</Width>
@@ -103,7 +103,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___10">
 	<Id>10</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>267</Top>
 	<Left>640</Left>
 	<Width>17</Width>
@@ -113,7 +113,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___11">
 	<Id>11</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>273</Top>
 	<Left>709</Left>
 	<Width>12</Width>
@@ -123,7 +123,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___12">
 	<Id>12</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>266</Top>
 	<Left>802</Left>
 	<Width>10</Width>
@@ -133,7 +133,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___13">
 	<Id>13</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>268</Top>
 	<Left>884</Left>
 	<Width>13</Width>
@@ -143,7 +143,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___14">
 	<Id>14</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>268</Top>
 	<Left>975</Left>
 	<Width>10</Width>
@@ -153,7 +153,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___15">
 	<Id>15</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>368</Top>
 	<Left>471</Left>
 	<Width>13</Width>
@@ -163,7 +163,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___16">
 	<Id>16</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>426</Top>
 	<Left>478</Left>
 	<Width>97</Width>
@@ -173,7 +173,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___17">
 	<Id>17</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>347</Top>
 	<Left>637</Left>
 	<Width>82</Width>
@@ -183,7 +183,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___18">
 	<Id>18</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>357</Top>
 	<Left>801</Left>
 	<Width>83</Width>
@@ -193,7 +193,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___19">
 	<Id>19</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>339</Top>
 	<Left>859</Left>
 	<Width>28</Width>
@@ -203,7 +203,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___20">
 	<Id>20</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>253</Top>
 	<Left>844</Left>
 	<Width>13</Width>
@@ -213,7 +213,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___21">
 	<Id>21</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>401</Top>
 	<Left>467</Left>
 	<Width>39</Width>
@@ -223,7 +223,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___22">
 	<Id>22</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>418</Top>
 	<Left>467</Left>
 	<Width>37</Width>
@@ -233,7 +233,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___23">
 	<Id>23</Id>
-	<MLClassName>g-clef</MLClassName>
+	<ClassName>g-clef</ClassName>
 	<Top>245</Top>
 	<Left>197</Left>
 	<Width>65</Width>
@@ -242,7 +242,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___24">
 	<Id>24</Id>
-	<MLClassName>g-clef</MLClassName>
+	<ClassName>g-clef</ClassName>
 	<Top>733</Top>
 	<Left>216</Left>
 	<Width>52</Width>
@@ -251,7 +251,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___26">
 	<Id>26</Id>
-	<MLClassName>f-clef</MLClassName>
+	<ClassName>f-clef</ClassName>
 	<Top>505</Top>
 	<Left>220</Left>
 	<Width>71</Width>
@@ -260,7 +260,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___27">
 	<Id>27</Id>
-	<MLClassName>f-clef</MLClassName>
+	<ClassName>f-clef</ClassName>
 	<Top>1211</Top>
 	<Left>207</Left>
 	<Width>69</Width>
@@ -269,7 +269,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___28">
 	<Id>28</Id>
-	<MLClassName>f-clef</MLClassName>
+	<ClassName>f-clef</ClassName>
 	<Top>1448</Top>
 	<Left>211</Left>
 	<Width>65</Width>
@@ -278,7 +278,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___29">
 	<Id>29</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>528</Top>
 	<Left>482</Left>
 	<Width>9</Width>
@@ -288,7 +288,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___30">
 	<Id>30</Id>
-	<MLClassName>letter_a</MLClassName>
+	<ClassName>letter_a</ClassName>
 	<Top>434</Top>
 	<Left>641</Left>
 	<Width>28</Width>
@@ -298,7 +298,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___31">
 	<Id>31</Id>
-	<MLClassName>letter_l</MLClassName>
+	<ClassName>letter_l</ClassName>
 	<Top>400</Top>
 	<Left>676</Left>
 	<Width>8</Width>
@@ -308,7 +308,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___32">
 	<Id>32</Id>
-	<MLClassName>letter_l</MLClassName>
+	<ClassName>letter_l</ClassName>
 	<Top>404</Top>
 	<Left>689</Left>
 	<Width>9</Width>
@@ -318,7 +318,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___33">
 	<Id>33</Id>
-	<MLClassName>letter_r</MLClassName>
+	<ClassName>letter_r</ClassName>
 	<Top>431</Top>
 	<Left>618</Left>
 	<Width>26</Width>
@@ -328,7 +328,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___34">
 	<Id>34</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>399</Top>
 	<Left>618</Left>
 	<Width>98</Width>
@@ -338,7 +338,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___35">
 	<Id>35</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>453</Top>
 	<Left>709</Left>
 	<Width>7</Width>
@@ -348,7 +348,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___37">
 	<Id>37</Id>
-	<MLClassName>quarter_rest</MLClassName>
+	<ClassName>quarter_rest</ClassName>
 	<Top>507</Top>
 	<Left>615</Left>
 	<Width>38</Width>
@@ -357,7 +357,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___38">
 	<Id>38</Id>
-	<MLClassName>quarter_rest</MLClassName>
+	<ClassName>quarter_rest</ClassName>
 	<Top>505</Top>
 	<Left>773</Left>
 	<Width>49</Width>
@@ -366,7 +366,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___39">
 	<Id>39</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>291</Top>
 	<Left>278</Left>
 	<Width>24</Width>
@@ -376,7 +376,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___40">
 	<Id>40</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>242</Top>
 	<Left>322</Left>
 	<Width>20</Width>
@@ -386,7 +386,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___41">
 	<Id>41</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>305</Top>
 	<Left>355</Left>
 	<Width>23</Width>
@@ -396,7 +396,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___42">
 	<Id>42</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>551</Top>
 	<Left>306</Left>
 	<Width>20</Width>
@@ -406,7 +406,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___43">
 	<Id>43</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>519</Top>
 	<Left>342</Left>
 	<Width>24</Width>
@@ -416,7 +416,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___44">
 	<Id>44</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>549</Top>
 	<Left>380</Left>
 	<Width>20</Width>
@@ -426,7 +426,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___45">
 	<Id>45</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>765</Top>
 	<Left>290</Left>
 	<Width>21</Width>
@@ -436,7 +436,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___46">
 	<Id>46</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>716</Top>
 	<Left>336</Left>
 	<Width>23</Width>
@@ -446,7 +446,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___47">
 	<Id>47</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>780</Top>
 	<Left>370</Left>
 	<Width>21</Width>
@@ -456,7 +456,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___48">
 	<Id>48</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1025</Top>
 	<Left>309</Left>
 	<Width>24</Width>
@@ -466,7 +466,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___49">
 	<Id>49</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>986</Top>
 	<Left>351</Left>
 	<Width>23</Width>
@@ -476,7 +476,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___50">
 	<Id>50</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1028</Top>
 	<Left>386</Left>
 	<Width>23</Width>
@@ -486,7 +486,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___51">
 	<Id>51</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1253</Top>
 	<Left>289</Left>
 	<Width>20</Width>
@@ -496,7 +496,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___52">
 	<Id>52</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1226</Top>
 	<Left>321</Left>
 	<Width>24</Width>
@@ -506,7 +506,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___53">
 	<Id>53</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1271</Top>
 	<Left>356</Left>
 	<Width>20</Width>
@@ -516,7 +516,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___54">
 	<Id>54</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1460</Top>
 	<Left>315</Left>
 	<Width>22</Width>
@@ -526,7 +526,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___55">
 	<Id>55</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1483</Top>
 	<Left>354</Left>
 	<Width>22</Width>
@@ -536,7 +536,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___56">
 	<Id>56</Id>
-	<MLClassName>flat</MLClassName>
+	<ClassName>flat</ClassName>
 	<Top>1483</Top>
 	<Left>285</Left>
 	<Width>18</Width>
@@ -546,7 +546,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___57">
 	<Id>57</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>272</Top>
 	<Left>932</Left>
 	<Width>17</Width>
@@ -556,7 +556,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___58">
 	<Id>58</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>743</Top>
 	<Left>1182</Left>
 	<Width>11</Width>
@@ -566,7 +566,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___59">
 	<Id>59</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>263</Top>
 	<Left>1550</Left>
 	<Width>19</Width>
@@ -576,7 +576,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___60">
 	<Id>60</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>272</Top>
 	<Left>2290</Left>
 	<Width>10</Width>
@@ -586,7 +586,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___61">
 	<Id>61</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>272</Top>
 	<Left>3310</Left>
 	<Width>17</Width>
@@ -596,7 +596,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___62">
 	<Id>62</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>741</Top>
 	<Left>3310</Left>
 	<Width>20</Width>
@@ -606,7 +606,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___63">
 	<Id>63</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>742</Top>
 	<Left>2705</Left>
 	<Width>19</Width>
@@ -616,7 +616,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___64">
 	<Id>64</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>741</Top>
 	<Left>1920</Left>
 	<Width>18</Width>
@@ -626,7 +626,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___65">
 	<Id>65</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>1211</Top>
 	<Left>1241</Left>
 	<Width>17</Width>
@@ -636,7 +636,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___66">
 	<Id>66</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>266</Top>
 	<Left>192</Left>
 	<Width>14</Width>
@@ -646,7 +646,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___71">
 	<Id>71</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>945</Top>
 	<Left>200</Left>
 	<Width>6</Width>
@@ -656,7 +656,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___72">
 	<Id>72</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>738</Top>
 	<Left>198</Left>
 	<Width>10</Width>
@@ -666,7 +666,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___73">
 	<Id>73</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>519</Top>
 	<Left>306</Left>
 	<Width>93</Width>
@@ -676,7 +676,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___74">
 	<Id>74</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>716</Top>
 	<Left>290</Left>
 	<Width>101</Width>
@@ -686,7 +686,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___75">
 	<Id>75</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>986</Top>
 	<Left>309</Left>
 	<Width>100</Width>
@@ -696,7 +696,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___76">
 	<Id>76</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>242</Top>
 	<Left>278</Left>
 	<Width>101</Width>
@@ -706,7 +706,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___77">
 	<Id>77</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>1226</Top>
 	<Left>289</Left>
 	<Width>87</Width>
@@ -716,7 +716,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___78">
 	<Id>78</Id>
-	<MLClassName>key_signature</MLClassName>
+	<ClassName>key_signature</ClassName>
 	<Top>1460</Top>
 	<Left>285</Left>
 	<Width>91</Width>
@@ -726,7 +726,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___79">
 	<Id>79</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>259</Top>
 	<Left>1134</Left>
 	<Width>23</Width>
@@ -736,7 +736,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___82">
 	<Id>82</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>271</Top>
 	<Left>1291</Left>
 	<Width>22</Width>
@@ -746,7 +746,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___83">
 	<Id>83</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>255</Top>
 	<Left>1353</Left>
 	<Width>33</Width>
@@ -756,7 +756,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___84">
 	<Id>84</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>287</Top>
 	<Left>1221</Left>
 	<Width>23</Width>
@@ -766,7 +766,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___85">
 	<Id>85</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>246</Top>
 	<Left>1427</Left>
 	<Width>18</Width>
@@ -776,7 +776,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___86">
 	<Id>86</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>238</Top>
 	<Left>1488</Left>
 	<Width>27</Width>
@@ -786,47 +786,47 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___87">
 	<Id>87</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>594</Top>
 	<Left>1597</Left>
 	<Width>24</Width>
 	<Height>27</Height>
 	<Mask>0:18 1:2 0:21 1:4 0:19 1:5 0:17 1:7 0:16 1:10 0:13 1:11 0:12 1:13 0:10 1:14 0:9 1:15 0:8 1:16 0:8 1:16 0:7 1:17 0:6 1:18 0:4 1:20 0:3 1:20 0:3 1:21 0:3 1:20 0:2 1:21 0:3 1:20 0:4 1:19 0:6 1:18 0:7 1:16 0:8 1:15 0:9 1:14 0:11 1:9 0:18 1:6 0:19 1:5 0:12</Mask>
-	<Outlinks>145 567 174 167</Outlinks>
+	<Outlinks>145 167 174 567</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___88">
 	<Id>88</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>523</Top>
 	<Left>1731</Left>
 	<Width>23</Width>
 	<Height>23</Height>
 	<Mask>0:12 1:1 0:21 1:7 0:15 1:9 0:13 1:11 0:11 1:13 0:9 1:14 0:8 1:16 0:6 1:18 0:5 1:18 0:4 1:19 0:4 1:18 0:5 1:18 0:3 1:21 0:1 1:67 0:1 1:21 0:2 1:20 0:3 1:18 0:5 1:15 0:8 1:13 0:11 1:11 0:14 1:1 0:3 1:1 0:15</Mask>
-	<Outlinks>146 567 166 167</Outlinks>
+	<Outlinks>146 167 166 567</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___89">
 	<Id>89</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>477</Top>
 	<Left>1810</Left>
 	<Width>20</Width>
 	<Height>26</Height>
 	<Mask>0:10 1:3 0:15 1:6 0:12 1:11 0:9 1:13 0:6 1:15 0:4 1:16 0:3 1:17 0:3 1:16 0:1 1:19 0:1 1:18 0:2 1:17 0:3 1:17 0:3 1:16 0:4 1:16 0:4 1:15 0:5 1:15 0:5 1:15 0:5 1:14 0:6 1:13 0:7 1:12 0:8 1:11 0:9 1:11 0:9 1:11 0:9 1:8 0:12 1:8 0:12 1:7 0:13</Mask>
-	<Outlinks>567 147 173 165</Outlinks>
+	<Outlinks>165 147 173 567</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___90">
 	<Id>90</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>464</Top>
 	<Left>1880</Left>
 	<Width>20</Width>
 	<Height>21</Height>
 	<Mask>0:10 1:2 0:17 1:9 0:10 1:10 0:9 1:12 0:7 1:14 0:5 1:15 0:4 1:16 0:3 1:17 0:3 1:17 0:2 1:18 0:1 1:18 0:2 1:18 0:1 1:18 0:2 1:17 0:3 1:17 0:3 1:16 0:4 1:16 0:4 1:15 0:5 1:15 0:5 1:15 0:6 1:15 0:4</Mask>
-	<Outlinks>172 148 165 567</Outlinks>
+	<Outlinks>148 172 165 567</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___91">
 	<Id>91</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>429</Top>
 	<Left>2008</Left>
 	<Width>25</Width>
@@ -836,17 +836,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___92">
 	<Id>92</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>595</Top>
 	<Left>967</Left>
 	<Width>26</Width>
 	<Height>24</Height>
 	<Mask>0:9 1:6 0:19 1:12 0:12 1:16 0:10 1:17 0:8 1:19 0:7 1:20 0:6 1:21 0:4 1:22 0:4 1:22 0:4 1:22 0:3 1:22 0:4 1:22 0:3 1:23 0:3 1:22 0:3 1:23 0:3 1:22 0:4 1:21 0:4 1:22 0:4 1:21 0:5 1:20 0:6 1:19 0:7 1:19 0:7 1:18 0:8 1:17 0:9</Mask>
-	<Outlinks>106 122 123 114</Outlinks>
+	<Outlinks>114 106 123 122</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___93">
 	<Id>93</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>525</Top>
 	<Left>1057</Left>
 	<Width>23</Width>
@@ -856,17 +856,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___94">
 	<Id>94</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>473</Top>
 	<Left>1126</Left>
 	<Width>22</Width>
 	<Height>25</Height>
 	<Mask>0:12 1:5 0:15 1:11 0:10 1:13 0:8 1:14 0:6 1:16 0:5 1:17 0:4 1:17 0:4 1:18 0:4 1:17 0:4 1:18 0:3 1:17 0:5 1:15 0:6 1:16 0:6 1:15 0:7 1:15 0:7 1:15 0:7 1:15 0:7 1:14 0:8 1:13 0:9 1:13 0:9 1:12 0:10 1:12 0:10 1:11 0:12 1:9 0:13 1:4 0:17</Mask>
-	<Outlinks>112 123 115 104</Outlinks>
+	<Outlinks>112 115 123 104</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___95">
 	<Id>95</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>463</Top>
 	<Left>1186</Left>
 	<Width>25</Width>
@@ -876,7 +876,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___96">
 	<Id>96</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>272</Top>
 	<Left>1129</Left>
 	<Width>7</Width>
@@ -886,7 +886,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___97">
 	<Id>97</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>304</Top>
 	<Left>1211</Left>
 	<Width>15</Width>
@@ -896,7 +896,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___98">
 	<Id>98</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>287</Top>
 	<Left>1289</Left>
 	<Width>10</Width>
@@ -906,7 +906,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___99">
 	<Id>99</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>269</Top>
 	<Left>1351</Left>
 	<Width>11</Width>
@@ -916,7 +916,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___100">
 	<Id>100</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>252</Top>
 	<Left>1419</Left>
 	<Width>11</Width>
@@ -926,7 +926,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___101">
 	<Id>101</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>255</Top>
 	<Left>1487</Left>
 	<Width>7</Width>
@@ -936,7 +936,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___102">
 	<Id>102</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>489</Top>
 	<Left>1178</Left>
 	<Width>14</Width>
@@ -946,7 +946,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___103">
 	<Id>103</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>447</Top>
 	<Left>1290</Left>
 	<Width>15</Width>
@@ -956,7 +956,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___104">
 	<Id>104</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>492</Top>
 	<Left>1121</Left>
 	<Width>8</Width>
@@ -966,7 +966,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___105">
 	<Id>105</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>542</Top>
 	<Left>1055</Left>
 	<Width>10</Width>
@@ -976,7 +976,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___106">
 	<Id>106</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>618</Top>
 	<Left>966</Left>
 	<Width>9</Width>
@@ -986,17 +986,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___107">
 	<Id>107</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>421</Top>
 	<Left>1294</Left>
 	<Width>24</Width>
 	<Height>21</Height>
 	<Mask>0:14 1:3 0:19 1:6 0:17 1:7 0:15 1:6 0:2 1:2 0:13 1:8 0:1 1:4 0:10 1:16 0:7 1:17 0:6 1:19 0:5 1:19 0:4 1:19 0:4 1:20 0:3 1:20 0:3 1:21 0:3 1:20 0:3 1:20 0:4 1:19 0:5 1:18 0:6 1:17 0:7 1:17 0:16 1:7 0:20 1:2 0:10</Mask>
-	<Outlinks>119 123 117 118 103</Outlinks>
+	<Outlinks>103 123 117 118 119</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___108">
 	<Id>108</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>364</Top>
 	<Left>1128</Left>
 	<Width>96</Width>
@@ -1006,7 +1006,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___109">
 	<Id>109</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>371</Top>
 	<Left>1196</Left>
 	<Width>20</Width>
@@ -1016,7 +1016,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___110">
 	<Id>110</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>352</Top>
 	<Left>1288</Left>
 	<Width>205</Width>
@@ -1026,7 +1026,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___111">
 	<Id>111</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>331</Top>
 	<Left>1296</Left>
 	<Width>192</Width>
@@ -1036,7 +1036,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___112">
 	<Id>112</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>561</Top>
 	<Left>1123</Left>
 	<Width>68</Width>
@@ -1046,7 +1046,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___113">
 	<Id>113</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>630</Top>
 	<Left>1019</Left>
 	<Width>38</Width>
@@ -1056,7 +1056,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___114">
 	<Id>114</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>634</Top>
 	<Left>968</Left>
 	<Width>96</Width>
@@ -1066,7 +1066,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___115">
 	<Id>115</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>480</Top>
 	<Left>1111</Left>
 	<Width>45</Width>
@@ -1076,7 +1076,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___116">
 	<Id>116</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>481</Top>
 	<Left>1177</Left>
 	<Width>39</Width>
@@ -1086,7 +1086,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___117">
 	<Id>117</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>440</Top>
 	<Left>1282</Left>
 	<Width>45</Width>
@@ -1096,7 +1096,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___118">
 	<Id>118</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>459</Top>
 	<Left>1279</Left>
 	<Width>42</Width>
@@ -1106,7 +1106,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___119">
 	<Id>119</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>478</Top>
 	<Left>1276</Left>
 	<Width>44</Width>
@@ -1116,7 +1116,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___120">
 	<Id>120</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>244</Top>
 	<Left>1480</Left>
 	<Width>49</Width>
@@ -1126,7 +1126,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___121">
 	<Id>121</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>262</Top>
 	<Left>1173</Left>
 	<Width>10</Width>
@@ -1136,7 +1136,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___122">
 	<Id>122</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>604</Top>
 	<Left>1007</Left>
 	<Width>11</Width>
@@ -1146,7 +1146,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___123">
 	<Id>123</Id>
-	<MLClassName>slur</MLClassName>
+	<ClassName>slur</ClassName>
 	<Top>398</Top>
 	<Left>946</Left>
 	<Width>375</Width>
@@ -1156,7 +1156,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___124">
 	<Id>124</Id>
-	<MLClassName>letter_m</MLClassName>
+	<ClassName>letter_m</ClassName>
 	<Top>200</Top>
 	<Left>1088</Left>
 	<Width>30</Width>
@@ -1166,7 +1166,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___125">
 	<Id>125</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>200</Top>
 	<Left>1117</Left>
 	<Width>25</Width>
@@ -1176,7 +1176,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___126">
 	<Id>126</Id>
-	<MLClassName>letter_n</MLClassName>
+	<ClassName>letter_n</ClassName>
 	<Top>203</Top>
 	<Left>1141</Left>
 	<Width>23</Width>
@@ -1186,7 +1186,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___127">
 	<Id>127</Id>
-	<MLClassName>letter_o</MLClassName>
+	<ClassName>letter_o</ClassName>
 	<Top>204</Top>
 	<Left>1168</Left>
 	<Width>14</Width>
@@ -1196,7 +1196,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___128">
 	<Id>128</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>200</Top>
 	<Left>1088</Left>
 	<Width>94</Width>
@@ -1206,27 +1206,27 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___129">
 	<Id>129</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>248</Top>
 	<Left>1614</Left>
 	<Width>22</Width>
 	<Height>24</Height>
 	<Mask>0:12 1:6 0:15 1:10 0:11 1:11 0:9 1:14 0:7 1:15 0:6 1:15 0:6 1:16 0:4 1:17 0:4 1:18 0:3 1:19 0:3 1:19 0:2 1:19 0:3 1:18 0:4 1:18 0:4 1:17 0:6 1:16 0:6 1:15 0:7 1:14 0:8 1:13 0:10 1:11 0:11 1:7 0:16 1:6 0:16 1:5 0:17 1:1 0:18</Mask>
-	<Outlinks>158 142</Outlinks>
+	<Outlinks>142 158</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___130">
 	<Id>130</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>232</Top>
 	<Left>1682</Left>
 	<Width>24</Width>
 	<Height>27</Height>
 	<Mask>0:18 1:3 0:19 1:6 0:16 1:9 0:13 1:11 0:12 1:12 0:11 1:13 0:10 1:14 0:9 1:16 0:7 1:17 0:6 1:18 0:5 1:19 0:4 1:20 0:3 1:21 0:3 1:20 0:3 1:20 0:3 1:20 0:3 1:21 0:3 1:20 0:4 1:19 0:5 1:18 0:6 1:18 0:7 1:16 0:8 1:16 0:8 1:14 0:10 1:13 0:12 1:10 0:15 1:7 0:14</Mask>
-	<Outlinks>168 159 158 143</Outlinks>
+	<Outlinks>168 143 158 159</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___131">
 	<Id>131</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>251</Top>
 	<Left>1744</Left>
 	<Width>23</Width>
@@ -1236,7 +1236,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___132">
 	<Id>132</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>259</Top>
 	<Left>1812</Left>
 	<Width>24</Width>
@@ -1246,7 +1246,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___133">
 	<Id>133</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>289</Top>
 	<Left>1878</Left>
 	<Width>32</Width>
@@ -1256,7 +1256,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___134">
 	<Id>134</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>258</Top>
 	<Left>1947</Left>
 	<Width>27</Width>
@@ -1266,7 +1266,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___135">
 	<Id>135</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>273</Top>
 	<Left>2016</Left>
 	<Width>25</Width>
@@ -1276,7 +1276,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___136">
 	<Id>136</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>257</Top>
 	<Left>2078</Left>
 	<Width>25</Width>
@@ -1286,7 +1286,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___137">
 	<Id>137</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>272</Top>
 	<Left>2126</Left>
 	<Width>25</Width>
@@ -1296,7 +1296,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___140">
 	<Id>140</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>303</Top>
 	<Left>2243</Left>
 	<Width>25</Width>
@@ -1306,7 +1306,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___141">
 	<Id>141</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>290</Top>
 	<Left>2178</Left>
 	<Width>31</Width>
@@ -1316,7 +1316,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___142">
 	<Id>142</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>255</Top>
 	<Left>1611</Left>
 	<Width>10</Width>
@@ -1326,7 +1326,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___143">
 	<Id>143</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>247</Top>
 	<Left>1676</Left>
 	<Width>10</Width>
@@ -1336,7 +1336,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___144">
 	<Id>144</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>261</Top>
 	<Left>1739</Left>
 	<Width>8</Width>
@@ -1346,7 +1346,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___145">
 	<Id>145</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>615</Top>
 	<Left>1596</Left>
 	<Width>12</Width>
@@ -1356,7 +1356,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___146">
 	<Id>146</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>537</Top>
 	<Left>1722</Left>
 	<Width>13</Width>
@@ -1366,7 +1366,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___147">
 	<Id>147</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>491</Top>
 	<Left>1801</Left>
 	<Width>11</Width>
@@ -1376,7 +1376,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___148">
 	<Id>148</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>475</Top>
 	<Left>1873</Left>
 	<Width>11</Width>
@@ -1386,7 +1386,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___149">
 	<Id>149</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>455</Top>
 	<Left>2006</Left>
 	<Width>11</Width>
@@ -1396,7 +1396,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___150">
 	<Id>150</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>289</Top>
 	<Left>2015</Left>
 	<Width>8</Width>
@@ -1406,7 +1406,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___151">
 	<Id>151</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>267</Top>
 	<Left>2072</Left>
 	<Width>11</Width>
@@ -1416,7 +1416,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___152">
 	<Id>152</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>294</Top>
 	<Left>2122</Left>
 	<Width>12</Width>
@@ -1426,7 +1426,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___153">
 	<Id>153</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>300</Top>
 	<Left>2166</Left>
 	<Width>14</Width>
@@ -1436,7 +1436,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___154">
 	<Id>154</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>320</Top>
 	<Left>2240</Left>
 	<Width>9</Width>
@@ -1446,7 +1446,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___155">
 	<Id>155</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>267</Top>
 	<Left>1807</Left>
 	<Width>8</Width>
@@ -1456,7 +1456,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___156">
 	<Id>156</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>309</Top>
 	<Left>1879</Left>
 	<Width>8</Width>
@@ -1466,7 +1466,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___157">
 	<Id>157</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>268</Top>
 	<Left>1937</Left>
 	<Width>12</Width>
@@ -1476,7 +1476,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___158">
 	<Id>158</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>358</Top>
 	<Left>1614</Left>
 	<Width>130</Width>
@@ -1486,7 +1486,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___159">
 	<Id>159</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>340</Top>
 	<Left>1684</Left>
 	<Width>63</Width>
@@ -1496,7 +1496,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___160">
 	<Id>160</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>380</Top>
 	<Left>1813</Left>
 	<Width>132</Width>
@@ -1506,7 +1506,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___161">
 	<Id>161</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>361</Top>
 	<Left>1885</Left>
 	<Width>55</Width>
@@ -1516,7 +1516,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___162">
 	<Id>162</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>372</Top>
 	<Left>2022</Left>
 	<Width>116</Width>
@@ -1526,7 +1526,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___163">
 	<Id>163</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>383</Top>
 	<Left>2174</Left>
 	<Width>76</Width>
@@ -1536,7 +1536,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___164">
 	<Id>164</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>384</Top>
 	<Left>2013</Left>
 	<Width>228</Width>
@@ -1546,7 +1546,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___165">
 	<Id>165</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>577</Top>
 	<Left>1807</Left>
 	<Width>75</Width>
@@ -1556,7 +1556,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___166">
 	<Id>166</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>620</Top>
 	<Left>1698</Left>
 	<Width>36</Width>
@@ -1566,7 +1566,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___167">
 	<Id>167</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>635</Top>
 	<Left>1600</Left>
 	<Width>132</Width>
@@ -1576,7 +1576,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___168">
 	<Id>168</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>241</Top>
 	<Left>1667</Left>
 	<Width>58</Width>
@@ -1586,7 +1586,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___169">
 	<Id>169</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>448</Top>
 	<Left>2000</Left>
 	<Width>45</Width>
@@ -1596,7 +1596,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___170">
 	<Id>170</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>466</Top>
 	<Left>1998</Left>
 	<Width>40</Width>
@@ -1606,7 +1606,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___171">
 	<Id>171</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>480</Top>
 	<Left>1998</Left>
 	<Width>42</Width>
@@ -1616,7 +1616,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___172">
 	<Id>172</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>482</Top>
 	<Left>1868</Left>
 	<Width>41</Width>
@@ -1626,7 +1626,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___173">
 	<Id>173</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>482</Top>
 	<Left>1798</Left>
 	<Width>45</Width>
@@ -1636,7 +1636,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___174">
 	<Id>174</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>600</Top>
 	<Left>1642</Left>
 	<Width>12</Width>
@@ -1646,7 +1646,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___176">
 	<Id>176</Id>
-	<MLClassName>tuple_bracket/line</MLClassName>
+	<ClassName>tuple_bracket/line</ClassName>
 	<Top>193</Top>
 	<Left>2024</Left>
 	<Width>123</Width>
@@ -1656,7 +1656,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___178">
 	<Id>178</Id>
-	<MLClassName>numeral_3</MLClassName>
+	<ClassName>numeral_3</ClassName>
 	<Top>210</Top>
 	<Left>2077</Left>
 	<Width>27</Width>
@@ -1666,7 +1666,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___179">
 	<Id>179</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>1094</Top>
 	<Left>1447</Left>
 	<Width>61</Width>
@@ -1675,7 +1675,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___180">
 	<Id>180</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>649</Top>
 	<Left>1791</Left>
 	<Width>54</Width>
@@ -1684,7 +1684,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___181">
 	<Id>181</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>663</Top>
 	<Left>1118</Left>
 	<Width>40</Width>
@@ -1693,7 +1693,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___182">
 	<Id>182</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>1105</Top>
 	<Left>650</Left>
 	<Width>48</Width>
@@ -1702,7 +1702,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___183">
 	<Id>183</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>658</Top>
 	<Left>534</Left>
 	<Width>42</Width>
@@ -1711,7 +1711,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___184">
 	<Id>184</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>1588</Top>
 	<Left>1157</Left>
 	<Width>53</Width>
@@ -1720,7 +1720,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___185">
 	<Id>185</Id>
-	<MLClassName>unclassified</MLClassName>
+	<ClassName>unclassified</ClassName>
 	<Top>629</Top>
 	<Left>3122</Left>
 	<Width>53</Width>
@@ -1729,7 +1729,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___186">
 	<Id>186</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>317</Top>
 	<Left>2352</Left>
 	<Width>23</Width>
@@ -1739,17 +1739,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___187">
 	<Id>187</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>288</Top>
 	<Left>2439</Left>
 	<Width>22</Width>
 	<Height>27</Height>
 	<Mask>0:10 1:4 0:17 1:9 0:12 1:11 0:10 1:12 0:9 1:13 0:8 1:14 0:7 1:16 0:6 1:17 0:4 1:19 0:3 1:18 0:4 1:18 0:3 1:19 0:1 1:21 0:2 1:20 0:2 1:19 0:3 1:19 0:3 1:18 0:4 1:17 0:5 1:16 0:6 1:15 0:7 1:14 0:8 1:13 0:9 1:12 0:10 1:12 0:9 1:11 0:11 1:10 0:14 1:6 0:14</Mask>
-	<Outlinks>204 196 205</Outlinks>
+	<Outlinks>196 204 205</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___188">
 	<Id>188</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>609</Top>
 	<Left>2334</Left>
 	<Width>24</Width>
@@ -1759,17 +1759,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___189">
 	<Id>189</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>554</Top>
 	<Left>2428</Left>
 	<Width>21</Width>
 	<Height>22</Height>
 	<Mask>0:8 1:6 0:13 1:10 0:10 1:12 0:8 1:13 0:7 1:14 0:7 1:15 0:5 1:17 0:3 1:20 0:1 1:20 0:1 1:33 0:2 1:19 0:2 1:5 0:1 1:20 0:1 1:11 0:2 1:6 0:2 1:11 0:2 1:6 0:3 1:17 0:5 1:15 0:6 1:14 0:9 1:12 0:10 1:10 0:11 1:9 0:14 1:6 0:8</Mask>
-	<Outlinks>207 212 206 199</Outlinks>
+	<Outlinks>199 212 206 207</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___190">
 	<Id>190</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>506</Top>
 	<Left>2502</Left>
 	<Width>24</Width>
@@ -1779,7 +1779,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___191">
 	<Id>191</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>484</Top>
 	<Left>2585</Left>
 	<Width>21</Width>
@@ -1789,7 +1789,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___192">
 	<Id>192</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>461</Top>
 	<Left>2638</Left>
 	<Width>22</Width>
@@ -1799,7 +1799,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___193">
 	<Id>193</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>439</Top>
 	<Left>2704</Left>
 	<Width>23</Width>
@@ -1809,7 +1809,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___194">
 	<Id>194</Id>
-	<MLClassName>notehead-empty</MLClassName>
+	<ClassName>notehead-empty</ClassName>
 	<Top>286</Top>
 	<Left>2512</Left>
 	<Width>28</Width>
@@ -1819,7 +1819,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___195">
 	<Id>195</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>341</Top>
 	<Left>2352</Left>
 	<Width>13</Width>
@@ -1829,7 +1829,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___196">
 	<Id>196</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>300</Top>
 	<Left>2432</Left>
 	<Width>9</Width>
@@ -1839,7 +1839,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___197">
 	<Id>197</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>300</Top>
 	<Left>2509</Left>
 	<Width>7</Width>
@@ -1849,7 +1849,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___198">
 	<Id>198</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>524</Top>
 	<Left>2499</Left>
 	<Width>7</Width>
@@ -1859,7 +1859,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___199">
 	<Id>199</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>494</Top>
 	<Left>2442</Left>
 	<Width>9</Width>
@@ -1869,7 +1869,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___200">
 	<Id>200</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>525</Top>
 	<Left>2348</Left>
 	<Width>12</Width>
@@ -1879,7 +1879,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___201">
 	<Id>201</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>494</Top>
 	<Left>2576</Left>
 	<Width>12</Width>
@@ -1889,7 +1889,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___202">
 	<Id>202</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>489</Top>
 	<Left>2634</Left>
 	<Width>9</Width>
@@ -1899,7 +1899,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___203">
 	<Id>203</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>443</Top>
 	<Left>2695</Left>
 	<Width>11</Width>
@@ -1909,7 +1909,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___204">
 	<Id>204</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>407</Top>
 	<Left>2361</Left>
 	<Width>83</Width>
@@ -1919,7 +1919,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___205">
 	<Id>205</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>395</Top>
 	<Left>2413</Left>
 	<Width>20</Width>
@@ -1929,7 +1929,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___206">
 	<Id>206</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>494</Top>
 	<Left>2351</Left>
 	<Width>100</Width>
@@ -1939,7 +1939,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___207">
 	<Id>207</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>514</Top>
 	<Left>2418</Left>
 	<Width>25</Width>
@@ -1949,7 +1949,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___208">
 	<Id>208</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>583</Top>
 	<Left>2499</Left>
 	<Width>84</Width>
@@ -1959,7 +1959,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___209">
 	<Id>209</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>542</Top>
 	<Left>2633</Left>
 	<Width>76</Width>
@@ -1969,7 +1969,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___210">
 	<Id>210</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>324</Top>
 	<Left>2387</Left>
 	<Width>9</Width>
@@ -1979,7 +1979,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___211">
 	<Id>211</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>607</Top>
 	<Left>2373</Left>
 	<Width>13</Width>
@@ -1989,7 +1989,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___212">
 	<Id>212</Id>
-	<MLClassName>slur</MLClassName>
+	<ClassName>slur</ClassName>
 	<Top>396</Top>
 	<Left>2307</Left>
 	<Width>620</Width>
@@ -1999,7 +1999,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___213">
 	<Id>213</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>285</Top>
 	<Left>2313</Left>
 	<Width>28</Width>
@@ -2009,7 +2009,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___214">
 	<Id>214</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>460</Top>
 	<Left>2552</Left>
 	<Width>27</Width>
@@ -2019,7 +2019,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___215">
 	<Id>215</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>535</Top>
 	<Left>2821</Left>
 	<Width>29</Width>
@@ -2029,7 +2029,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___216">
 	<Id>216</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>845</Top>
 	<Left>2456</Left>
 	<Width>25</Width>
@@ -2039,7 +2039,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___217">
 	<Id>217</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>757</Top>
 	<Left>1965</Left>
 	<Width>29</Width>
@@ -2049,7 +2049,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___218">
 	<Id>218</Id>
-	<MLClassName>g-clef</MLClassName>
+	<ClassName>g-clef</ClassName>
 	<Top>519</Top>
 	<Left>2732</Left>
 	<Width>44</Width>
@@ -2058,7 +2058,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___219">
 	<Id>219</Id>
-	<MLClassName>f-clef</MLClassName>
+	<ClassName>f-clef</ClassName>
 	<Top>741</Top>
 	<Left>2628</Left>
 	<Width>61</Width>
@@ -2067,7 +2067,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___220">
 	<Id>220</Id>
-	<MLClassName>f-clef</MLClassName>
+	<ClassName>f-clef</ClassName>
 	<Top>508</Top>
 	<Left>3221</Left>
 	<Width>63</Width>
@@ -2076,7 +2076,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___221">
 	<Id>221</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>271</Top>
 	<Left>2792</Left>
 	<Width>33</Width>
@@ -2086,7 +2086,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___222">
 	<Id>222</Id>
-	<MLClassName>8th_rest</MLClassName>
+	<ClassName>8th_rest</ClassName>
 	<Top>280</Top>
 	<Left>2860</Left>
 	<Width>31</Width>
@@ -2095,7 +2095,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___223">
 	<Id>223</Id>
-	<MLClassName>notehead-empty</MLClassName>
+	<ClassName>notehead-empty</ClassName>
 	<Top>552</Top>
 	<Left>2872</Left>
 	<Width>31</Width>
@@ -2105,7 +2105,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___224">
 	<Id>224</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>564</Top>
 	<Left>2870</Left>
 	<Width>10</Width>
@@ -2115,7 +2115,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___225">
 	<Id>225</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>554</Top>
 	<Left>2914</Left>
 	<Width>14</Width>
@@ -2125,7 +2125,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___226">
 	<Id>226</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>247</Top>
 	<Left>2935</Left>
 	<Width>24</Width>
@@ -2135,7 +2135,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___227">
 	<Id>227</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>249</Top>
 	<Left>3021</Left>
 	<Width>22</Width>
@@ -2145,7 +2145,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___228">
 	<Id>228</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>247</Top>
 	<Left>3086</Left>
 	<Width>22</Width>
@@ -2155,17 +2155,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___229">
 	<Id>229</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>245</Top>
 	<Left>3165</Left>
 	<Width>24</Width>
 	<Height>32</Height>
 	<Mask>0:17 1:2 0:20 1:4 0:19 1:4 0:19 1:5 0:17 1:8 0:15 1:10 0:13 1:12 0:11 1:14 0:9 1:16 0:8 1:17 0:6 1:18 0:5 1:18 0:6 1:18 0:4 1:19 0:4 1:20 0:4 1:19 0:5 1:18 0:5 1:18 0:6 1:17 0:6 1:18 0:6 1:17 0:7 1:16 0:8 1:16 0:9 1:13 0:11 1:12 0:12 1:12 0:12 1:12 0:13 1:10 0:14 1:9 0:16 1:8 0:17 1:6 0:20 1:3 0:15</Mask>
-	<Outlinks>235 239 231</Outlinks>
+	<Outlinks>235 231 239</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___230">
 	<Id>230</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>246</Top>
 	<Left>3258</Left>
 	<Width>27</Width>
@@ -2175,7 +2175,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___231">
 	<Id>231</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>258</Top>
 	<Left>3201</Left>
 	<Width>11</Width>
@@ -2185,7 +2185,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___232">
 	<Id>232</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>261</Top>
 	<Left>2926</Left>
 	<Width>10</Width>
@@ -2195,7 +2195,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___233">
 	<Id>233</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>266</Top>
 	<Left>3018</Left>
 	<Width>9</Width>
@@ -2205,7 +2205,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___234">
 	<Id>234</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>267</Top>
 	<Left>3085</Left>
 	<Width>13</Width>
@@ -2215,7 +2215,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___235">
 	<Id>235</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>270</Top>
 	<Left>3160</Left>
 	<Width>9</Width>
@@ -2225,7 +2225,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___236">
 	<Id>236</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>258</Top>
 	<Left>3240</Left>
 	<Width>19</Width>
@@ -2235,7 +2235,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___237">
 	<Id>237</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>345</Top>
 	<Left>3020</Left>
 	<Width>78</Width>
@@ -2245,7 +2245,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___238">
 	<Id>238</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>333</Top>
 	<Left>3223</Left>
 	<Width>24</Width>
@@ -2255,7 +2255,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___239">
 	<Id>239</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>345</Top>
 	<Left>3159</Left>
 	<Width>94</Width>
@@ -2265,7 +2265,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___240">
 	<Id>240</Id>
-	<MLClassName>8th_flag</MLClassName>
+	<ClassName>8th_flag</ClassName>
 	<Top>327</Top>
 	<Left>2933</Left>
 	<Width>16</Width>
@@ -2275,7 +2275,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___241">
 	<Id>241</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>480</Top>
 	<Left>2628</Left>
 	<Width>39</Width>
@@ -2285,7 +2285,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___242">
 	<Id>242</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>485</Top>
 	<Left>2691</Left>
 	<Width>37</Width>
@@ -2295,7 +2295,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___243">
 	<Id>243</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>466</Top>
 	<Left>2693</Left>
 	<Width>37</Width>
@@ -2305,7 +2305,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___244">
 	<Id>244</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>443</Top>
 	<Left>2696</Left>
 	<Width>36</Width>
@@ -2315,7 +2315,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___245">
 	<Id>245</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>710</Top>
 	<Left>2951</Left>
 	<Width>49</Width>
@@ -2325,7 +2325,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___246">
 	<Id>246</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>713</Top>
 	<Left>2754</Left>
 	<Width>43</Width>
@@ -2335,7 +2335,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___247">
 	<Id>247</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>868</Top>
 	<Left>2496</Left>
 	<Width>45</Width>
@@ -2345,7 +2345,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___248">
 	<Id>248</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>870</Top>
 	<Left>2561</Left>
 	<Width>43</Width>
@@ -2355,7 +2355,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___249">
 	<Id>249</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>698</Top>
 	<Left>2766</Left>
 	<Width>22</Width>
@@ -2365,47 +2365,47 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___250">
 	<Id>250</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>729</Top>
 	<Left>2830</Left>
 	<Width>27</Width>
 	<Height>22</Height>
 	<Mask>0:17 1:6 0:16 1:13 0:13 1:14 0:12 1:17 0:8 1:19 0:7 1:20 0:6 1:21 0:5 1:21 0:5 1:22 0:4 1:23 0:4 1:21 0:5 1:22 0:4 1:23 0:4 1:22 0:5 1:21 0:5 1:21 0:6 1:20 0:7 1:18 0:11 1:16 0:13 1:13 0:15 1:10 0:19 1:5 0:15</Mask>
-	<Outlinks>267 259 268</Outlinks>
+	<Outlinks>259 267 268</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___251">
 	<Id>251</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>729</Top>
 	<Left>2892</Left>
 	<Width>25</Width>
 	<Height>23</Height>
 	<Mask>0:14 1:1 0:22 1:8 0:15 1:12 0:12 1:14 0:10 1:16 0:8 1:17 0:7 1:19 0:5 1:19 0:5 1:20 0:5 1:18 0:6 1:19 0:5 1:20 0:4 1:20 0:5 1:20 0:5 1:19 0:5 1:18 0:7 1:17 0:9 1:14 0:11 1:13 0:12 1:11 0:14 1:10 0:19 1:4 0:23 1:1 0:17</Mask>
-	<Outlinks>268 267 260</Outlinks>
+	<Outlinks>260 267 268</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___252">
 	<Id>252</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>699</Top>
 	<Left>2960</Left>
 	<Width>28</Width>
 	<Height>30</Height>
 	<Mask>0:22 1:4 0:23 1:6 0:20 1:8 0:18 1:11 0:16 1:12 0:15 1:13 0:14 1:14 0:13 1:15 0:12 1:15 0:12 1:16 0:11 1:17 0:10 1:18 0:8 1:19 0:8 1:19 0:8 1:20 0:7 1:21 0:6 1:21 0:6 1:22 0:5 1:23 0:5 1:22 0:6 1:22 0:5 1:21 0:7 1:20 0:8 1:20 0:9 1:18 0:10 1:17 0:11 1:16 0:13 1:14 0:15 1:12 0:21 1:5 0:15</Mask>
-	<Outlinks>245 269 261</Outlinks>
+	<Outlinks>261 245 269</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___253">
 	<Id>253</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>761</Top>
 	<Left>3010</Left>
 	<Width>22</Width>
 	<Height>21</Height>
 	<Mask>0:12 1:6 0:14 1:10 0:11 1:12 0:9 1:13 0:8 1:15 0:5 1:17 0:2 1:18 0:4 1:18 0:3 1:19 0:3 1:19 0:3 1:18 0:4 1:18 0:4 1:17 0:5 1:16 0:5 1:16 0:7 1:14 0:9 1:12 0:11 1:10 0:13 1:8 0:15 1:6 0:16 1:5 0:12</Mask>
-	<Outlinks>270 269 262</Outlinks>
+	<Outlinks>262 269 270</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___254">
 	<Id>254</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>758</Top>
 	<Left>3058</Left>
 	<Width>24</Width>
@@ -2415,7 +2415,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___255">
 	<Id>255</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>727</Top>
 	<Left>3126</Left>
 	<Width>30</Width>
@@ -2425,7 +2425,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___256">
 	<Id>256</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>786</Top>
 	<Left>3192</Left>
 	<Width>25</Width>
@@ -2435,7 +2435,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___257">
 	<Id>257</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>789</Top>
 	<Left>3255</Left>
 	<Width>23</Width>
@@ -2445,7 +2445,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___258">
 	<Id>258</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>724</Top>
 	<Left>2767</Left>
 	<Width>8</Width>
@@ -2455,7 +2455,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___259">
 	<Id>259</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>748</Top>
 	<Left>2829</Left>
 	<Width>9</Width>
@@ -2465,7 +2465,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___260">
 	<Id>260</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>750</Top>
 	<Left>2890</Left>
 	<Width>12</Width>
@@ -2475,7 +2475,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___261">
 	<Id>261</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>726</Top>
 	<Left>2958</Left>
 	<Width>9</Width>
@@ -2485,7 +2485,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___262">
 	<Id>262</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>775</Top>
 	<Left>3005</Left>
 	<Width>10</Width>
@@ -2495,7 +2495,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___263">
 	<Id>263</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>772</Top>
 	<Left>3054</Left>
 	<Width>8</Width>
@@ -2505,7 +2505,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___264">
 	<Id>264</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>754</Top>
 	<Left>3120</Left>
 	<Width>13</Width>
@@ -2515,7 +2515,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___265">
 	<Id>265</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>808</Top>
 	<Left>3188</Left>
 	<Width>9</Width>
@@ -2525,7 +2525,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___266">
 	<Id>266</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>808</Top>
 	<Left>3246</Left>
 	<Width>17</Width>
@@ -2535,7 +2535,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___267">
 	<Id>267</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>794</Top>
 	<Left>2765</Left>
 	<Width>134</Width>
@@ -2545,7 +2545,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___268">
 	<Id>268</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>795</Top>
 	<Left>2834</Left>
 	<Width>66</Width>
@@ -2555,7 +2555,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___269">
 	<Id>269</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>808</Top>
 	<Left>2958</Left>
 	<Width>103</Width>
@@ -2565,7 +2565,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___270">
 	<Id>270</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>805</Top>
 	<Left>3012</Left>
 	<Width>44</Width>
@@ -2575,7 +2575,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___271">
 	<Id>271</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>834</Top>
 	<Left>3119</Left>
 	<Width>137</Width>
@@ -2585,7 +2585,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___272">
 	<Id>272</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>840</Top>
 	<Left>3196</Left>
 	<Width>60</Width>
@@ -2595,7 +2595,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___273">
 	<Id>273</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>971</Top>
 	<Left>2768</Left>
 	<Width>66</Width>
@@ -2605,7 +2605,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___274">
 	<Id>274</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>989</Top>
 	<Left>2974</Left>
 	<Width>57</Width>
@@ -2615,7 +2615,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___275">
 	<Id>275</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1010</Top>
 	<Left>3141</Left>
 	<Width>73</Width>
@@ -2625,7 +2625,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___276">
 	<Id>276</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>978</Top>
 	<Left>2760</Left>
 	<Width>10</Width>
@@ -2635,7 +2635,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___277">
 	<Id>277</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1015</Top>
 	<Left>2822</Left>
 	<Width>11</Width>
@@ -2645,7 +2645,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___278">
 	<Id>278</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>992</Top>
 	<Left>2967</Left>
 	<Width>9</Width>
@@ -2655,7 +2655,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___279">
 	<Id>279</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1031</Top>
 	<Left>3018</Left>
 	<Width>8</Width>
@@ -2665,7 +2665,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___280">
 	<Id>280</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1006</Top>
 	<Left>3135</Left>
 	<Width>11</Width>
@@ -2675,7 +2675,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___281">
 	<Id>281</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1030</Top>
 	<Left>3192</Left>
 	<Width>10</Width>
@@ -2685,7 +2685,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___282">
 	<Id>282</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1023</Top>
 	<Left>2745</Left>
 	<Width>21</Width>
@@ -2695,7 +2695,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___283">
 	<Id>283</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1068</Top>
 	<Left>2809</Left>
 	<Width>21</Width>
@@ -2705,7 +2705,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___284">
 	<Id>284</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1036</Top>
 	<Left>2946</Left>
 	<Width>26</Width>
@@ -2715,7 +2715,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___285">
 	<Id>285</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1089</Top>
 	<Left>3004</Left>
 	<Width>19</Width>
@@ -2725,7 +2725,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___286">
 	<Id>286</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1068</Top>
 	<Left>3116</Left>
 	<Width>22</Width>
@@ -2735,7 +2735,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___287">
 	<Id>287</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1111</Top>
 	<Left>3171</Left>
 	<Width>24</Width>
@@ -2745,7 +2745,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___288">
 	<Id>288</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1106</Top>
 	<Left>3168</Left>
 	<Width>37</Width>
@@ -2755,7 +2755,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___289">
 	<Id>289</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>993</Top>
 	<Left>2411</Left>
 	<Width>27</Width>
@@ -2765,7 +2765,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___290">
 	<Id>290</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1056</Top>
 	<Left>2514</Left>
 	<Width>25</Width>
@@ -2775,27 +2775,27 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___291">
 	<Id>291</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>875</Top>
 	<Left>2564</Left>
 	<Width>26</Width>
 	<Height>22</Height>
 	<Mask>0:9 1:3 0:24 1:6 0:20 1:16 0:9 1:17 0:8 1:18 0:7 1:18 0:7 1:18 0:7 1:18 0:7 1:19 0:7 1:18 0:8 1:17 0:9 1:16 0:10 1:16 0:9 1:16 0:9 1:15 0:10 1:15 0:10 1:15 0:11 1:14 0:12 1:13 0:13 1:12 0:15 1:10 0:18 1:7 0:16</Mask>
-	<Outlinks>248 327 326 311</Outlinks>
+	<Outlinks>248 311 326 327</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___292">
 	<Id>292</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>875</Top>
 	<Left>2502</Left>
 	<Width>22</Width>
 	<Height>21</Height>
 	<Mask>0:8 1:7 0:16 1:13 0:9 1:13 0:9 1:13 0:8 1:14 0:7 1:15 0:5 1:16 0:6 1:16 0:4 1:18 0:4 1:17 0:5 1:17 0:5 1:16 0:6 1:15 0:6 1:16 0:6 1:14 0:7 1:14 0:8 1:13 0:9 1:12 0:10 1:10 0:11 1:10 0:14 1:7 0:13</Mask>
-	<Outlinks>312 216 327 326 247</Outlinks>
+	<Outlinks>312 216 247 326 327</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___293">
 	<Id>293</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>833</Top>
 	<Left>2416</Left>
 	<Width>28</Width>
@@ -2805,7 +2805,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___294">
 	<Id>294</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>861</Top>
 	<Left>2321</Left>
 	<Width>24</Width>
@@ -2815,7 +2815,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___295">
 	<Id>295</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>964</Top>
 	<Left>2189</Left>
 	<Width>23</Width>
@@ -2825,7 +2825,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___296">
 	<Id>296</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1025</Top>
 	<Left>2246</Left>
 	<Width>23</Width>
@@ -2835,17 +2835,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___297">
 	<Id>297</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>857</Top>
 	<Left>2253</Left>
 	<Width>24</Width>
 	<Height>27</Height>
 	<Mask>0:13 1:3 0:19 1:6 0:17 1:11 0:12 1:14 0:9 1:15 0:8 1:16 0:7 1:17 0:7 1:17 0:6 1:18 0:5 1:19 0:4 1:20 0:4 1:20 0:3 1:21 0:3 1:22 0:2 1:22 0:1 1:70 0:1 1:18 0:6 1:17 0:7 1:16 0:8 1:15 0:9 1:15 0:10 1:12 0:12 1:11 0:14 1:9 0:18 1:3 0:16</Mask>
-	<Outlinks>324 316 325</Outlinks>
+	<Outlinks>316 324 325</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___298">
 	<Id>298</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>803</Top>
 	<Left>2193</Left>
 	<Width>26</Width>
@@ -2855,7 +2855,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___299">
 	<Id>299</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>830</Top>
 	<Left>2112</Left>
 	<Width>25</Width>
@@ -2865,7 +2865,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___300">
 	<Id>300</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>831</Top>
 	<Left>2064</Left>
 	<Width>34</Width>
@@ -2875,7 +2875,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___301">
 	<Id>301</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>793</Top>
 	<Left>2007</Left>
 	<Width>23</Width>
@@ -2885,7 +2885,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___302">
 	<Id>302</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>980</Top>
 	<Left>2007</Left>
 	<Width>22</Width>
@@ -2895,7 +2895,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___303">
 	<Id>303</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>995</Top>
 	<Left>2061</Left>
 	<Width>21</Width>
@@ -2905,7 +2905,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___304">
 	<Id>304</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1081</Top>
 	<Left>2007</Left>
 	<Width>22</Width>
@@ -2915,7 +2915,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___305">
 	<Id>305</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1013</Top>
 	<Left>2058</Left>
 	<Width>12</Width>
@@ -2925,7 +2925,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___306">
 	<Id>306</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1003</Top>
 	<Left>2007</Left>
 	<Width>12</Width>
@@ -2935,7 +2935,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___307">
 	<Id>307</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>984</Top>
 	<Left>2189</Left>
 	<Width>8</Width>
@@ -2945,7 +2945,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___308">
 	<Id>308</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1042</Top>
 	<Left>2244</Left>
 	<Width>7</Width>
@@ -2955,7 +2955,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___309">
 	<Id>309</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1005</Top>
 	<Left>2405</Left>
 	<Width>10</Width>
@@ -2965,7 +2965,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___310">
 	<Id>310</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1068</Top>
 	<Left>2513</Left>
 	<Width>11</Width>
@@ -2975,7 +2975,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___311">
 	<Id>311</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>785</Top>
 	<Left>2582</Left>
 	<Width>10</Width>
@@ -2985,7 +2985,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___312">
 	<Id>312</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>782</Top>
 	<Left>2520</Left>
 	<Width>9</Width>
@@ -2995,7 +2995,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___313">
 	<Id>313</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>747</Top>
 	<Left>2434</Left>
 	<Width>10</Width>
@@ -3005,7 +3005,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___314">
 	<Id>314</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>780</Top>
 	<Left>2340</Left>
 	<Width>7</Width>
@@ -3015,7 +3015,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___315">
 	<Id>315</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>737</Top>
 	<Left>2210</Left>
 	<Width>9</Width>
@@ -3025,7 +3025,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___316">
 	<Id>316</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>767</Top>
 	<Left>2267</Left>
 	<Width>12</Width>
@@ -3035,7 +3035,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___317">
 	<Id>317</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>724</Top>
 	<Left>2026</Left>
 	<Width>11</Width>
@@ -3045,7 +3045,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___320">
 	<Id>320</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>760</Top>
 	<Left>2127</Left>
 	<Width>9</Width>
@@ -3055,7 +3055,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___321">
 	<Id>321</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>746</Top>
 	<Left>2085</Left>
 	<Width>11</Width>
@@ -3065,7 +3065,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___322">
 	<Id>322</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>725</Top>
 	<Left>2027</Left>
 	<Width>112</Width>
@@ -3075,7 +3075,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___323">
 	<Id>323</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>758</Top>
 	<Left>2092</Left>
 	<Width>43</Width>
@@ -3085,7 +3085,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___324">
 	<Id>324</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>783</Top>
 	<Left>2276</Left>
 	<Width>72</Width>
@@ -3095,7 +3095,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___325">
 	<Id>325</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>731</Top>
 	<Left>2209</Left>
 	<Width>137</Width>
@@ -3105,7 +3105,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___326">
 	<Id>326</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>794</Top>
 	<Left>2526</Left>
 	<Width>64</Width>
@@ -3115,7 +3115,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___327">
 	<Id>327</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>750</Top>
 	<Left>2434</Left>
 	<Width>157</Width>
@@ -3125,7 +3125,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___328">
 	<Id>328</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1143</Top>
 	<Left>2012</Left>
 	<Width>55</Width>
@@ -3135,7 +3135,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___329">
 	<Id>329</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1062</Top>
 	<Left>2188</Left>
 	<Width>71</Width>
@@ -3145,7 +3145,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___330">
 	<Id>330</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1108</Top>
 	<Left>2406</Left>
 	<Width>114</Width>
@@ -3155,7 +3155,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___331">
 	<Id>331</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>1027</Top>
 	<Left>2486</Left>
 	<Width>27</Width>
@@ -3165,7 +3165,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___332">
 	<Id>332</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>676</Top>
 	<Left>2388</Left>
 	<Width>7</Width>
@@ -3175,7 +3175,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___333">
 	<Id>333</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1139</Top>
 	<Left>1332</Left>
 	<Width>9</Width>
@@ -3185,7 +3185,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___334">
 	<Id>334</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>697</Top>
 	<Left>1072</Left>
 	<Width>10</Width>
@@ -3195,7 +3195,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___335">
 	<Id>335</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>682</Top>
 	<Left>506</Left>
 	<Width>8</Width>
@@ -3205,7 +3205,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___336">
 	<Id>336</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1160</Top>
 	<Left>494</Left>
 	<Width>9</Width>
@@ -3215,7 +3215,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___337">
 	<Id>337</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1624</Top>
 	<Left>589</Left>
 	<Width>8</Width>
@@ -3225,7 +3225,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___338">
 	<Id>338</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>662</Top>
 	<Left>2331</Left>
 	<Width>27</Width>
@@ -3235,7 +3235,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___339">
 	<Id>339</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>636</Top>
 	<Left>2349</Left>
 	<Width>27</Width>
@@ -3245,7 +3245,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___340">
 	<Id>340</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>643</Top>
 	<Left>2310</Left>
 	<Width>32</Width>
@@ -3255,17 +3255,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___341">
 	<Id>341</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>636</Top>
 	<Left>2310</Left>
 	<Width>85</Width>
 	<Height>61</Height>
 	<Mask>0:62 1:2 0:83 1:2 0:82 1:4 0:81 1:3 0:82 1:3 0:82 1:3 0:82 1:3 0:33 1:6 0:2 1:1 0:39 1:4 0:30 1:12 0:39 1:4 0:29 1:15 0:37 1:4 0:27 1:18 0:36 1:4 0:26 1:21 0:34 1:4 0:25 1:7 0:6 1:10 0:33 1:4 0:24 1:6 0:11 1:8 0:32 1:4 0:23 1:5 0:15 1:7 0:31 1:5 0:22 1:4 0:17 1:7 0:30 1:4 0:22 1:4 0:19 1:6 0:30 1:4 0:22 1:3 0:21 1:6 0:29 1:4 0:21 1:4 0:22 1:5 0:29 1:4 0:21 1:4 0:22 1:6 0:28 1:4 0:22 1:4 0:21 1:6 0:28 1:4 0:22 1:4 0:21 1:6 0:27 1:5 0:21 1:5 0:21 1:6 0:27 1:5 0:21 1:5 0:21 1:6 0:27 1:5 0:21 1:5 0:21 1:6 0:27 1:4 0:22 1:5 0:20 1:7 0:26 1:5 0:22 1:5 0:18 1:9 0:3 1:10 0:14 1:4 0:22 1:5 0:16 1:24 0:14 1:4 0:22 1:5 0:13 1:27 0:13 1:5 0:22 1:5 0:10 1:29 0:14 1:5 0:22 1:5 0:6 1:33 0:14 1:4 0:23 1:5 0:4 1:24 0:2 1:8 0:15 1:4 0:23 1:5 0:3 1:14 0:2 1:7 0:4 1:7 0:16 1:4 0:23 1:5 0:2 1:11 0:6 1:7 0:2 1:8 0:17 1:4 0:23 1:14 0:9 1:16 0:19 1:4 0:23 1:13 0:9 1:5 0:2 1:9 0:19 1:5 0:23 1:12 0:10 1:5 0:2 1:8 0:20 1:5 0:23 1:5 0:2 1:5 0:10 1:13 0:15 1:12 0:24 1:4 0:3 1:4 0:10 1:11 0:14 1:16 0:23 1:4 0:16 1:11 0:13 1:18 0:23 1:5 0:15 1:9 0:13 1:21 0:17 1:4 0:2 1:5 0:14 1:7 0:14 1:11 0:2 1:10 0:15 1:5 0:2 1:5 0:14 1:6 0:14 1:8 0:8 1:9 0:12 1:7 0:2 1:5 0:14 1:5 0:14 1:8 0:10 1:8 0:12 1:7 0:2 1:6 0:13 1:5 0:14 1:6 0:12 1:8 0:12 1:6 0:4 1:5 0:12 1:6 0:13 1:7 0:11 1:9 0:13 1:5 0:4 1:5 0:13 1:5 0:13 1:8 0:11 1:7 0:23 1:5 0:13 1:5 0:13 1:9 0:10 1:7 0:24 1:5 0:12 1:5 0:13 1:9 0:10 1:7 0:24 1:5 0:13 1:5 0:12 1:8 0:13 1:5 0:24 1:5 0:13 1:6 0:11 1:7 0:14 1:3 0:27 1:5 0:13 1:5 0:10 1:8 0:12 1:5 0:27 1:7 0:11 1:8 0:5 1:11 0:10 1:6 0:27 1:8 0:11 1:23 0:7 1:8 0:29 1:7 0:12 1:36 0:31 1:6 0:13 1:32 0:36 1:3 0:16 1:10 0:4 1:15 0:58 1:6 0:8 1:12 0:74 1:10 0:79 1:2 0:119</Mask>
-	<Outlinks>340 338 339 332</Outlinks>
+	<Outlinks>332 338 339 340</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___342">
 	<Id>342</Id>
-	<MLClassName>letter_m</MLClassName>
+	<ClassName>letter_m</ClassName>
 	<Top>679</Top>
 	<Left>2065</Left>
 	<Width>25</Width>
@@ -3275,7 +3275,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___343">
 	<Id>343</Id>
-	<MLClassName>letter_o</MLClassName>
+	<ClassName>letter_o</ClassName>
 	<Top>684</Top>
 	<Left>2096</Left>
 	<Width>19</Width>
@@ -3285,7 +3285,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___344">
 	<Id>344</Id>
-	<MLClassName>letter_o</MLClassName>
+	<ClassName>letter_o</ClassName>
 	<Top>691</Top>
 	<Left>2152</Left>
 	<Width>21</Width>
@@ -3295,7 +3295,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___345">
 	<Id>345</Id>
-	<MLClassName>letter_s</MLClassName>
+	<ClassName>letter_s</ClassName>
 	<Top>684</Top>
 	<Left>2131</Left>
 	<Width>21</Width>
@@ -3305,7 +3305,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___346">
 	<Id>346</Id>
-	<MLClassName>letter_s</MLClassName>
+	<ClassName>letter_s</ClassName>
 	<Top>685</Top>
 	<Left>2112</Left>
 	<Width>22</Width>
@@ -3315,7 +3315,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___347">
 	<Id>347</Id>
-	<MLClassName>letter_u</MLClassName>
+	<ClassName>letter_u</ClassName>
 	<Top>667</Top>
 	<Left>2013</Left>
 	<Width>21</Width>
@@ -3325,7 +3325,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___348">
 	<Id>348</Id>
-	<MLClassName>letter_i</MLClassName>
+	<ClassName>letter_i</ClassName>
 	<Top>678</Top>
 	<Left>1998</Left>
 	<Width>10</Width>
@@ -3335,7 +3335,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___349">
 	<Id>349</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>676</Top>
 	<Left>1972</Left>
 	<Width>27</Width>
@@ -3345,7 +3345,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___350">
 	<Id>350</Id>
-	<MLClassName>tempo_text</MLClassName>
+	<ClassName>tempo_text</ClassName>
 	<Top>667</Top>
 	<Left>1972</Left>
 	<Width>201</Width>
@@ -3355,7 +3355,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___351">
 	<Id>351</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>652</Top>
 	<Left>1679</Left>
 	<Width>36</Width>
@@ -3365,7 +3365,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___352">
 	<Id>352</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>679</Top>
 	<Left>1699</Left>
 	<Width>24</Width>
@@ -3375,7 +3375,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___353">
 	<Id>353</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>658</Top>
 	<Left>1720</Left>
 	<Width>31</Width>
@@ -3385,7 +3385,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___354">
 	<Id>354</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>651</Top>
 	<Left>1679</Left>
 	<Width>72</Width>
@@ -3395,7 +3395,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___355">
 	<Id>355</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>726</Top>
 	<Left>1407</Left>
 	<Width>27</Width>
@@ -3405,7 +3405,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___356">
 	<Id>356</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>759</Top>
 	<Left>1466</Left>
 	<Width>27</Width>
@@ -3415,7 +3415,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___357">
 	<Id>357</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>741</Top>
 	<Left>1513</Left>
 	<Width>22</Width>
@@ -3425,7 +3425,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___358">
 	<Id>358</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>730</Top>
 	<Left>1563</Left>
 	<Width>23</Width>
@@ -3435,7 +3435,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___359">
 	<Id>359</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>715</Top>
 	<Left>1618</Left>
 	<Width>21</Width>
@@ -3445,7 +3445,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___360">
 	<Id>360</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>729</Top>
 	<Left>1678</Left>
 	<Width>22</Width>
@@ -3455,7 +3455,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___361">
 	<Id>361</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>742</Top>
 	<Left>1752</Left>
 	<Width>26</Width>
@@ -3465,7 +3465,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___362">
 	<Id>362</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>759</Top>
 	<Left>1821</Left>
 	<Width>27</Width>
@@ -3475,7 +3475,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___363">
 	<Id>363</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>773</Top>
 	<Left>1876</Left>
 	<Width>23</Width>
@@ -3485,17 +3485,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___364">
 	<Id>364</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>897</Top>
 	<Left>1565</Left>
 	<Width>21</Width>
 	<Height>19</Height>
 	<Mask>0:10 1:5 0:3 1:1 0:12 1:6 0:2 1:1 0:10 1:11 0:10 1:12 0:8 1:14 0:4 1:17 0:2 1:19 0:1 1:20 0:1 1:61 0:2 1:19 0:2 1:18 0:3 1:18 0:2 1:18 0:3 1:17 0:4 1:16 0:5 1:15 0:13 1:8 0:6</Mask>
-	<Outlinks>568 508 420 509 510</Outlinks>
+	<Outlinks>568 420 508 509 510</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___365">
 	<Id>365</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>937</Top>
 	<Left>1463</Left>
 	<Width>29</Width>
@@ -3505,7 +3505,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___366">
 	<Id>366</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>947</Top>
 	<Left>1403</Left>
 	<Width>24</Width>
@@ -3515,7 +3515,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___367">
 	<Id>367</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>996</Top>
 	<Left>1334</Left>
 	<Width>22</Width>
@@ -3525,17 +3525,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___368">
 	<Id>368</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1067</Top>
 	<Left>1214</Left>
 	<Width>25</Width>
 	<Height>23</Height>
 	<Mask>0:17 1:4 0:13 1:13 0:10 1:15 0:9 1:17 0:8 1:17 0:6 1:20 0:4 1:22 0:3 1:22 0:2 1:23 0:2 1:23 0:2 1:23 0:1 1:23 0:2 1:23 0:2 1:23 0:1 1:23 0:3 1:21 0:4 1:20 0:5 1:20 0:5 1:19 0:6 1:18 0:7 1:17 0:9 1:14 0:12 1:13 0:9</Mask>
-	<Outlinks>568 490 443 485 421</Outlinks>
+	<Outlinks>568 490 443 421</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___369">
 	<Id>369</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>717</Top>
 	<Left>1343</Left>
 	<Width>20</Width>
@@ -3545,17 +3545,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___370">
 	<Id>370</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>700</Top>
 	<Left>1287</Left>
 	<Width>21</Width>
 	<Height>30</Height>
 	<Mask>0:10 1:4 0:16 1:6 0:14 1:8 0:12 1:9 0:11 1:11 0:9 1:13 0:8 1:14 0:6 1:15 0:6 1:16 0:4 1:17 0:4 1:17 0:3 1:19 0:2 1:19 0:1 1:20 0:1 1:19 0:2 1:19 0:1 1:20 0:1 1:19 0:2 1:19 0:2 1:18 0:3 1:18 0:3 1:17 0:4 1:16 0:5 1:15 0:6 1:15 0:6 1:14 0:9 1:10 0:11 1:9 0:13 1:7 0:14 1:6 0:12</Mask>
-	<Outlinks>511 460 461 407</Outlinks>
+	<Outlinks>407 460 461 511</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___371">
 	<Id>371</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>714</Top>
 	<Left>1223</Left>
 	<Width>22</Width>
@@ -3565,7 +3565,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___372">
 	<Id>372</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>714</Top>
 	<Left>1125</Left>
 	<Width>24</Width>
@@ -3575,7 +3575,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___373">
 	<Id>373</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>707</Top>
 	<Left>1052</Left>
 	<Width>22</Width>
@@ -3585,17 +3585,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___374">
 	<Id>374</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>695</Top>
 	<Left>981</Left>
 	<Width>27</Width>
 	<Height>26</Height>
 	<Mask>0:5 1:4 0:5 1:6 0:10 1:22 0:5 1:22 0:5 1:24 0:3 1:24 0:3 1:24 0:2 1:25 0:2 1:25 0:2 1:25 0:2 1:25 0:2 1:24 0:3 1:24 0:3 1:24 0:3 1:23 0:4 1:23 0:4 1:22 0:5 1:22 0:5 1:21 0:6 1:21 0:5 1:22 0:5 1:22 0:4 1:23 0:5 1:21 0:6 1:19 0:8 1:18 0:11 1:10 0:3 1:1 0:10</Mask>
-	<Outlinks>516 517 457 458 459 563 403</Outlinks>
+	<Outlinks>516 517 457 458 459 403 563</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___375">
 	<Id>375</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>701</Top>
 	<Left>934</Left>
 	<Width>18</Width>
@@ -3605,7 +3605,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___376">
 	<Id>376</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>719</Top>
 	<Left>836</Left>
 	<Width>20</Width>
@@ -3615,7 +3615,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___377">
 	<Id>377</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>730</Top>
 	<Left>797</Left>
 	<Width>19</Width>
@@ -3625,7 +3625,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___378">
 	<Id>378</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>707</Top>
 	<Left>885</Left>
 	<Width>22</Width>
@@ -3635,7 +3635,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___379">
 	<Id>379</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>742</Top>
 	<Left>745</Left>
 	<Width>24</Width>
@@ -3645,7 +3645,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___380">
 	<Id>380</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>756</Top>
 	<Left>677</Left>
 	<Width>25</Width>
@@ -3655,17 +3655,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___381">
 	<Id>381</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>993</Top>
 	<Left>544</Left>
 	<Width>27</Width>
 	<Height>30</Height>
 	<Mask>0:17 1:6 0:20 1:8 0:18 1:9 0:16 1:12 0:14 1:13 0:13 1:15 0:11 1:16 0:11 1:17 0:9 1:18 0:8 1:19 0:7 1:19 0:8 1:18 0:8 1:20 0:6 1:20 0:7 1:20 0:6 1:20 0:7 1:20 0:6 1:20 0:6 1:21 0:5 1:21 0:6 1:20 0:7 1:19 0:7 1:19 0:8 1:19 0:9 1:17 0:10 1:16 0:13 1:13 0:15 1:11 0:17 1:7 0:21 1:3 0:18</Mask>
-	<Outlinks>454 435 453 526</Outlinks>
+	<Outlinks>526 435 453 454</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___382">
 	<Id>382</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1067</Top>
 	<Left>487</Left>
 	<Width>23</Width>
@@ -3675,17 +3675,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___383">
 	<Id>383</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>941</Top>
 	<Left>598</Left>
 	<Width>26</Width>
 	<Height>27</Height>
 	<Mask>0:17 1:4 0:20 1:7 0:14 1:12 0:14 1:13 0:12 1:15 0:10 1:16 0:9 1:17 0:8 1:19 0:6 1:20 0:6 1:21 0:4 1:20 0:5 1:19 0:7 1:18 0:8 1:18 0:8 1:17 0:8 1:18 0:8 1:18 0:8 1:18 0:7 1:17 0:9 1:16 0:9 1:16 0:10 1:15 0:11 1:15 0:11 1:14 0:12 1:13 0:13 1:10 0:16 1:9 0:17</Mask>
-	<Outlinks>452 436 518 526</Outlinks>
+	<Outlinks>436 452 526 518</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___384">
 	<Id>384</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>926</Top>
 	<Left>679</Left>
 	<Width>23</Width>
@@ -3695,17 +3695,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___385">
 	<Id>385</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>892</Top>
 	<Left>801</Left>
 	<Width>24</Width>
 	<Height>18</Height>
 	<Mask>0:15 1:6 0:15 1:9 0:13 1:11 0:12 1:12 0:10 1:15 0:8 1:17 0:5 1:20 0:4 1:20 0:3 1:21 0:2 1:22 0:2 1:22 0:1 1:23 0:1 1:46 0:1 1:23 0:1 1:22 0:2 1:21 0:3 1:21 0:3</Mask>
-	<Outlinks>520 521 522 438 526</Outlinks>
+	<Outlinks>520 521 522 526 438</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___386">
 	<Id>386</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1213</Top>
 	<Left>447</Left>
 	<Width>27</Width>
@@ -3715,7 +3715,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___387">
 	<Id>387</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1157</Top>
 	<Left>544</Left>
 	<Width>22</Width>
@@ -3725,7 +3725,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___388">
 	<Id>388</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1149</Top>
 	<Left>597</Left>
 	<Width>21</Width>
@@ -3735,7 +3735,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___389">
 	<Id>389</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1136</Top>
 	<Left>692</Left>
 	<Width>23</Width>
@@ -3745,7 +3745,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___390">
 	<Id>390</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1138</Top>
 	<Left>756</Left>
 	<Width>22</Width>
@@ -3755,17 +3755,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___391">
 	<Id>391</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1168</Top>
 	<Left>822</Left>
 	<Width>24</Width>
 	<Height>18</Height>
 	<Mask>0:17 1:2 0:20 1:6 0:17 1:8 0:14 1:11 0:12 1:12 0:10 1:15 0:7 1:17 0:6 1:18 0:5 1:18 0:6 1:18 0:5 1:18 0:5 1:19 0:5 1:18 0:5 1:18 0:5 1:19 0:4 1:19 0:6 1:16 0:8 1:15 0:8</Mask>
-	<Outlinks>500 428 446 447</Outlinks>
+	<Outlinks>428 500 446 447</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___392">
 	<Id>392</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1166</Top>
 	<Left>875</Left>
 	<Width>22</Width>
@@ -3775,7 +3775,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___393">
 	<Id>393</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1149</Top>
 	<Left>946</Left>
 	<Width>22</Width>
@@ -3785,7 +3785,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___394">
 	<Id>394</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1155</Top>
 	<Left>1002</Left>
 	<Width>22</Width>
@@ -3795,7 +3795,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___395">
 	<Id>395</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1190</Top>
 	<Left>1106</Left>
 	<Width>26</Width>
@@ -3805,7 +3805,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___396">
 	<Id>396</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1191</Top>
 	<Left>1173</Left>
 	<Width>32</Width>
@@ -3815,7 +3815,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___397">
 	<Id>397</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>770</Top>
 	<Left>667</Left>
 	<Width>12</Width>
@@ -3825,7 +3825,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___398">
 	<Id>398</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>764</Top>
 	<Left>741</Left>
 	<Width>9</Width>
@@ -3835,7 +3835,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___399">
 	<Id>399</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>749</Top>
 	<Left>794</Left>
 	<Width>11</Width>
@@ -3845,7 +3845,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___400">
 	<Id>400</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>740</Top>
 	<Left>835</Left>
 	<Width>10</Width>
@@ -3855,7 +3855,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___401">
 	<Id>401</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>726</Top>
 	<Left>886</Left>
 	<Width>8</Width>
@@ -3865,7 +3865,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___402">
 	<Id>402</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>723</Top>
 	<Left>927</Left>
 	<Width>13</Width>
@@ -3875,7 +3875,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___403">
 	<Id>403</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>727</Top>
 	<Left>982</Left>
 	<Width>11</Width>
@@ -3885,7 +3885,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___404">
 	<Id>404</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>731</Top>
 	<Left>1045</Left>
 	<Width>11</Width>
@@ -3895,7 +3895,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___405">
 	<Id>405</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>729</Top>
 	<Left>1116</Left>
 	<Width>12</Width>
@@ -3905,7 +3905,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___406">
 	<Id>406</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>729</Top>
 	<Left>1218</Left>
 	<Width>13</Width>
@@ -3915,7 +3915,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___407">
 	<Id>407</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>717</Top>
 	<Left>1278</Left>
 	<Width>15</Width>
@@ -3925,7 +3925,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___408">
 	<Id>408</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>737</Top>
 	<Left>1339</Left>
 	<Width>10</Width>
@@ -3935,7 +3935,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___409">
 	<Id>409</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>735</Top>
 	<Left>1401</Left>
 	<Width>12</Width>
@@ -3945,7 +3945,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___410">
 	<Id>410</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>770</Top>
 	<Left>1458</Left>
 	<Width>13</Width>
@@ -3955,7 +3955,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___411">
 	<Id>411</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>769</Top>
 	<Left>1510</Left>
 	<Width>9</Width>
@@ -3965,7 +3965,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___412">
 	<Id>412</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>750</Top>
 	<Left>1563</Left>
 	<Width>9</Width>
@@ -3975,7 +3975,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___413">
 	<Id>413</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>728</Top>
 	<Left>1613</Left>
 	<Width>11</Width>
@@ -3985,7 +3985,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___414">
 	<Id>414</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>741</Top>
 	<Left>1672</Left>
 	<Width>10</Width>
@@ -3995,7 +3995,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___415">
 	<Id>415</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>764</Top>
 	<Left>1746</Left>
 	<Width>12</Width>
@@ -4005,7 +4005,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___416">
 	<Id>416</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>777</Top>
 	<Left>1817</Left>
 	<Width>11</Width>
@@ -4015,7 +4015,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___417">
 	<Id>417</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>785</Top>
 	<Left>1869</Left>
 	<Width>14</Width>
@@ -4025,7 +4025,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___418">
 	<Id>418</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>971</Top>
 	<Left>1403</Left>
 	<Width>9</Width>
@@ -4035,7 +4035,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___419">
 	<Id>419</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>963</Top>
 	<Left>1463</Left>
 	<Width>8</Width>
@@ -4045,7 +4045,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___420">
 	<Id>420</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>923</Top>
 	<Left>1564</Left>
 	<Width>9</Width>
@@ -4055,7 +4055,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___421">
 	<Id>421</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1088</Top>
 	<Left>1214</Left>
 	<Width>6</Width>
@@ -4065,7 +4065,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___422">
 	<Id>422</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1008</Top>
 	<Left>1328</Left>
 	<Width>10</Width>
@@ -4075,7 +4075,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___423">
 	<Id>423</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1212</Top>
 	<Left>1173</Left>
 	<Width>11</Width>
@@ -4085,7 +4085,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___424">
 	<Id>424</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1196</Top>
 	<Left>1098</Left>
 	<Width>9</Width>
@@ -4095,7 +4095,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___425">
 	<Id>425</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1166</Top>
 	<Left>997</Left>
 	<Width>13</Width>
@@ -4105,7 +4105,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___426">
 	<Id>426</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1175</Top>
 	<Left>945</Left>
 	<Width>8</Width>
@@ -4115,7 +4115,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___427">
 	<Id>427</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1191</Top>
 	<Left>867</Left>
 	<Width>16</Width>
@@ -4125,7 +4125,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___428">
 	<Id>428</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1192</Top>
 	<Left>820</Left>
 	<Width>12</Width>
@@ -4135,7 +4135,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___429">
 	<Id>429</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1151</Top>
 	<Left>751</Left>
 	<Width>14</Width>
@@ -4145,7 +4145,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___430">
 	<Id>430</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1159</Top>
 	<Left>694</Left>
 	<Width>12</Width>
@@ -4155,7 +4155,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___431">
 	<Id>431</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1235</Top>
 	<Left>445</Left>
 	<Width>17</Width>
@@ -4165,7 +4165,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___432">
 	<Id>432</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1176</Top>
 	<Left>544</Left>
 	<Width>14</Width>
@@ -4175,7 +4175,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___433">
 	<Id>433</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1175</Top>
 	<Left>595</Left>
 	<Width>10</Width>
@@ -4185,7 +4185,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___434">
 	<Id>434</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1087</Top>
 	<Left>486</Left>
 	<Width>8</Width>
@@ -4195,7 +4195,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___435">
 	<Id>435</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1014</Top>
 	<Left>544</Left>
 	<Width>10</Width>
@@ -4205,7 +4205,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___436">
 	<Id>436</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>958</Top>
 	<Left>595</Left>
 	<Width>8</Width>
@@ -4215,7 +4215,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___437">
 	<Id>437</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>953</Top>
 	<Left>676</Left>
 	<Width>10</Width>
@@ -4225,7 +4225,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___438">
 	<Id>438</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>917</Top>
 	<Left>800</Left>
 	<Width>10</Width>
@@ -4235,7 +4235,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___439">
 	<Id>439</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>735</Top>
 	<Left>498</Left>
 	<Width>11</Width>
@@ -4245,7 +4245,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___440">
 	<Id>440</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>745</Top>
 	<Left>587</Left>
 	<Width>9</Width>
@@ -4255,7 +4255,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___441">
 	<Id>441</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1035</Top>
 	<Left>1401</Left>
 	<Width>65</Width>
@@ -4265,7 +4265,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___442">
 	<Id>442</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1070</Top>
 	<Left>1300</Left>
 	<Width>40</Width>
@@ -4275,7 +4275,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___443">
 	<Id>443</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1092</Top>
 	<Left>1214</Left>
 	<Width>123</Width>
@@ -4285,7 +4285,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___444">
 	<Id>444</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1260</Top>
 	<Left>945</Left>
 	<Width>238</Width>
@@ -4295,7 +4295,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___445">
 	<Id>445</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1242</Top>
 	<Left>943</Left>
 	<Width>228</Width>
@@ -4305,7 +4305,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___446">
 	<Id>446</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1255</Top>
 	<Left>698</Left>
 	<Width>173</Width>
@@ -4315,7 +4315,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___447">
 	<Id>447</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1240</Top>
 	<Left>696</Left>
 	<Width>187</Width>
@@ -4325,7 +4325,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___450">
 	<Id>450</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1239</Top>
 	<Left>552</Left>
 	<Width>55</Width>
@@ -4335,7 +4335,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___451">
 	<Id>451</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1251</Top>
 	<Left>447</Left>
 	<Width>161</Width>
@@ -4345,7 +4345,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___452">
 	<Id>452</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1033</Top>
 	<Left>596</Left>
 	<Width>85</Width>
@@ -4355,7 +4355,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___453">
 	<Id>453</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1111</Top>
 	<Left>486</Left>
 	<Width>70</Width>
@@ -4365,7 +4365,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___454">
 	<Id>454</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1105</Top>
 	<Left>526</Left>
 	<Width>19</Width>
@@ -4375,7 +4375,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___455">
 	<Id>455</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>839</Top>
 	<Left>595</Left>
 	<Width>163</Width>
@@ -4385,7 +4385,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___456">
 	<Id>456</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>830</Top>
 	<Left>675</Left>
 	<Width>67</Width>
@@ -4395,7 +4395,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___457">
 	<Id>457</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>827</Top>
 	<Left>803</Left>
 	<Width>316</Width>
@@ -4405,7 +4405,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___458">
 	<Id>458</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>796</Top>
 	<Left>802</Left>
 	<Width>318</Width>
@@ -4415,7 +4415,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___459">
 	<Id>459</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>778</Top>
 	<Left>791</Left>
 	<Width>325</Width>
@@ -4425,7 +4425,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___460">
 	<Id>460</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>818</Top>
 	<Left>1222</Left>
 	<Width>127</Width>
@@ -4435,7 +4435,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___461">
 	<Id>461</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>803</Top>
 	<Left>1290</Left>
 	<Width>63</Width>
@@ -4445,7 +4445,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___462">
 	<Id>462</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>849</Top>
 	<Left>1405</Left>
 	<Width>117</Width>
@@ -4455,7 +4455,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___463">
 	<Id>463</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>837</Top>
 	<Left>1468</Left>
 	<Width>44</Width>
@@ -4465,7 +4465,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___464">
 	<Id>464</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>840</Top>
 	<Left>1563</Left>
 	<Width>318</Width>
@@ -4475,7 +4475,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___465">
 	<Id>465</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>821</Top>
 	<Left>1564</Left>
 	<Width>319</Width>
@@ -4485,7 +4485,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___466">
 	<Id>466</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1572</Top>
 	<Left>426</Left>
 	<Width>118</Width>
@@ -4495,7 +4495,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___467">
 	<Id>467</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1534</Top>
 	<Left>682</Left>
 	<Width>137</Width>
@@ -4505,7 +4505,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___468">
 	<Id>468</Id>
-	<MLClassName>beam</MLClassName>
+	<ClassName>beam</ClassName>
 	<Top>1550</Top>
 	<Left>932</Left>
 	<Width>163</Width>
@@ -4515,7 +4515,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___469">
 	<Id>469</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1463</Top>
 	<Left>936</Left>
 	<Width>23</Width>
@@ -4525,7 +4525,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___470">
 	<Id>470</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1491</Top>
 	<Left>815</Left>
 	<Width>24</Width>
@@ -4535,37 +4535,37 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___471">
 	<Id>471</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1524</Top>
 	<Left>1094</Left>
 	<Width>21</Width>
 	<Height>36</Height>
 	<Mask>0:13 1:5 0:13 1:9 0:8 1:15 0:5 1:16 0:4 1:17 0:4 1:17 0:4 1:17 0:4 1:16 0:4 1:17 0:3 1:18 0:3 1:18 0:3 1:18 0:2 1:19 0:2 1:18 0:2 1:19 0:2 1:19 0:3 1:18 0:3 1:17 0:4 1:17 0:4 1:17 0:5 1:15 0:6 1:15 0:6 1:15 0:6 1:14 0:7 1:14 0:7 1:13 0:8 1:12 0:9 1:11 0:10 1:10 0:11 1:10 0:11 1:9 0:12 1:8 0:13 1:7 0:14 1:4 0:16 1:5 0:16 1:1 0:19</Mask>
-	<Outlinks>484 554 468 482</Outlinks>
+	<Outlinks>468 554 484 482</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___472">
 	<Id>472</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1432</Top>
 	<Left>682</Left>
 	<Width>23</Width>
 	<Height>31</Height>
 	<Mask>0:9 1:3 0:19 1:12 0:11 1:13 0:10 1:14 0:8 1:15 0:7 1:17 0:5 1:18 0:4 1:19 0:4 1:19 0:3 1:20 0:2 1:21 0:2 1:11 0:1 1:8 0:3 1:11 0:2 1:7 0:2 1:21 0:2 1:20 0:3 1:20 0:3 1:19 0:4 1:18 0:4 1:19 0:4 1:18 0:5 1:18 0:5 1:17 0:6 1:17 0:6 1:16 0:7 1:16 0:7 1:16 0:7 1:15 0:8 1:14 0:10 1:12 0:12 1:10 0:17 1:4 0:13</Mask>
-	<Outlinks>551 467 479</Outlinks>
+	<Outlinks>467 479 551</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___473">
 	<Id>473</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1458</Top>
 	<Left>538</Left>
 	<Width>23</Width>
 	<Height>30</Height>
 	<Mask>0:13 1:5 0:17 1:7 0:14 1:10 0:13 1:11 0:11 1:13 0:9 1:14 0:8 1:15 0:8 1:16 0:6 1:17 0:5 1:17 0:6 1:17 0:5 1:18 0:4 1:20 0:3 1:20 0:2 1:21 0:1 1:20 0:4 1:19 0:3 1:20 0:3 1:20 0:2 1:20 0:3 1:19 0:4 1:18 0:8 1:15 0:8 1:13 0:10 1:12 0:11 1:11 0:13 1:8 0:15 1:7 0:17 1:4 0:19 1:1 0:17</Mask>
-	<Outlinks>466 550 478</Outlinks>
+	<Outlinks>466 478 550</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___474">
 	<Id>474</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>1548</Top>
 	<Left>433</Left>
 	<Width>20</Width>
@@ -4575,7 +4575,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___475">
 	<Id>475</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>714</Top>
 	<Left>502</Left>
 	<Width>31</Width>
@@ -4585,7 +4585,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___476">
 	<Id>476</Id>
-	<MLClassName>notehead-full</MLClassName>
+	<ClassName>notehead-full</ClassName>
 	<Top>731</Top>
 	<Left>590</Left>
 	<Width>29</Width>
@@ -4595,7 +4595,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___477">
 	<Id>477</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1570</Top>
 	<Left>431</Left>
 	<Width>12</Width>
@@ -4605,7 +4605,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___478">
 	<Id>478</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1486</Top>
 	<Left>537</Left>
 	<Width>9</Width>
@@ -4615,7 +4615,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___479">
 	<Id>479</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1442</Top>
 	<Left>672</Left>
 	<Width>14</Width>
@@ -4625,7 +4625,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___480">
 	<Id>480</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1504</Top>
 	<Left>810</Left>
 	<Width>10</Width>
@@ -4635,7 +4635,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___481">
 	<Id>481</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1489</Top>
 	<Left>936</Left>
 	<Width>11</Width>
@@ -4645,7 +4645,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___482">
 	<Id>482</Id>
-	<MLClassName>stem</MLClassName>
+	<ClassName>stem</ClassName>
 	<Top>1535</Top>
 	<Left>1089</Left>
 	<Width>8</Width>
@@ -4655,7 +4655,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___483">
 	<Id>483</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>1164</Top>
 	<Left>1052</Left>
 	<Width>29</Width>
@@ -4665,7 +4665,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___484">
 	<Id>484</Id>
-	<MLClassName>natural</MLClassName>
+	<ClassName>natural</ClassName>
 	<Top>1486</Top>
 	<Left>1061</Left>
 	<Width>23</Width>
@@ -4673,19 +4673,9 @@
 	<Mask>0:3 1:2 0:21 1:2 0:21 1:2 0:21 1:3 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:19 1:4 0:20 1:4 0:19 1:4 0:18 1:5 0:18 1:5 0:18 1:5 0:19 1:4 0:19 1:4 0:18 1:5 0:19 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:17 1:6 0:17 1:6 0:2 1:1 0:14 1:17 0:6 1:19 0:4 1:20 0:3 1:20 0:3 1:21 0:2 1:6 0:6 1:9 0:2 1:5 0:9 1:7 0:2 1:5 0:9 1:7 0:2 1:5 0:9 1:7 0:2 1:5 0:9 1:7 0:1 1:6 0:9 1:7 0:1 1:5 0:10 1:7 0:1 1:5 0:10 1:7 0:1 1:5 0:10 1:6 0:2 1:5 0:10 1:6 0:2 1:5 0:10 1:6 0:2 1:6 0:8 1:7 0:1 1:7 0:8 1:7 0:2 1:6 0:6 1:9 0:2 1:7 0:3 1:11 0:2 1:21 0:2 1:21 0:2 1:21 0:2 1:21 0:3 1:19 0:5 1:18 0:5 1:8 0:2 1:8 0:16 1:7 0:16 1:7 0:16 1:6 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:17 1:6 0:17 1:6 0:18 1:5 0:18 1:5 0:17 1:6 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:5 0:18 1:6 0:17 1:6 0:17 1:7 0:16 1:7 0:17 1:6 0:17 1:6 0:17 1:7 0:16 1:7 0:16 1:7 0:16 1:7 0:16 1:7 0:16 1:7 0:16 1:6 0:17 1:6 0:16 1:7 0:16 1:7 0:16 1:4 0:21 1:2 0:21 1:1 0:5</Mask>
 	<Inlinks>471</Inlinks>
 </CropObject>
-<CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___485">
-	<Id>485</Id>
-	<MLClassName>natural</MLClassName>
-	<Top>1070</Top>
-	<Left>1250</Left>
-	<Width>13</Width>
-	<Height>11</Height>
-	<Mask>0:5 1:6 0:5 1:10 0:2 1:62 0:2 1:10 0:4 1:9 0:6 1:6 0:9 1:2 0:5</Mask>
-	<Inlinks>368</Inlinks>
-</CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___486">
 	<Id>486</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1160</Top>
 	<Left>494</Left>
 	<Width>9</Width>
@@ -4695,7 +4685,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___487">
 	<Id>487</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1139</Top>
 	<Left>1332</Left>
 	<Width>9</Width>
@@ -4705,7 +4695,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___488">
 	<Id>488</Id>
-	<MLClassName>other-dot</MLClassName>
+	<ClassName>other-dot</ClassName>
 	<Top>1624</Top>
 	<Left>589</Left>
 	<Width>8</Width>
@@ -4715,7 +4705,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___489">
 	<Id>489</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>1075</Top>
 	<Left>523</Left>
 	<Width>9</Width>
@@ -4725,7 +4715,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___490">
 	<Id>490</Id>
-	<MLClassName>duration-dot</MLClassName>
+	<ClassName>duration-dot</ClassName>
 	<Top>1070</Top>
 	<Left>1250</Left>
 	<Width>13</Width>
@@ -4735,7 +4725,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___491">
 	<Id>491</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1189</Top>
 	<Left>537</Left>
 	<Width>29</Width>
@@ -4745,7 +4735,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___492">
 	<Id>492</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1172</Top>
 	<Left>539</Left>
 	<Width>30</Width>
@@ -4755,7 +4745,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___493">
 	<Id>493</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1170</Top>
 	<Left>591</Left>
 	<Width>30</Width>
@@ -4765,7 +4755,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___494">
 	<Id>494</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1186</Top>
 	<Left>589</Left>
 	<Width>34</Width>
@@ -4775,7 +4765,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___495">
 	<Id>495</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1187</Top>
 	<Left>679</Left>
 	<Width>43</Width>
@@ -4785,7 +4775,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___496">
 	<Id>496</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1171</Top>
 	<Left>680</Left>
 	<Width>39</Width>
@@ -4795,7 +4785,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___497">
 	<Id>497</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1153</Top>
 	<Left>681</Left>
 	<Width>37</Width>
@@ -4805,7 +4795,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___498">
 	<Id>498</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1186</Top>
 	<Left>745</Left>
 	<Width>36</Width>
@@ -4815,7 +4805,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___499">
 	<Id>499</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1173</Top>
 	<Left>744</Left>
 	<Width>38</Width>
@@ -4825,7 +4815,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___500">
 	<Id>500</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1184</Top>
 	<Left>813</Left>
 	<Width>41</Width>
@@ -4835,7 +4825,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___501">
 	<Id>501</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1186</Top>
 	<Left>867</Left>
 	<Width>35</Width>
@@ -4845,7 +4835,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___502">
 	<Id>502</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1186</Top>
 	<Left>936</Left>
 	<Width>39</Width>
@@ -4855,7 +4845,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___503">
 	<Id>503</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1189</Top>
 	<Left>991</Left>
 	<Width>38</Width>
@@ -4865,7 +4855,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___504">
 	<Id>504</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1172</Top>
 	<Left>991</Left>
 	<Width>40</Width>
@@ -4875,7 +4865,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___505">
 	<Id>505</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>1165</Top>
 	<Left>935</Left>
 	<Width>39</Width>
@@ -4885,7 +4875,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___506">
 	<Id>506</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>954</Top>
 	<Left>1396</Left>
 	<Width>40</Width>
@@ -4895,7 +4885,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___507">
 	<Id>507</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>954</Top>
 	<Left>1452</Left>
 	<Width>39</Width>
@@ -4905,7 +4895,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___508">
 	<Id>508</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>947</Top>
 	<Left>1549</Left>
 	<Width>51</Width>
@@ -4915,7 +4905,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___509">
 	<Id>509</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>932</Top>
 	<Left>1549</Left>
 	<Width>49</Width>
@@ -4925,7 +4915,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___510">
 	<Id>510</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>915</Top>
 	<Left>1554</Left>
 	<Width>48</Width>
@@ -4935,7 +4925,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___511">
 	<Id>511</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>712</Top>
 	<Left>1277</Left>
 	<Width>42</Width>
@@ -4945,7 +4935,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___512">
 	<Id>512</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>722</Top>
 	<Left>1113</Left>
 	<Width>49</Width>
@@ -4955,7 +4945,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___513">
 	<Id>513</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>723</Top>
 	<Left>1033</Left>
 	<Width>57</Width>
@@ -4965,7 +4955,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___514">
 	<Id>514</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>717</Top>
 	<Left>925</Left>
 	<Width>31</Width>
@@ -4975,7 +4965,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___515">
 	<Id>515</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>715</Top>
 	<Left>879</Left>
 	<Width>36</Width>
@@ -4985,7 +4975,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___516">
 	<Id>516</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>719</Top>
 	<Left>967</Left>
 	<Width>45</Width>
@@ -4995,7 +4985,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___517">
 	<Id>517</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>703</Top>
 	<Left>976</Left>
 	<Width>42</Width>
@@ -5005,7 +4995,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___518">
 	<Id>518</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>949</Top>
 	<Left>584</Left>
 	<Width>49</Width>
@@ -5015,7 +5005,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___519">
 	<Id>519</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>947</Top>
 	<Left>664</Left>
 	<Width>46</Width>
@@ -5025,7 +5015,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___520">
 	<Id>520</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>952</Top>
 	<Left>779</Left>
 	<Width>54</Width>
@@ -5035,7 +5025,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___521">
 	<Id>521</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>931</Top>
 	<Left>784</Left>
 	<Width>52</Width>
@@ -5045,7 +5035,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___522">
 	<Id>522</Id>
-	<MLClassName>ledger_line</MLClassName>
+	<ClassName>ledger_line</ClassName>
 	<Top>910</Top>
 	<Left>788</Left>
 	<Width>45</Width>
@@ -5055,7 +5045,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___524">
 	<Id>524</Id>
-	<MLClassName>tuple_bracket/line</MLClassName>
+	<ClassName>tuple_bracket/line</ClassName>
 	<Top>692</Top>
 	<Left>1555</Left>
 	<Width>357</Width>
@@ -5065,7 +5055,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___526">
 	<Id>526</Id>
-	<MLClassName>slur</MLClassName>
+	<ClassName>slur</ClassName>
 	<Top>861</Top>
 	<Left>438</Left>
 	<Width>415</Width>
@@ -5075,7 +5065,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___528">
 	<Id>528</Id>
-	<MLClassName>tuple_bracket/line</MLClassName>
+	<ClassName>tuple_bracket/line</ClassName>
 	<Top>641</Top>
 	<Left>779</Left>
 	<Width>408</Width>
@@ -5085,7 +5075,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___529">
 	<Id>529</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>688</Top>
 	<Left>1006</Left>
 	<Width>27</Width>
@@ -5095,7 +5085,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___530">
 	<Id>530</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>658</Top>
 	<Left>1030</Left>
 	<Width>27</Width>
@@ -5105,7 +5095,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___531">
 	<Id>531</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>672</Top>
 	<Left>981</Left>
 	<Width>35</Width>
@@ -5115,7 +5105,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___532">
 	<Id>532</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>658</Top>
 	<Left>984</Left>
 	<Width>97</Width>
@@ -5125,7 +5115,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___533">
 	<Id>533</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>675</Top>
 	<Left>452</Left>
 	<Width>22</Width>
@@ -5135,7 +5125,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___534">
 	<Id>534</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>1145</Top>
 	<Left>453</Left>
 	<Width>21</Width>
@@ -5145,7 +5135,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___535">
 	<Id>535</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>1611</Top>
 	<Left>533</Left>
 	<Width>24</Width>
@@ -5155,7 +5145,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___536">
 	<Id>536</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>1582</Top>
 	<Left>555</Left>
 	<Width>27</Width>
@@ -5165,7 +5155,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___537">
 	<Id>537</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>1119</Top>
 	<Left>462</Left>
 	<Width>24</Width>
@@ -5175,7 +5165,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___538">
 	<Id>538</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>1113</Top>
 	<Left>438</Left>
 	<Width>26</Width>
@@ -5185,7 +5175,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___539">
 	<Id>539</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>1586</Top>
 	<Left>506</Left>
 	<Width>35</Width>
@@ -5195,7 +5185,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___540">
 	<Id>540</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>644</Top>
 	<Left>437</Left>
 	<Width>25</Width>
@@ -5205,7 +5195,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___541">
 	<Id>541</Id>
-	<MLClassName>letter_P</MLClassName>
+	<ClassName>letter_P</ClassName>
 	<Top>1107</Top>
 	<Left>1247</Left>
 	<Width>37</Width>
@@ -5215,7 +5205,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___542">
 	<Id>542</Id>
-	<MLClassName>letter_e</MLClassName>
+	<ClassName>letter_e</ClassName>
 	<Top>1131</Top>
 	<Left>1274</Left>
 	<Width>26</Width>
@@ -5225,7 +5215,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___543">
 	<Id>543</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>1101</Top>
 	<Left>1298</Left>
 	<Width>23</Width>
@@ -5235,7 +5225,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___544">
 	<Id>544</Id>
-	<MLClassName>letter_d</MLClassName>
+	<ClassName>letter_d</ClassName>
 	<Top>646</Top>
 	<Left>470</Left>
 	<Width>29</Width>
@@ -5245,27 +5235,27 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___545">
 	<Id>545</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>1582</Top>
 	<Left>506</Left>
 	<Width>91</Width>
 	<Height>69</Height>
 	<Mask>0:71 1:1 0:90 1:2 0:89 1:2 0:89 1:2 0:43 1:3 0:43 1:2 0:41 1:6 0:41 1:3 0:38 1:12 0:37 1:4 0:36 1:15 0:36 1:4 0:35 1:17 0:35 1:4 0:34 1:18 0:35 1:4 0:32 1:20 0:35 1:4 0:31 1:11 0:4 1:6 0:35 1:4 0:30 1:9 0:8 1:5 0:35 1:4 0:29 1:9 0:9 1:6 0:34 1:5 0:26 1:10 0:10 1:6 0:33 1:5 0:27 1:9 0:11 1:6 0:33 1:5 0:26 1:9 0:12 1:6 0:33 1:5 0:24 1:9 0:14 1:6 0:33 1:5 0:24 1:8 0:15 1:6 0:33 1:5 0:23 1:8 0:16 1:5 0:34 1:5 0:22 1:8 0:17 1:5 0:34 1:5 0:22 1:7 0:18 1:5 0:34 1:5 0:21 1:7 0:18 1:6 0:34 1:5 0:20 1:6 0:20 1:6 0:34 1:5 0:20 1:5 0:21 1:6 0:33 1:6 0:19 1:5 0:22 1:6 0:33 1:6 0:19 1:5 0:21 1:6 0:34 1:6 0:19 1:5 0:21 1:6 0:34 1:6 0:18 1:6 0:21 1:6 0:34 1:6 0:18 1:6 0:20 1:6 0:12 1:3 0:20 1:6 0:18 1:6 0:20 1:6 0:10 1:7 0:18 1:6 0:18 1:6 0:19 1:7 0:7 1:11 0:18 1:6 0:17 1:6 0:19 1:6 0:7 1:12 0:18 1:6 0:17 1:6 0:18 1:7 0:6 1:14 0:17 1:6 0:18 1:5 0:17 1:7 0:6 1:8 0:1 1:6 0:17 1:6 0:18 1:5 0:17 1:7 0:5 1:7 0:4 1:5 0:17 1:6 0:18 1:5 0:16 1:7 0:6 1:6 0:4 1:6 0:8 1:15 0:18 1:5 0:16 1:7 0:5 1:6 0:4 1:7 0:5 1:18 0:18 1:5 0:15 1:7 0:5 1:7 0:3 1:7 0:5 1:19 0:18 1:5 0:14 1:7 0:5 1:7 0:3 1:7 0:5 1:20 0:18 1:5 0:14 1:7 0:5 1:6 0:3 1:7 0:5 1:21 0:18 1:5 0:13 1:7 0:6 1:5 0:3 1:8 0:4 1:9 0:4 1:9 0:18 1:5 0:12 1:7 0:6 1:6 0:2 1:8 0:4 1:8 0:8 1:7 0:10 1:5 0:3 1:5 0:11 1:8 0:6 1:6 0:1 1:8 0:4 1:8 0:10 1:6 0:10 1:6 0:2 1:5 0:10 1:8 0:6 1:14 0:6 1:7 0:11 1:8 0:7 1:7 0:1 1:6 0:9 1:8 0:6 1:15 0:5 1:7 0:13 1:7 0:8 1:6 0:2 1:6 0:8 1:7 0:7 1:14 0:6 1:7 0:13 1:7 0:8 1:7 0:1 1:20 0:7 1:14 0:7 1:6 0:15 1:5 0:10 1:5 0:2 1:19 0:8 1:13 0:8 1:6 0:16 1:3 0:13 1:2 0:3 1:18 0:9 1:11 0:10 1:6 0:17 1:1 0:19 1:17 0:9 1:7 0:15 1:6 0:16 1:2 0:19 1:6 0:5 1:3 0:12 1:6 0:16 1:7 0:13 1:5 0:18 1:6 0:20 1:6 0:16 1:7 0:12 1:6 0:18 1:6 0:20 1:6 0:16 1:10 0:5 1:9 0:19 1:6 0:20 1:6 0:17 1:22 0:21 1:5 0:20 1:6 0:18 1:21 0:21 1:5 0:20 1:5 0:20 1:18 0:23 1:6 0:19 1:5 0:16 1:1 0:6 1:13 0:25 1:6 0:19 1:5 0:15 1:3 0:7 1:9 0:27 1:6 0:19 1:6 0:12 1:5 0:43 1:6 0:19 1:6 0:12 1:5 0:43 1:6 0:20 1:6 0:10 1:5 0:44 1:6 0:20 1:6 0:9 1:6 0:44 1:6 0:20 1:6 0:7 1:7 0:45 1:6 0:21 1:17 0:47 1:7 0:21 1:16 0:47 1:7 0:21 1:15 0:48 1:8 0:21 1:13 0:49 1:8 0:22 1:9 0:50</Mask>
-	<Outlinks>536 488 539 337 535</Outlinks>
+	<Outlinks>536 488 539 535 337</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___546">
 	<Id>546</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>1113</Top>
 	<Left>438</Left>
 	<Width>65</Width>
 	<Height>61</Height>
 	<Mask>0:15 1:5 0:57 1:11 0:52 1:14 0:49 1:17 0:47 1:19 0:45 1:9 0:5 1:6 0:44 1:7 0:8 1:6 0:14 1:1 0:28 1:6 0:10 1:6 0:12 1:3 0:27 1:6 0:11 1:6 0:12 1:2 0:28 1:4 0:13 1:5 0:13 1:3 0:26 1:4 0:13 1:6 0:13 1:3 0:26 1:4 0:13 1:6 0:13 1:3 0:25 1:5 0:13 1:5 0:13 1:4 0:25 1:4 0:14 1:5 0:13 1:4 0:25 1:3 0:14 1:6 0:13 1:4 0:24 1:4 0:14 1:5 0:14 1:4 0:24 1:5 0:12 1:6 0:14 1:4 0:24 1:5 0:12 1:5 0:15 1:5 0:23 1:5 0:11 1:6 0:15 1:5 0:24 1:4 0:11 1:6 0:15 1:5 0:24 1:4 0:10 1:6 0:16 1:5 0:24 1:5 0:8 1:6 0:17 1:5 0:24 1:5 0:7 1:6 0:19 1:4 0:24 1:5 0:7 1:5 0:20 1:4 0:25 1:4 0:6 1:6 0:20 1:5 0:24 1:4 0:5 1:6 0:21 1:5 0:24 1:4 0:4 1:6 0:22 1:5 0:24 1:4 0:3 1:7 0:22 1:5 0:24 1:5 0:1 1:6 0:24 1:5 0:24 1:11 0:25 1:5 0:24 1:10 0:26 1:5 0:24 1:9 0:27 1:5 0:24 1:8 0:14 1:6 0:8 1:5 0:24 1:6 0:15 1:8 0:8 1:4 0:24 1:5 0:15 1:9 0:8 1:4 0:24 1:5 0:14 1:10 0:8 1:4 0:24 1:5 0:13 1:5 0:2 1:4 0:8 1:4 0:24 1:5 0:12 1:4 0:4 1:4 0:8 1:4 0:24 1:5 0:11 1:4 0:4 1:4 0:9 1:5 0:23 1:5 0:11 1:4 0:4 1:5 0:8 1:5 0:23 1:5 0:10 1:5 0:3 1:20 0:22 1:5 0:9 1:5 0:3 1:21 0:22 1:5 0:9 1:5 0:2 1:22 0:22 1:5 0:8 1:5 0:2 1:23 0:22 1:5 0:8 1:6 0:1 1:11 0:3 1:9 0:22 1:5 0:8 1:16 0:9 1:5 0:22 1:5 0:8 1:15 0:10 1:6 0:21 1:5 0:8 1:15 0:10 1:6 0:11 1:6 0:4 1:6 0:7 1:15 0:11 1:6 0:9 1:8 0:3 1:6 0:7 1:7 0:2 1:6 0:11 1:6 0:9 1:9 0:2 1:6 0:7 1:6 0:3 1:6 0:11 1:7 0:9 1:8 0:2 1:6 0:7 1:5 0:5 1:5 0:11 1:7 0:10 1:6 0:3 1:6 0:7 1:5 0:5 1:6 0:2 1:3 0:6 1:6 0:11 1:3 0:6 1:6 0:7 1:5 0:5 1:9 0:7 1:5 0:21 1:6 0:7 1:6 0:4 1:9 0:7 1:5 0:22 1:5 0:8 1:6 0:3 1:10 0:5 1:5 0:24 1:1 0:12 1:6 0:2 1:20 0:38 1:26 0:40 1:24 0:42 1:21 0:45 1:8 0:4 1:5 0:26</Mask>
-	<Outlinks>336 537 538 486 534</Outlinks>
+	<Outlinks>336 537 538 534 486</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___547">
 	<Id>547</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>644</Top>
 	<Left>437</Left>
 	<Width>77</Width>
@@ -5275,17 +5265,17 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___548">
 	<Id>548</Id>
-	<MLClassName>other_text</MLClassName>
+	<ClassName>other_text</ClassName>
 	<Top>1103</Top>
 	<Left>1247</Left>
 	<Width>93</Width>
 	<Height>60</Height>
 	<Mask>0:68 1:4 0:89 1:5 0:88 1:5 0:88 1:6 0:34 1:14 0:39 1:6 0:33 1:16 0:38 1:6 0:31 1:18 0:38 1:6 0:29 1:21 0:37 1:6 0:29 1:21 0:37 1:6 0:28 1:23 0:36 1:6 0:27 1:24 0:36 1:6 0:26 1:26 0:35 1:5 0:25 1:15 0:7 1:6 0:35 1:5 0:24 1:14 0:9 1:6 0:35 1:5 0:24 1:10 0:14 1:6 0:33 1:6 0:24 1:9 0:16 1:5 0:33 1:6 0:24 1:8 0:17 1:5 0:33 1:6 0:24 1:6 0:20 1:4 0:33 1:6 0:23 1:7 0:20 1:5 0:32 1:6 0:23 1:6 0:21 1:5 0:32 1:6 0:22 1:6 0:22 1:5 0:32 1:6 0:22 1:5 0:23 1:5 0:32 1:6 0:21 1:6 0:23 1:5 0:32 1:6 0:21 1:5 0:24 1:5 0:32 1:6 0:21 1:4 0:25 1:5 0:32 1:6 0:21 1:4 0:25 1:5 0:33 1:5 0:21 1:4 0:24 1:6 0:33 1:5 0:21 1:4 0:24 1:6 0:33 1:5 0:21 1:4 0:24 1:7 0:32 1:5 0:21 1:5 0:23 1:19 0:20 1:5 0:21 1:5 0:23 1:19 0:12 1:4 0:4 1:5 0:21 1:5 0:22 1:21 0:9 1:9 0:1 1:5 0:21 1:5 0:21 1:22 0:7 1:17 0:21 1:5 0:21 1:22 0:6 1:18 0:21 1:5 0:20 1:23 0:5 1:19 0:21 1:5 0:20 1:12 0:2 1:9 0:4 1:8 0:4 1:8 0:21 1:5 0:19 1:11 0:4 1:8 0:5 1:8 0:5 1:8 0:14 1:3 0:3 1:5 0:18 1:12 0:3 1:8 0:5 1:7 0:7 1:8 0:12 1:6 0:2 1:5 0:18 1:13 0:1 1:8 0:6 1:7 0:7 1:8 0:11 1:8 0:1 1:5 0:17 1:22 0:7 1:6 0:9 1:7 0:11 1:8 0:1 1:6 0:14 1:23 0:8 1:6 0:9 1:7 0:12 1:17 0:10 1:22 0:10 1:6 0:10 1:6 0:13 1:1 0:1 1:2 0:2 1:41 0:10 1:7 0:10 1:6 0:20 1:24 0:3 1:12 0:11 1:7 0:10 1:6 0:20 1:23 0:4 1:11 0:12 1:7 0:10 1:5 0:21 1:22 0:5 1:9 0:15 1:6 0:10 1:4 0:22 1:5 0:7 1:6 0:9 1:7 0:18 1:6 0:8 1:4 0:23 1:5 0:23 1:6 0:18 1:6 0:6 1:6 0:24 1:5 0:22 1:6 0:18 1:7 0:3 1:7 0:25 1:5 0:22 1:6 0:19 1:15 0:26 1:5 0:22 1:7 0:19 1:13 0:26 1:6 0:23 1:6 0:20 1:12 0:27 1:6 0:23 1:6 0:13 1:3 0:4 1:10 0:28 1:6 0:24 1:6 0:11 1:4 0:6 1:6 0:30 1:6 0:24 1:7 0:8 1:6 0:9 1:1 0:32 1:6 0:25 1:9 0:3 1:7 0:43 1:6 0:27 1:16 0:44 1:6 0:28 1:15 0:45 1:5 0:30 1:10 0:49 1:4 0:32 1:6 0:47</Mask>
-	<Outlinks>543 333 541 542 487</Outlinks>
+	<Outlinks>487 541 333 542 543</Outlinks>
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___549">
 	<Id>549</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1521</Top>
 	<Left>438</Left>
 	<Width>12</Width>
@@ -5295,7 +5285,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___550">
 	<Id>550</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1434</Top>
 	<Left>549</Left>
 	<Width>10</Width>
@@ -5305,7 +5295,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___551">
 	<Id>551</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1405</Top>
 	<Left>695</Left>
 	<Width>9</Width>
@@ -5315,7 +5305,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___552">
 	<Id>552</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1463</Top>
 	<Left>820</Left>
 	<Width>13</Width>
@@ -5325,7 +5315,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___553">
 	<Id>553</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1439</Top>
 	<Left>940</Left>
 	<Width>13</Width>
@@ -5335,7 +5325,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___554">
 	<Id>554</Id>
-	<MLClassName>staccato-dot</MLClassName>
+	<ClassName>staccato-dot</ClassName>
 	<Top>1492</Top>
 	<Left>1100</Left>
 	<Width>13</Width>
@@ -5345,7 +5335,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___556">
 	<Id>556</Id>
-	<MLClassName>numeral_7</MLClassName>
+	<ClassName>numeral_7</ClassName>
 	<Top>663</Top>
 	<Left>926</Left>
 	<Width>37</Width>
@@ -5355,7 +5345,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___557">
 	<Id>557</Id>
-	<MLClassName>thin_barline</MLClassName>
+	<ClassName>thin_barline</ClassName>
 	<Top>1213</Top>
 	<Left>189</Left>
 	<Width>13</Width>
@@ -5365,7 +5355,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___558">
 	<Id>558</Id>
-	<MLClassName>multi-staff_brace</MLClassName>
+	<ClassName>multi-staff_brace</ClassName>
 	<Top>261</Top>
 	<Left>156</Left>
 	<Width>54</Width>
@@ -5375,7 +5365,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___559">
 	<Id>559</Id>
-	<MLClassName>multi-staff_brace</MLClassName>
+	<ClassName>multi-staff_brace</ClassName>
 	<Top>732</Top>
 	<Left>158</Left>
 	<Width>51</Width>
@@ -5385,7 +5375,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___560">
 	<Id>560</Id>
-	<MLClassName>multi-staff_brace</MLClassName>
+	<ClassName>multi-staff_brace</ClassName>
 	<Top>1207</Top>
 	<Left>149</Left>
 	<Width>54</Width>
@@ -5395,7 +5385,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___563">
 	<Id>563</Id>
-	<MLClassName>tuple</MLClassName>
+	<ClassName>tuple</ClassName>
 	<Top>641</Top>
 	<Left>779</Left>
 	<Width>408</Width>
@@ -5406,7 +5396,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___564">
 	<Id>564</Id>
-	<MLClassName>tuple</MLClassName>
+	<ClassName>tuple</ClassName>
 	<Top>692</Top>
 	<Left>1555</Left>
 	<Width>357</Width>
@@ -5417,7 +5407,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___565">
 	<Id>565</Id>
-	<MLClassName>tuple</MLClassName>
+	<ClassName>tuple</ClassName>
 	<Top>193</Top>
 	<Left>2024</Left>
 	<Width>123</Width>
@@ -5428,7 +5418,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___566">
 	<Id>566</Id>
-	<MLClassName>g-clef</MLClassName>
+	<ClassName>g-clef</ClassName>
 	<Top>945</Top>
 	<Left>212</Left>
 	<Width>76</Width>
@@ -5437,7 +5427,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___567">
 	<Id>567</Id>
-	<MLClassName>slur</MLClassName>
+	<ClassName>slur</ClassName>
 	<Top>393</Top>
 	<Left>1571</Left>
 	<Width>466</Width>
@@ -5447,7 +5437,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___568">
 	<Id>568</Id>
-	<MLClassName>slur</MLClassName>
+	<ClassName>slur</ClassName>
 	<Top>871</Top>
 	<Left>1193</Left>
 	<Width>397</Width>
@@ -5457,7 +5447,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___569">
 	<Id>569</Id>
-	<MLClassName>numeral_6</MLClassName>
+	<ClassName>numeral_6</ClassName>
 	<Top>717</Top>
 	<Left>1723</Left>
 	<Width>35</Width>
@@ -5467,7 +5457,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___570">
 	<Id>570</Id>
-	<MLClassName>staff_grouping</MLClassName>
+	<ClassName>staff_grouping</ClassName>
 	<Top>261</Top>
 	<Left>156</Left>
 	<Width>54</Width>
@@ -5478,7 +5468,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___571">
 	<Id>571</Id>
-	<MLClassName>staff_grouping</MLClassName>
+	<ClassName>staff_grouping</ClassName>
 	<Top>732</Top>
 	<Left>158</Left>
 	<Width>51</Width>
@@ -5489,7 +5479,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___572">
 	<Id>572</Id>
-	<MLClassName>staff_grouping</MLClassName>
+	<ClassName>staff_grouping</ClassName>
 	<Top>1207</Top>
 	<Left>149</Left>
 	<Width>54</Width>
@@ -5500,7 +5490,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___573">
 	<Id>573</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>272</Top>
 	<Left>932</Left>
 	<Width>17</Width>
@@ -5510,7 +5500,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___574">
 	<Id>574</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>743</Top>
 	<Left>1182</Left>
 	<Width>11</Width>
@@ -5520,7 +5510,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___575">
 	<Id>575</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>263</Top>
 	<Left>1550</Left>
 	<Width>19</Width>
@@ -5530,7 +5520,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___576">
 	<Id>576</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>272</Top>
 	<Left>2290</Left>
 	<Width>10</Width>
@@ -5540,7 +5530,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___577">
 	<Id>577</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>272</Top>
 	<Left>3310</Left>
 	<Width>17</Width>
@@ -5550,7 +5540,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___578">
 	<Id>578</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>741</Top>
 	<Left>3310</Left>
 	<Width>20</Width>
@@ -5560,7 +5550,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___579">
 	<Id>579</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>742</Top>
 	<Left>2705</Left>
 	<Width>19</Width>
@@ -5570,7 +5560,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___580">
 	<Id>580</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>741</Top>
 	<Left>1920</Left>
 	<Width>18</Width>
@@ -5580,7 +5570,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___581">
 	<Id>581</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>1211</Top>
 	<Left>1241</Left>
 	<Width>17</Width>
@@ -5590,7 +5580,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___582">
 	<Id>582</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>945</Top>
 	<Left>200</Left>
 	<Width>6</Width>
@@ -5600,7 +5590,7 @@
 </CropObject>
 <CropObject xml:id="MUSCIMA-pp_0.9___CVC-MUSCIMA_W-36_N-14_D-ideal___583">
 	<Id>583</Id>
-	<MLClassName>measure_separator</MLClassName>
+	<ClassName>measure_separator</ClassName>
 	<Top>271</Top>
 	<Left>2792</Left>
 	<Width>33</Width>
