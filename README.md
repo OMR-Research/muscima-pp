@@ -1,72 +1,38 @@
-MUSCIMA++ 0.9.1
-===============
+# MUSCIMA++
 
-MUSCIMA++ 0.9.1 is a dataset of handwritten music notation symbols.
-It contains the positions and classes of over 90 000 notation objects
-across 0.9 pages of sheet music. The dataset adds this symbol annotation
-as a layer of ground truth over the CVC-MUSCIMA dataset, which already
-contains binary images and staff removal ground truth. The symbol annotation
-is rich: we annotated both low-level notation primitives and high-level
-symbols, and explicitly mark their relationships.
+MUSCIMA++ is a dataset of handwritten music notation for musical symbol detection. It contains 91255 symbols, consisting of both notation primitives and higher-level notation objects, such as key signatures or time signatures. There are 23352 notes in the dataset, of which 21356 have a full notehead, 1648 have an empty notehead, and 348 are grace notes. For each annotated object in an image, we provide both the bounding box, and a pixel mask that defines exactly which pixels within the bounding box belong to the given object. Composite constructions, such as notes, are captured through explicitly annotated relationships of the notation primitives (noteheads, stems, beams...), thus forming the MUSCIMA++ Notation Graph, or MuNG. This way, the annotation provides an explicit bridge between the low-level and high-level symbols described in Optical Music Recognition literature.
 
-In CVC-MUSCIMA, there is a total of 140 pages: 20 scores transcribed
-by 50 musicians each. The article [2] describes how the dataset was
-collected. MUSCIMA++ takes 7 versions of each of the 20 scores, taking
-care to cover all 50 writers of CVC-MUSCIMA (each writer is represented
-no less than twice and no more than three times in the 140 pages
-of MUSCIMA++ 0.9.1).
+![](intro_screenshot_1.png)
 
-The website of the dataset:
+MUSCIMA++ has annotations for 140 images from the CVC-MUSCIMA dataset [2], used for handwritten music notation writer identification and staff removal. CVC-MUSCIMA consists of 1000 binary images: 20 pages of music were each re-written by 50 musicians, binarized, and staves were removed. We had 7 different annotators marking musical symbols: each annotator marked one of each 20 CVC-MUSCIMA pages, with the writers selected so that the 140 images cover 2-3 images from each of the 50 CVC-MUSCIMA writers. This setup ensures maximal variability of handwriting, given the limitations in annotation resources.
 
-    https://ufal.mff.cuni.cz/muscima
+The MUSCIMA++ dataset is intended for musical symbol detection and classification, and for music notation reconstruction. A thorough description of its design is published on [arXiv](https://arxiv.org/abs/1703.04824). The full definition of MuNG, the ground truth format, is given in the form of [annotator instructions](https://muscimarker.readthedocs.io/en/develop/instructions.html).
 
 
+## Tools
+Apart from the symbol annotation data themselves, we also provide two Python packages:
 
+- `muscima`, which is basically an I/O interface to the dataset (also available through pip install muscima)
+- `MUSCIMarker`, which is the annotation tool used to create the dataset.
 
-License
--------
+We believe the functionality in `muscima` will make it easier for you to use the dataset. You don’t need MUSCIMarker unless you want to extend the dataset, although it is also nifty for visualization. If you do not want to use the Python interface, you can of course make your own: the data is stored as a regular XML file, described in detail in the README (and also in the `muscima.io` module).
 
-(Let's get the legal stuff out of the way.)
+# First Steps 
 
-The MUSCIMA++ datatset is licensed under the Creative Commons 4.0
-Attribution NonCommercial Share-Alike license (CC-BY-NC-SA 4.0).
-The full text of the license is in the LICENSE file in this directory.
+- Download the latest version [here](http://hdl.handle.net/11372/LRT-2372).
+- Install the [muscima](https://muscima.readthedocs.io/) package.
+- Follow the musicma package [tutorial](https://muscima.readthedocs.io/en/latest/Tutorial.html).
 
-The attribution requested for MUSCIMA++ is to cite the following
-arXiv.org article [1]:
+To understand how to leverage the dataset for your particular use case, you will need to familiarize yourself with how the MuNG ground truth is defined in detail. To this end, see the [annotation instructions](https://muscimarker.readthedocs.io/en/develop/instructions.html) as a reference guide. If you want to look at the notation graph, you can use the [MUSCIMarker](https://muscimarker.readthedocs.io/en/develop/) GUI app.
 
-[1]  Jan Hajič jr., Pavel Pecina. In Search of a Dataset for Handwritten 
-Optical Music Recognition: Introducing MUSCIMA++. CoRR, arXiv:1703.04824, 
-2017. https://arxiv.org/abs/1703.04824
+## Getting the CVC-MUSCIMA Images
+As a part of the agreement that enabled us to release MUSCIMA++ under a permissive license, we do not distribute the underlying CVC-MUSCIMA images themselves, only the annotations. To get these underlying images, you will need to download the [CVC-MUSCIMA](http://www.cvc.uab.es/cvcmuscima/index_database.html) staff removal dataset.
 
-Because MUSCIMA++ is a derivative work of CVC-MUSCIMA, we kindly
-request that you follow the attribution rules for CVC-MUSCIMA as well,
-and cite article [2]:
+Then, use the get_images_from_muscima.py script from the muscima package, using -i `cat specifications/cvc-muscima-image-list.txt`, and specify data/images as the target directory. This will extract the 140 annotated symbol images for which there are annotations, with the correct filenames.
 
-[2]  Alicia Fornés, Anjan Dutta, Albert Gordo, Josep Lladós. CVC-MUSCIMA: 
-A Ground-truth of Handwritten Music Score Images for Writer Identification 
-and Staff Removal. International Journal on Document Analysis and Recognition, 
-Volume 15, Issue 3, pp 243-251, 2012. (DOI: 10.0.97/s0.932-010.9168-2).
+For convenience reasons, the [`omrdatasettools`](https://omr-datasets.readthedocs.io/en/latest/index.html) package contains a [simple script](https://omr-datasets.readthedocs.io/en/latest/downloaders/MuscimaPlusPlusDatasetDownloader.html) to download the MUSCIMA++ dataset and the images.
 
-
-This basically means you can freely use, distribute, and modify the dataset,
-as long as you:
-
-* give credit as requested,
-* are not making money off of this (NonCommercial),
-* are willing to share derivative work under the same license (ShareAlike).
-
-If you do want to license the dataset under different conditions, 
-e.g. if you are a startup looking for training data for your killer 
-OMR app, you have to contact us before using the data and we will 
-be happy to come up with licensing terms for your specific case.
-Anyway, unless you are familiar with the CC-BY-NC-SA license already, 
-read the LICENSE file, please!
-
-
-
-Ground Truth Definition
------------------------
+# Ground Truth Definition
 
 We annotated notation primitives (noteheads, stems, beams, barlines), 
 as well as higher-level, “semantic” objects (key signatures, voltas, 
@@ -93,91 +59,43 @@ is associated with a subset of foreground pixels in the annotated image. We do
 our best to keep this graph acyclic.
 
 The full definition the MUSCIMA++ ground truth (current version 0.9) is captured 
-in the annotation guidelines:
+in the [annotation guidelines](http://muscimarker.readthedocs.io/en/develop/instructions.html).
 
-    http://muscimarker.readthedocs.io/en/develop/instructions.html
-
-
-To get the images that were annotated, you will first need to download 
-the CVC-MUSCIMA staff removal dataset:
-
-    http://www.cvc.uab.es/cvcmuscima/index_database.html
-
-You can then use the get_images_from_muscima.py script from the muscima package 
-(see below), with input from specifications/cvc-muscima-image-list.txt, and 
-specify data/images as the target directory. This will extract the 140 annotated
-symbol images for which there are annotations, with the correct filenames.
-
-
-
-
-
-Tools
------
-
-Apart from the symbol annotation data themselves, we also provide 
-two Python pacakges:
-
-* muscima (https://github.com/hajicj/muscima): 
-  implements I/O for MUSCIMA++ annotations and the data model
-  (pip install muscima)
-* MUSCIMarker (https://github.com/hajicj/MUSCIMarker):
-  the annotation and visualization tool used to create the dataset.
-  (For installation, see: https://muscimarker.readthedocs.io/en/latest/)
-
-
-We believe the functionality in muscima will make it easier for you 
-to use the dataset. You don’t need MUSCIMarker unless you want to extend 
-the dataset, although it is also nifty for looking at the data.
-
-If you do not want to use the Python interface, you can of course make your 
-own. The data is stored as a regular XML file, described in detail below 
-(and also in the muscima.io module).
-
-
-
-
-
-Dataset directory structure
----------------------------
+## Dataset directory structure
 
 The dataset package has the following structure:
 
-+--+ MUSCIMA-pp_v1.0/
-   |
-   +--+ data/                               ... Contains the data files.
-   |  +--+ cropobjects_manual/              ... Contains the annotation files without automatically
-   |  |                                         extracted staff objects and their relationships.
-   |  +--+ cropobjects_withstaff/           ... Contains the annotation files enriched by staff objects,
-   |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
-   |  |                                         using scripts from the ``muscima’’ package.
-   |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
-   |  |  +...
-   |  |
-   |  +--+ images/                          ... Put corresponding CVC-MUSCIMA image files here.
-   |                                            (Analogously, use e.g. data/fulls/ for full images.)
-   |
-   +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
-   |  +--- cvc-muscima-image-list.txt               ... list of CVC-MUSCIMA images used for annotation,
-   |  +--- mff-muscima-mlclasses-annot.xml          ... list of object classes,
-   |  +--- mff-muscima-mlclasses-annot.deprules     ... and list of rules governing their relationships.
-   |  +-—- testset-dependent.txt                    ... List of writer-dependent test set images. 
-   |  |                                                 (Same handwriting in training and test set.)
-   |  +-—- testset-independent.txt                  ... List of writer-dependent test set images.
-   |                                                    (Test set handwriting never seen in training set.)
-   | 
-   +--- LICENSE                             ... The legal stuff (CC-BY-NC-SA 4.0, which is fine 
-   |                                            unless you want to make money off of this data).
-   +--- ERRATA                              ... File which lists errors in the data and their corrections. 
-   +--- README                              ... This file.
-
-I
+    +--+ MUSCIMA-pp_v1.0/
+       |
+       +--+ data/                               ... Contains the data files.
+       |  +--+ cropobjects_manual/              ... Contains the annotation files without automatically
+       |  |                                         extracted staff objects and their relationships.
+       |  +--+ cropobjects_withstaff/           ... Contains the annotation files enriched by staff objects,
+       |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
+       |  |                                         using scripts from the ``muscima’’ package.
+       |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
+       |  |  +...
+       |  |
+       |  +--+ images/                          ... Put corresponding CVC-MUSCIMA image files here.
+       |                                            (Analogously, use e.g. data/fulls/ for full images.)
+       |
+       +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
+       |  +--- cvc-muscima-image-list.txt               ... list of CVC-MUSCIMA images used for annotation,
+       |  +--- mff-muscima-mlclasses-annot.xml          ... list of object classes,
+       |  +--- mff-muscima-mlclasses-annot.deprules     ... and list of rules governing their relationships.
+       |  +-—- testset-dependent.txt                    ... List of writer-dependent test set images. 
+       |  |                                                 (Same handwriting in training and test set.)
+       |  +-—- testset-independent.txt                  ... List of writer-dependent test set images.
+       |                                                    (Test set handwriting never seen in training set.)
+       | 
+       +--- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine 
+       |                                            unless you want to make money off of this data).
+       +--- ERRATA.txt                          ... File which lists errors in the data and their corrections. 
+       +--- README.md                           ... This file.
 
 
 
-
-Data Formats
-------------
+## Data Formats
 
 The MUSCIMA++ annotations are provided as XML files.
 The data itself is inside <CropObject> elements:
@@ -205,14 +123,7 @@ element in the data files:
     </CropObjectList>
 
 
-********************************************************************************
-*                                                                              *
-*   NOTE                                                                       *
-*                                                                              *
-*   Parsing (muscima.io.parse_cropobject_list()) is only implemented for       *
-*   files that consist of a single <CropObjectList>.                           *
-*                                                                              *
-********************************************************************************
+>   NOTE: Parsing (muscima.io.parse_cropobject_list()) is only implemented for files that consist of a single `<CropObjectList>`.
 
 
 The value of the xml:id attribute of the <CropObject> element
@@ -228,8 +139,7 @@ and the number of the CropObject within the given CropObjectList
 
 
 
-Individual elements of a <CropObject>
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+### Individual elements of a `<CropObject>`
 
 * <Id> is the integer ID of the CropObject inside a given
   <CropObjectList> (which generally corresponds to one XML file
@@ -271,21 +181,10 @@ The parser function provided for CropObjects does *not* check against
 the presence of other sub-elements. You can therefore extend CropObjects
 for your own purposes.
 
-
-********************************************************************************
-*                                                                              *
-*   NOTE                                                                       *
-*                                                                              *
-*   The full description of the format is also given in the muscima            *
-*   package, module musicma.cropobject. In case these two versions             *
-*   do not match, the authoritative document is the package documentation.     *
-*                                                                              *
-********************************************************************************
+> NOTE: The full description of the format is also given in the muscima package, module musicma.cropobject. In case these two versions do not match, the authoritative document is the package documentation.
 
 
-
-Unique IDs policy
-^^^^^^^^^^^^^^^^^
+### Unique IDs policy
 
 Each CropObject has two identifiers: one is a dataset-wide
 unique identifier, and one is an integer ID that is valid
@@ -315,7 +214,7 @@ a delimiter: ___
 
 The full xml:id of a CropObject then might look like this:
 
-  MUSCIMA-pp_0.9__CVC-MUSCIMA_W-35_N-08_D-ideal___611
+  `MUSCIMA-pp_0.9__CVC-MUSCIMA_W-35_N-08_D-ideal___611`
 
 You will need to use UIDs whenever you are combining CropObjects
 from different documents, and/or datasets. (If you are really combining
@@ -330,44 +229,25 @@ of a legacy issue, connected to the annotation tool, which assumes
 that there is an integer identification of CropObjects when annotating
 a single document.)
 
-
-********************************************************************************
-*                                                                              *
-*   CAUTION                                                                    *
-*                                                                              *
-*   The scope of unique identification within MUSCIMA++ is only within         *
-*   a <CropObjectList>. Don't use objid to mix CropObjects from                *
-*   multiple files! Use their uid attribute, which is taken from               *
-*   the <CropObject> element's xml:id.                                         *
-*                                                                              *
-********************************************************************************
+> CAUTION: The scope of unique identification within MUSCIMA++ is only within a `<CropObjectList>`. Don't use objid to mix CropObjects from multiple files! Use their uid attribute, which is taken from the <CropObject> element's xml:id.
 
 
-
-CropObjectClass
-^^^^^^^^^^^^^^^
-
-The list of symbol classes used for MUSCIMA++ 0.9 is provided in
-the specifications/mff-muscima-classes-annot.xml file. See the
+## Classes
+The list of symbol classes used for MUSCIMA++ is provided in
+the `specifications/mff-muscima-classes-annot.xml` file. See the
 muscima.io module documentation for details on the CropObject classes file
 format. (You do not have to worry about this unless you want to perform symbol
 relationship validation.)
 
 
-
-Relationships grammar
-^^^^^^^^^^^^^^^^^^^^^
-
+## Relationships grammar
 The allowed relationships are listed in the file
 specifications/mff-mucsima-classes-annot.deprules. See the
 muscima.grammar module documentation for the *.deprules file format
 details. (You do not have to worry about this unless you want to perform
 symbol relationship validation.)
 
-
-
-Designated test sets
---------------------
+## Designated test sets
 
 In order to promote replicable comparison across experiments, we provide
 two suggested train/test splits: a "writer-independent" split, where
@@ -381,14 +261,12 @@ Both of the test sets contain one instance of each page (so there are
 
 To get the indexes for a test set (in this case, writer-independnet):
 
-  paste <(seq 140) <(ls data/cropobjects/) 
-    | grep -f specifications/testset-independent.txt
-    | cut -f 1
+    paste <(seq 140) <(ls data/cropobjects/) 
+        | grep -f specifications/testset-independent.txt
+        | cut -f 1
 
 
-
-Known issues
-------------
+## Known issues
 
 The MUSCIMA++ dataset is not perfect, as is always the case with extensive
 human-annotated datasets. In the interest of full disclosure and managing
@@ -405,10 +283,7 @@ We hope that this dataset is going to eventually become an OMR community effort,
 with all the bells and whistles -- including co-authorship credit for future
 versions, esp. if you come up with bug-hunting and/or annotation automation.
 
-
-
-Staff removal artifacts
-^^^^^^^^^^^^^^^^^^^^^^^
+### Staff removal artifacts
 
 The CVC-MUSCIMA dataset has had staff lines removed automatically with very high
 accuracy, based on a precise writing and scanning setup (using a standard notation
@@ -417,10 +292,7 @@ errors in staff removal: sometimes, the staff removal algorithm took with it
 some pixels that were also legitimate part of a symbol. This manifests itself
 most frequently with stems.
 
-
-
-Human Errors
-^^^^^^^^^^^^
+### Human Errors
 
 Annotators also might have made mistakes that slipped both through automated
 validation and manual quality control. In automated validation, there is
@@ -438,19 +310,31 @@ other users will be able to benefit from your discoveries as well,
 and keep releasing corrected versions.
 
 
+### UPDATE (0.9.1) 
 
-UPDATE (0.9.1) 
-^^^^^^^^^^^^^^
-
-2017-08-17: Huge thanks to Alexander Pacha 
-(https://www.ims.tuwien.ac.at/people/alexander-pacha) 
+2017-08-17: Huge thanks to [Alexander Pacha](https://alexanderpacha.com) 
 for a thorough look at all the symbols and providing the ERRATA file.
 I’ve fixed the errors he found. [JH]
 
 
+# License
 
-Contact
--------
+The MUSCIMA++ dataset is licensed under the Creative Commons 4.0 Attribution NonCommercial Share-Alike license (CC-BY-NC-SA 4.0). The full text of the license is in the LICENSE file that comes with the dataset.
+
+The attribution requested for MUSCIMA++ is to cite the following ICDAR 2017 article [1]:
+
+[1] Jan Hajič jr. and Pavel Pecina. The MUSCIMA++ Dataset for Handwritten Optical Music Recognition. 14th International Conference on Document Analysis and Recognition, ICDAR 2017. Kyoto, Japan, November 13-15, pp. 39-46, 2017.
+
+And because MUSCIMA++ is a derivative work of CVC-MUSCIMA, we request that you follow the authors’ attribution rules for CVC-MUSCIMA as well, and cite article [2]:
+
+[2] Alicia Fornés, Anjan Dutta, Albert Gordo, Josep Lladós. CVC-MUSCIMA: A Ground-truth of Handwritten Music Score Images for Writer Identification and Staff Removal. International Journal on Document Analysis and Recognition, Volume 15, Issue 3, pp 243-251, 2012. (DOI: 10.1007/s10032-011-0168-2).
+
+Note (2018-01-05): The attribution [1] changed to a peer-reviewed article for MUSCIMA++, from the earlier arXiv.org submission:
+
+[3] Jan Hajič jr., Pavel Pecina. In Search of a Dataset for Handwritten Optical Music Recognition: Introducing MUSCIMA++. CoRR, arXiv:1703.04824, 2017. https://arxiv.org/abs/1703.04824.
+
+
+# Contact
 
 If you wish to contact the authors of this dataset, write to:
 
