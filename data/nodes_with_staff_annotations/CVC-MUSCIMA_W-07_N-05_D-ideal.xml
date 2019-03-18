@@ -122,7 +122,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___12">
         <Id>12</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>286</Top>
         <Left>488</Left>
         <Width>30</Width>
@@ -132,7 +132,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___13">
         <Id>13</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>581</Top>
         <Left>423</Left>
         <Width>26</Width>
@@ -142,7 +142,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___14">
         <Id>14</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>598</Top>
         <Left>496</Left>
         <Width>19</Width>
@@ -152,7 +152,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___15">
         <Id>15</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>609</Top>
         <Left>557</Left>
         <Width>24</Width>
@@ -162,7 +162,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___16">
         <Id>16</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>634</Top>
         <Left>638</Left>
         <Width>14</Width>
@@ -172,7 +172,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___17">
         <Id>17</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>631</Top>
         <Left>715</Left>
         <Width>22</Width>
@@ -182,7 +182,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___18">
         <Id>18</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>581</Top>
         <Left>824</Left>
         <Width>25</Width>
@@ -192,7 +192,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___19">
         <Id>19</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>596</Top>
         <Left>912</Left>
         <Width>26</Width>
@@ -202,7 +202,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___20">
         <Id>20</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>302</Top>
         <Left>598</Left>
         <Width>24</Width>
@@ -212,7 +212,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___21">
         <Id>21</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>318</Top>
         <Left>676</Left>
         <Width>22</Width>
@@ -222,7 +222,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___22">
         <Id>22</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>319</Top>
         <Left>749</Left>
         <Width>29</Width>
@@ -232,7 +232,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___23">
         <Id>23</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>301</Top>
         <Left>887</Left>
         <Width>29</Width>
@@ -675,7 +675,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___68">
         <Id>68</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>700</Top>
         <Left>481</Left>
         <Width>28</Width>
@@ -685,7 +685,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___69">
         <Id>69</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>726</Top>
         <Left>649</Left>
         <Width>29</Width>
@@ -695,7 +695,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___70">
         <Id>70</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>700</Top>
         <Left>737</Left>
         <Width>26</Width>
@@ -705,7 +705,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___71">
         <Id>71</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>715</Top>
         <Left>806</Left>
         <Width>23</Width>
@@ -715,7 +715,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___72">
         <Id>72</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>731</Top>
         <Left>861</Left>
         <Width>27</Width>
@@ -725,7 +725,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___73">
         <Id>73</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>713</Top>
         <Left>946</Left>
         <Width>25</Width>
@@ -1137,7 +1137,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___114">
         <Id>114</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>289</Top>
         <Left>1061</Left>
         <Width>27</Width>
@@ -1147,7 +1147,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___115">
         <Id>115</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>301</Top>
         <Left>1173</Left>
         <Width>26</Width>
@@ -1157,7 +1157,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___116">
         <Id>116</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>317</Top>
         <Left>1254</Left>
         <Width>29</Width>
@@ -1167,7 +1167,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___117">
         <Id>117</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>331</Top>
         <Left>1371</Left>
         <Width>28</Width>
@@ -1177,7 +1177,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___118">
         <Id>118</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>287</Top>
         <Left>1526</Left>
         <Width>32</Width>
@@ -1187,7 +1187,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___119">
         <Id>119</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>595</Top>
         <Left>1080</Left>
         <Width>28</Width>
@@ -1197,7 +1197,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___120">
         <Id>120</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>711</Top>
         <Left>1031</Left>
         <Width>28</Width>
@@ -1207,7 +1207,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___121">
         <Id>121</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>713</Top>
         <Left>1101</Left>
         <Width>25</Width>
@@ -1217,7 +1217,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___122">
         <Id>122</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>727</Top>
         <Left>1148</Left>
         <Width>31</Width>
@@ -1227,7 +1227,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___123">
         <Id>123</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>630</Top>
         <Left>1170</Left>
         <Width>24</Width>
@@ -1237,7 +1237,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___124">
         <Id>124</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>743</Top>
         <Left>1269</Left>
         <Width>25</Width>
@@ -1247,7 +1247,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___125">
         <Id>125</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>743</Top>
         <Left>1344</Left>
         <Width>28</Width>
@@ -1257,7 +1257,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___126">
         <Id>126</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>624</Top>
         <Left>1280</Left>
         <Width>29</Width>
@@ -1267,7 +1267,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___127">
         <Id>127</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>642</Top>
         <Left>1344</Left>
         <Width>20</Width>
@@ -1277,7 +1277,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___128">
         <Id>128</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>636</Top>
         <Left>1406</Left>
         <Width>22</Width>
@@ -1287,7 +1287,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___129">
         <Id>129</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>655</Top>
         <Left>1476</Left>
         <Width>24</Width>
@@ -1297,7 +1297,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___130">
         <Id>130</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>741</Top>
         <Left>1480</Left>
         <Width>26</Width>
@@ -1307,7 +1307,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___131">
         <Id>131</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>803</Top>
         <Left>1729</Left>
         <Width>27</Width>
@@ -1317,7 +1317,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___132">
         <Id>132</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>583</Top>
         <Left>1727</Left>
         <Width>29</Width>
@@ -1848,7 +1848,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___185">
         <Id>185</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>344</Top>
         <Left>1739</Left>
         <Width>25</Width>
@@ -1858,7 +1858,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___186">
         <Id>186</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>328</Top>
         <Left>1815</Left>
         <Width>27</Width>
@@ -1868,7 +1868,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___187">
         <Id>187</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>316</Top>
         <Left>1877</Left>
         <Width>22</Width>
@@ -1878,7 +1878,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___188">
         <Id>188</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>307</Top>
         <Left>1953</Left>
         <Width>22</Width>
@@ -1888,7 +1888,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___189">
         <Id>189</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>288</Top>
         <Left>2031</Left>
         <Width>28</Width>
@@ -1898,7 +1898,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___190">
         <Id>190</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>581</Top>
         <Left>1819</Left>
         <Width>28</Width>
@@ -1908,7 +1908,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___191">
         <Id>191</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>570</Top>
         <Left>1897</Left>
         <Width>25</Width>
@@ -1918,7 +1918,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___192">
         <Id>192</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>550</Top>
         <Left>1998</Left>
         <Width>25</Width>
@@ -1928,7 +1928,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___193">
         <Id>193</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>565</Top>
         <Left>2064</Left>
         <Width>20</Width>
@@ -1938,7 +1938,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___194">
         <Id>194</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>583</Top>
         <Left>2122</Left>
         <Width>26</Width>
@@ -1948,7 +1948,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___195">
         <Id>195</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>596</Top>
         <Left>2242</Left>
         <Width>22</Width>
@@ -1958,7 +1958,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___196">
         <Id>196</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>726</Top>
         <Left>1839</Left>
         <Width>34</Width>
@@ -1968,7 +1968,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___197">
         <Id>197</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>726</Top>
         <Left>1949</Left>
         <Width>28</Width>
@@ -1978,7 +1978,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___198">
         <Id>198</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>742</Top>
         <Left>2053</Left>
         <Width>28</Width>
@@ -1988,7 +1988,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___199">
         <Id>199</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>758</Top>
         <Left>2103</Left>
         <Width>26</Width>
@@ -1998,7 +1998,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___200">
         <Id>200</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>772</Top>
         <Left>2176</Left>
         <Width>34</Width>
@@ -2388,7 +2388,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___239">
         <Id>239</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>287</Top>
         <Left>2190</Left>
         <Width>33</Width>
@@ -2448,7 +2448,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___245">
         <Id>245</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>298</Top>
         <Left>2413</Left>
         <Width>29</Width>
@@ -2458,7 +2458,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___246">
         <Id>246</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>287</Top>
         <Left>2495</Left>
         <Width>27</Width>
@@ -2468,7 +2468,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___247">
         <Id>247</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>269</Top>
         <Left>2556</Left>
         <Width>27</Width>
@@ -2478,7 +2478,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___248">
         <Id>248</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>254</Top>
         <Left>2683</Left>
         <Width>28</Width>
@@ -2488,7 +2488,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___249">
         <Id>249</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>240</Top>
         <Left>2784</Left>
         <Width>27</Width>
@@ -2498,7 +2498,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___250">
         <Id>250</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>242</Top>
         <Left>2896</Left>
         <Width>33</Width>
@@ -2508,7 +2508,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___251">
         <Id>251</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>523</Top>
         <Left>2733</Left>
         <Width>25</Width>
@@ -2518,7 +2518,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___252">
         <Id>252</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>543</Top>
         <Left>2804</Left>
         <Width>22</Width>
@@ -2528,7 +2528,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___253">
         <Id>253</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>552</Top>
         <Left>2861</Left>
         <Width>23</Width>
@@ -2538,7 +2538,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___254">
         <Id>254</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>563</Top>
         <Left>2938</Left>
         <Width>29</Width>
@@ -2548,7 +2548,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___255">
         <Id>255</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>537</Top>
         <Left>2601</Left>
         <Width>29</Width>
@@ -2558,7 +2558,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___256">
         <Id>256</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>608</Top>
         <Left>2405</Left>
         <Width>34</Width>
@@ -2568,7 +2568,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___257">
         <Id>257</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>726</Top>
         <Left>2415</Left>
         <Width>26</Width>
@@ -2578,7 +2578,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___258">
         <Id>258</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>671</Top>
         <Left>2538</Left>
         <Width>27</Width>
@@ -2588,7 +2588,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___259">
         <Id>259</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>696</Top>
         <Left>2665</Left>
         <Width>28</Width>
@@ -2598,7 +2598,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___260">
         <Id>260</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>713</Top>
         <Left>2712</Left>
         <Width>31</Width>
@@ -2608,7 +2608,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___261">
         <Id>261</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>729</Top>
         <Left>2779</Left>
         <Width>22</Width>
@@ -2618,7 +2618,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___262">
         <Id>262</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>740</Top>
         <Left>2844</Left>
         <Width>29</Width>
@@ -3248,7 +3248,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___325">
         <Id>325</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>992</Top>
         <Left>434</Left>
         <Width>30</Width>
@@ -3258,7 +3258,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___326">
         <Id>326</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>994</Top>
         <Left>517</Left>
         <Width>27</Width>
@@ -3268,7 +3268,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___327">
         <Id>327</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1007</Top>
         <Left>594</Left>
         <Width>31</Width>
@@ -3278,7 +3278,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___328">
         <Id>328</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1023</Top>
         <Left>690</Left>
         <Width>27</Width>
@@ -3288,7 +3288,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___329">
         <Id>329</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1025</Top>
         <Left>765</Left>
         <Width>31</Width>
@@ -3298,7 +3298,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___330">
         <Id>330</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1009</Top>
         <Left>930</Left>
         <Width>23</Width>
@@ -3308,7 +3308,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___331">
         <Id>331</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>993</Top>
         <Left>1059</Left>
         <Width>27</Width>
@@ -3318,7 +3318,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___332">
         <Id>332</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1261</Top>
         <Left>437</Left>
         <Width>29</Width>
@@ -3328,7 +3328,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___333">
         <Id>333</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1282</Top>
         <Left>596</Left>
         <Width>29</Width>
@@ -3338,7 +3338,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___334">
         <Id>334</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1258</Top>
         <Left>708</Left>
         <Width>26</Width>
@@ -3348,7 +3348,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___335">
         <Id>335</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1270</Top>
         <Left>785</Left>
         <Width>27</Width>
@@ -3358,7 +3358,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___336">
         <Id>336</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1285</Top>
         <Left>860</Left>
         <Width>29</Width>
@@ -3368,7 +3368,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___337">
         <Id>337</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1415</Top>
         <Left>480</Left>
         <Width>27</Width>
@@ -3378,7 +3378,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___338">
         <Id>338</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1432</Top>
         <Left>555</Left>
         <Width>24</Width>
@@ -3388,7 +3388,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___339">
         <Id>339</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1448</Top>
         <Left>637</Left>
         <Width>31</Width>
@@ -3398,7 +3398,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___340">
         <Id>340</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1464</Top>
         <Left>719</Left>
         <Width>26</Width>
@@ -3408,7 +3408,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___341">
         <Id>341</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1462</Top>
         <Left>794</Left>
         <Width>26</Width>
@@ -3418,7 +3418,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___342">
         <Id>342</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1447</Top>
         <Left>885</Left>
         <Width>31</Width>
@@ -3428,7 +3428,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___343">
         <Id>343</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1301</Top>
         <Left>983</Left>
         <Width>27</Width>
@@ -3438,7 +3438,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___344">
         <Id>344</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1305</Top>
         <Left>1132</Left>
         <Width>23</Width>
@@ -3448,7 +3448,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___345">
         <Id>345</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1273</Top>
         <Left>1218</Left>
         <Width>31</Width>
@@ -3458,7 +3458,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___346">
         <Id>346</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1289</Top>
         <Left>1284</Left>
         <Width>28</Width>
@@ -3468,7 +3468,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___347">
         <Id>347</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1300</Top>
         <Left>1364</Left>
         <Width>30</Width>
@@ -3478,7 +3478,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___348">
         <Id>348</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1509</Top>
         <Left>1112</Left>
         <Width>25</Width>
@@ -3488,7 +3488,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___349">
         <Id>349</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1535</Top>
         <Left>1236</Left>
         <Width>28</Width>
@@ -3498,7 +3498,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___350">
         <Id>350</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1460</Top>
         <Left>1340</Left>
         <Width>26</Width>
@@ -3508,7 +3508,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___351">
         <Id>351</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1463</Top>
         <Left>1430</Left>
         <Width>25</Width>
@@ -3518,7 +3518,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___352">
         <Id>352</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1462</Top>
         <Left>1501</Left>
         <Width>28</Width>
@@ -3528,7 +3528,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___353">
         <Id>353</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1460</Top>
         <Left>1642</Left>
         <Width>27</Width>
@@ -3538,7 +3538,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___354">
         <Id>354</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1726</Top>
         <Left>1424</Left>
         <Width>26</Width>
@@ -3548,7 +3548,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___355">
         <Id>355</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1729</Top>
         <Left>1546</Left>
         <Width>26</Width>
@@ -3558,7 +3558,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___356">
         <Id>356</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1711</Top>
         <Left>1728</Left>
         <Width>32</Width>
@@ -3568,7 +3568,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___357">
         <Id>357</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1493</Top>
         <Left>1737</Left>
         <Width>29</Width>
@@ -3578,7 +3578,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___358">
         <Id>358</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1493</Top>
         <Left>1791</Left>
         <Width>25</Width>
@@ -3588,7 +3588,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___359">
         <Id>359</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1503</Top>
         <Left>1870</Left>
         <Width>27</Width>
@@ -3598,7 +3598,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___360">
         <Id>360</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1300</Top>
         <Left>1443</Left>
         <Width>29</Width>
@@ -3608,7 +3608,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___361">
         <Id>361</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1298</Top>
         <Left>1567</Left>
         <Width>28</Width>
@@ -3618,7 +3618,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___362">
         <Id>362</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1311</Top>
         <Left>1734</Left>
         <Width>34</Width>
@@ -3628,7 +3628,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___363">
         <Id>363</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1297</Top>
         <Left>1809</Left>
         <Width>30</Width>
@@ -3638,7 +3638,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___364">
         <Id>364</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1282</Top>
         <Left>1888</Left>
         <Width>29</Width>
@@ -3648,7 +3648,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___365">
         <Id>365</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1271</Top>
         <Left>1974</Left>
         <Width>28</Width>
@@ -3658,7 +3658,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___366">
         <Id>366</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1255</Top>
         <Left>2058</Left>
         <Width>33</Width>
@@ -3668,7 +3668,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___367">
         <Id>367</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1287</Top>
         <Left>2200</Left>
         <Width>24</Width>
@@ -3678,7 +3678,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___368">
         <Id>368</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1517</Top>
         <Left>1956</Left>
         <Width>29</Width>
@@ -3688,7 +3688,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___369">
         <Id>369</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1462</Top>
         <Left>2131</Left>
         <Width>23</Width>
@@ -3698,7 +3698,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___370">
         <Id>370</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1726</Top>
         <Left>1828</Left>
         <Width>28</Width>
@@ -3708,7 +3708,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___371">
         <Id>371</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1740</Top>
         <Left>1913</Left>
         <Width>26</Width>
@@ -3718,7 +3718,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___372">
         <Id>372</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1755</Top>
         <Left>1994</Left>
         <Width>29</Width>
@@ -3728,7 +3728,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___373">
         <Id>373</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1647</Top>
         <Left>2199</Left>
         <Width>28</Width>
@@ -3738,7 +3738,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___374">
         <Id>374</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1725</Top>
         <Left>1024</Left>
         <Width>31</Width>
@@ -3748,7 +3748,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___375">
         <Id>375</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1710</Top>
         <Left>938</Left>
         <Width>34</Width>
@@ -3758,7 +3758,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___376">
         <Id>376</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1697</Top>
         <Left>865</Left>
         <Width>26</Width>
@@ -3768,7 +3768,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___377">
         <Id>377</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1681</Top>
         <Left>728</Left>
         <Width>29</Width>
@@ -3778,7 +3778,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___378">
         <Id>378</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1683</Top>
         <Left>486</Left>
         <Width>29</Width>
@@ -3788,7 +3788,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___379">
         <Id>379</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1682</Top>
         <Left>649</Left>
         <Width>23</Width>
@@ -4898,7 +4898,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___490">
         <Id>490</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1010</Top>
         <Left>1167</Left>
         <Width>25</Width>
@@ -4908,7 +4908,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___491">
         <Id>491</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1025</Top>
         <Left>1236</Left>
         <Width>27</Width>
@@ -4918,7 +4918,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___492">
         <Id>492</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1037</Top>
         <Left>1301</Left>
         <Width>32</Width>
@@ -4928,7 +4928,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___493">
         <Id>493</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1038</Top>
         <Left>1379</Left>
         <Width>29</Width>
@@ -4938,7 +4938,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___494">
         <Id>494</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>991</Top>
         <Left>1536</Left>
         <Width>25</Width>
@@ -4948,7 +4948,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___495">
         <Id>495</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1050</Top>
         <Left>1730</Left>
         <Width>32</Width>
@@ -4958,7 +4958,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___496">
         <Id>496</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1036</Top>
         <Left>1812</Left>
         <Width>30</Width>
@@ -4968,7 +4968,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___497">
         <Id>497</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1022</Top>
         <Left>1880</Left>
         <Width>28</Width>
@@ -4978,7 +4978,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___498">
         <Id>498</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1006</Top>
         <Left>1971</Left>
         <Width>33</Width>
@@ -4988,7 +4988,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___499">
         <Id>499</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>991</Top>
         <Left>2070</Left>
         <Width>31</Width>
@@ -4998,7 +4998,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___500">
         <Id>500</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>990</Top>
         <Left>2211</Left>
         <Width>27</Width>
@@ -5468,7 +5468,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___547">
         <Id>547</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1005</Top>
         <Left>2410</Left>
         <Width>30</Width>
@@ -5478,7 +5478,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___548">
         <Id>548</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>995</Top>
         <Left>2498</Left>
         <Width>28</Width>
@@ -5488,7 +5488,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___549">
         <Id>549</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>977</Top>
         <Left>2587</Left>
         <Width>28</Width>
@@ -5498,7 +5498,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___550">
         <Id>550</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>965</Top>
         <Left>2743</Left>
         <Width>29</Width>
@@ -5508,7 +5508,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___551">
         <Id>551</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>946</Top>
         <Left>2845</Left>
         <Width>33</Width>
@@ -5518,7 +5518,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___552">
         <Id>552</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>947</Top>
         <Left>2938</Left>
         <Width>36</Width>
@@ -5528,7 +5528,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___553">
         <Id>553</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1276</Top>
         <Left>2889</Left>
         <Width>28</Width>
@@ -5538,7 +5538,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___554">
         <Id>554</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1286</Top>
         <Left>2716</Left>
         <Width>32</Width>
@@ -5548,7 +5548,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___555">
         <Id>555</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1270</Top>
         <Left>2618</Left>
         <Width>32</Width>
@@ -5558,7 +5558,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___556">
         <Id>556</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1283</Top>
         <Left>2513</Left>
         <Width>33</Width>
@@ -5568,7 +5568,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___557">
         <Id>557</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1287</Top>
         <Left>2408</Left>
         <Width>35</Width>
@@ -5578,7 +5578,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___558">
         <Id>558</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1444</Top>
         <Left>2424</Left>
         <Width>29</Width>
@@ -5588,7 +5588,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___559">
         <Id>559</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1460</Top>
         <Left>2507</Left>
         <Width>30</Width>
@@ -5598,7 +5598,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___560">
         <Id>560</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1475</Top>
         <Left>2605</Left>
         <Width>28</Width>
@@ -5608,7 +5608,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___561">
         <Id>561</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1461</Top>
         <Left>2711</Left>
         <Width>28</Width>
@@ -5618,7 +5618,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___562">
         <Id>562</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1443</Top>
         <Left>2876</Left>
         <Width>33</Width>
@@ -5628,7 +5628,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___563">
         <Id>563</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1636</Top>
         <Left>2407</Left>
         <Width>32</Width>
@@ -5638,7 +5638,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___564">
         <Id>564</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1652</Top>
         <Left>2497</Left>
         <Width>25</Width>
@@ -5648,7 +5648,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___565">
         <Id>565</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1668</Top>
         <Left>2589</Left>
         <Width>30</Width>
@@ -5658,7 +5658,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___566">
         <Id>566</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1650</Top>
         <Left>2685</Left>
         <Width>32</Width>
@@ -5668,7 +5668,7 @@
     </Node>
     <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-07_N-05_D-ideal___567">
         <Id>567</Id>
-        <ClassName>notehead-full</ClassName>
+        <ClassName>noteheadFull</ClassName>
         <Top>1638</Top>
         <Left>2866</Left>
         <Width>27</Width>
