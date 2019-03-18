@@ -68,9 +68,9 @@ The dataset package has the following structure:
     +--+ MUSCIMA-pp_v1.0/
        |
        +--+ data/                               ... Contains the data files.
-       |  +--+ nodes_manual/              ... Contains the annotation files without automatically
+       |  +--+ nodes_manual/                    ... Contains the annotation files without automatically
        |  |                                         extracted staff objects and their relationships.
-       |  +--+ nodes_withstaff/           ... Contains the annotation files enriched by staff objects,
+       |  +--+ nodes_withstaff/                 ... Contains the annotation files enriched by staff objects,
        |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
        |  |                                         using scripts from the ``muscima’’ package.
        |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
@@ -141,18 +141,18 @@ and the number of the Node within the given NodeList
 
 ### Individual elements of a `<Node>`
 
-* <Id> is the integer ID of the Node inside a given
+* **Id** is the integer ID of the Node inside a given
   <NodeList> (which generally corresponds to one XML file
   of Nodes -- see below for unique ID policy and dataset namespaces).
-* <ClassName> is the name of the object's class (such as
+* **ClassName** is the name of the object's class (such as
   notehead-full, beam, numeral_3, etc.).
-* <Top> is the vertical coordinate of the upper left corner of the object's
+* **Top** is the vertical coordinate of the upper left corner of the object's
   bounding box.
-* <Left> is the horizontal coordinate of the upper left corner of
+* **Left** is the horizontal coordinate of the upper left corner of
   the object's bounding box.
-* <Width>: the width of the symbol
-* <Height>: the height of the symbol
-* <Mask>: a run-length-encoded binary (0/1) array that denotes the area
+* **Width**: the width of the symbol
+* **Height**: the height of the symbol
+* **Mask**: a run-length-encoded binary (0/1) array that denotes the area
   within the Node's bounding box (specified by top, left,
   height and width) that the Node actually occupies. If
   the mask is not given, the object is understood to occupy the entire
@@ -162,14 +162,14 @@ and the number of the Node within the given NodeList
   in the C order, using the flatten() method of numpy
   arrays. (The mask lines might get quite long, but e.g. the lxml library
   has no problems with parsing them.)
-* <Inlinks>: whitespace-separated objid list, representing Nodes
+* **Inlinks**: whitespace-separated objid list, representing Nodes
   **from** which a relationship leads to this Node. (Relationships are
   directed edges, forming a directed graph of Nodes.) The objids are
   valid in the same scope as the Node's objid: don't mix
   Nodes from multiple scopes (e.g., multiple NodeLists)!
   If you are using Nodes from multiple NodeLists at the same
   time, make sure to check against the uid.
-* <Outlinks>: whitespace-separate objid list, representing Nodes
+* **Outlinks**: whitespace-separate objid list, representing Nodes
   **to** which a relationship leads to this Node. (Relationships are
   directed edges, forming a directed graph of Nodes.) The objids are
   valid in the same scope as the Node's objid: don't mix
