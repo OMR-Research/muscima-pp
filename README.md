@@ -50,7 +50,7 @@ is not well-defined, and what is traditionally considered a “note” graphical
 object does not map well onto the musical concept of a “note” with a pitch, 
 duration, amplitude, and timbre. Instead of defining graphical note objects, 
 we define relationships between notation primitives, so that the musical notes 
-can be deterministically reconstructed. Notehead primitives (notehead-full, 
+can be deterministically reconstructed. Notehead primitives (noteheadFull, 
 notehead-empty, and their grace note counterparts) should provide a 1:1 interface 
 to major notation semantics representations such as MusicXML or MEI.
 
@@ -143,7 +143,7 @@ and the number of the Node within the given NodeList
   <NodeList> (which generally corresponds to one XML file
   of Nodes -- see below for unique ID policy and dataset namespaces).
 * **ClassName** is the name of the object's class (such as
-  notehead-full, beam, numeral_3, etc.).
+  noteheadFull, beam, numeral_3, etc.).
 * **Top** is the vertical coordinate of the upper left corner of the object's
   bounding box.
 * **Left** is the horizontal coordinate of the upper left corner of

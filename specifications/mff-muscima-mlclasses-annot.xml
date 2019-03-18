@@ -2,8 +2,8 @@
 <NodeClasses noNamespaceSchema="mff-muscima-mlclasses.xsd">
     <NodeClass>
         <Id>0</Id>
-        <Name>notehead-full</Name>
-        <GroupName>note-primitive/notehead-full</GroupName>
+        <Name>noteheadFull</Name>
+        <GroupName>note-primitive/noteheadFull</GroupName>
         <Color>#FF6666</Color>
     </NodeClass>
     <NodeClass>
