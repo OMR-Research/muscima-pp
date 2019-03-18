@@ -68,9 +68,9 @@ The dataset package has the following structure:
     +--+ MUSCIMA-pp_v1.0/
        |
        +--+ data/                               ... Contains the data files.
-       |  +--+ nodes_manual/                    ... Contains the annotation files without automatically
+       |  +--+ nodes_without_staff_annotations/ ... Contains the annotation files without automatically
        |  |                                         extracted staff objects and their relationships.
-       |  +--+ nodes_withstaff/                 ... Contains the annotation files enriched by staff objects,
+       |  +--+ nodes_with_staff_annotations/    ... Contains the annotation files enriched by staff objects,
        |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
        |  |                                         using scripts from the ``muscima’’ package.
        |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
@@ -88,7 +88,7 @@ The dataset package has the following structure:
        |  +-—- testset-independent.txt                  ... List of writer-dependent test set images.
        |                                                    (Test set handwriting never seen in training set.)
        | 
-       +--- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine 
+       +--- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine) 
        |                                            unless you want to make money off of this data).
        +--- ERRATA.txt                          ... File which lists errors in the data and their corrections. 
        +--- README.md                           ... This file.
@@ -115,15 +115,13 @@ The data itself is inside <Node> elements:
 The Nodes are themselves kept as a list, which is the top-level
 element in the data files:
 
-    <NodeList>
-      <Nodes>
+    <Nodes>
         <Node xml:id="..."> ... </Node>
         <Node xml:id="..."> ... </Node>
-      </Nodes>
-    </NodeList>
+    </Nodes>
 
 
->   NOTE: Parsing (muscima.io.parse_Node_list()) is only implemented for files that consist of a single `<NodeList>`.
+>   NOTE: Parsing (muscima.io.parse_nodes_list()) is only implemented for files that consist of a single `<Nodes>` list.
 
 
 The value of the xml:id attribute of the <Node> element
