@@ -13,7 +13,21 @@ def upgrade_xml_file(element_tree: ElementTree) -> ElementTree:
 
     class_mapping = {"notehead-full": "noteheadFull",
                      "grace-notehead-full": "noteheadFullSmall",
-                     "grace-notehead-empty": "noteheadHalfSmall"
+                     "grace-notehead-empty": "noteheadHalfSmall",
+                     "duration-dot": "augmentationDot",
+                     "sharp": "accidentalSharp",
+                     "flat": "accidentalFlat",
+                     "natural": "accidentalNatural",
+                     "double_sharp": "accidentalDoubleSharp",
+                     "double_flat": "accidentalDoubleFlat",
+                     "whole_rest": "restWhole",
+                     "half_rest": "restHalf",
+                     "quarter_rest": "restQuarter",
+                     "8th_rest": "rest8th",
+                     "16th_rest": "rest16th",
+                     "32th_rest": "rest32nd",
+                     "multiMeasureRest": "multiMeasureRest",
+                     "ledger_line": "legerLine",
                      }
 
     for crop_object in element_tree.findall("*/CropObject"):

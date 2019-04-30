@@ -50,86 +50,86 @@
     </NodeClass>
     <NodeClass>
         <Id>8</Id>
-        <Name>duration-dot</Name>
-        <GroupName>note-primitive/duration-dot</GroupName>
+        <Name>augmentationDot</Name>
+        <GroupName>note-primitive/augmentationDot</GroupName>
         <Color>#FFE266</Color>
     </NodeClass>
     <NodeClass>
         <Id>9</Id>
-        <Name>sharp</Name>
-        <GroupName>note-primitive/sharp</GroupName>
+        <Name>accidentalSharp</Name>
+        <GroupName>note-primitive/accidentalSharp</GroupName>
         <Color>#FFF266</Color>
     </NodeClass>
     <NodeClass>
         <Id>10</Id>
-        <Name>flat</Name>
-        <GroupName>note-primitive/flat</GroupName>
+        <Name>accidentalFlat</Name>
+        <GroupName>note-primitive/accidentalFlat</GroupName>
         <Color>#FBFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>11</Id>
-        <Name>natural</Name>
-        <GroupName>note-primitive/natural</GroupName>
+        <Name>accidentalNatural</Name>
+        <GroupName>note-primitive/accidentalNatural</GroupName>
         <Color>#ECFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>12</Id>
-        <Name>double_sharp</Name>
-        <GroupName>note-primitive/double_sharp</GroupName>
+        <Name>accidentalDoubleSharp</Name>
+        <GroupName>note-primitive/accidentalDoubleSharp</GroupName>
         <Color>#DCFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>13</Id>
-        <Name>double_flat</Name>
-        <GroupName>note-primitive/double_flat</GroupName>
+        <Name>accidentalDoubleFlat</Name>
+        <GroupName>note-primitive/accidentalDoubleFlat</GroupName>
         <Color>#CDFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>14</Id>
-        <Name>whole_rest</Name>
-        <GroupName>note-primitive/whole_rest</GroupName>
+        <Name>restWhole</Name>
+        <GroupName>note-primitive/restWhole</GroupName>
         <Color>#BDFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>15</Id>
-        <Name>half_rest</Name>
-        <GroupName>note-primitive/half_rest</GroupName>
+        <Name>restHalf</Name>
+        <GroupName>note-primitive/restHalf</GroupName>
         <Color>#ADFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>16</Id>
-        <Name>quarter_rest</Name>
-        <GroupName>note-primitive/quarter_rest</GroupName>
+        <Name>restQuarter</Name>
+        <GroupName>note-primitive/restQuarter</GroupName>
         <Color>#9EFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>17</Id>
-        <Name>8th_rest</Name>
-        <GroupName>note-primitive/8th_rest</GroupName>
+        <Name>rest8th</Name>
+        <GroupName>note-primitive/rest8th</GroupName>
         <Color>#8EFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>18</Id>
-        <Name>16th_rest</Name>
-        <GroupName>note-primitive/16th_rest</GroupName>
+        <Name>rest16th</Name>
+        <GroupName>note-primitive/rest16th</GroupName>
         <Color>#7FFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>19</Id>
-        <Name>32th_rest</Name>
-        <GroupName>note-primitive/32th_rest</GroupName>
+        <Name>rest32nd</Name>
+        <GroupName>note-primitive/rest32nd</GroupName>
         <Color>#6FFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>20</Id>
-        <Name>64th_and_higher_rest</Name>
-        <GroupName>note-primitive/64th_and_higher_rest</GroupName>
+        <Name>rest64th</Name>
+        <GroupName>note-primitive/rest64th</GroupName>
         <Color>#66FF6C</Color>
     </NodeClass>
     <NodeClass>
         <Id>21</Id>
-        <Name>multi-measure_rest</Name>
-        <GroupName>note-primitive/multi-measure_rest</GroupName>
+        <Name>multiMeasureRest</Name>
+        <GroupName>note-primitive/multiMeasureRest</GroupName>
         <Color>#66FF7B</Color>
     </NodeClass>
     <NodeClass>
@@ -140,8 +140,8 @@
     </NodeClass>
     <NodeClass>
         <Id>23</Id>
-        <Name>ledger_line</Name>
-        <GroupName>note-primitive/ledger_line</GroupName>
+        <Name>legerLine</Name>
+        <GroupName>note-primitive/legerLine</GroupName>
         <Color>#66FF9A</Color>
     </NodeClass>
     <NodeClass>
