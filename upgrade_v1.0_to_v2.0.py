@@ -12,8 +12,8 @@ def upgrade_xml_file(element_tree: ElementTree) -> ElementTree:
                                      "xmlns:xsd": "http://www.w3.org/2001/XMLSchema"})
 
     class_mapping = {"notehead-full": "noteheadFull",
-                     "grace-notehead-full": "grace-noteheadFull",
-
+                     "grace-notehead-full": "noteheadFullSmall",
+                     "grace-notehead-empty": "noteheadHalfSmall"
                      }
 
     for crop_object in element_tree.findall("*/CropObject"):

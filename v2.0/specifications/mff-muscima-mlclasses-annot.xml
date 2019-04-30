@@ -152,14 +152,14 @@
     </NodeClass>
     <NodeClass>
         <Id>25</Id>
-        <Name>grace-notehead-full</Name>
-        <GroupName>note-primitive/grace-notehead-full</GroupName>
+        <Name>noteheadFullSmall</Name>
+        <GroupName>note-primitive/noteheadFullSmall</GroupName>
         <Color>#66FFBA</Color>
     </NodeClass>
     <NodeClass>
         <Id>26</Id>
-        <Name>grace-notehead-empty</Name>
-        <GroupName>note-primitive/grace-notehead-empty</GroupName>
+        <Name>noteheadHalfSmall</Name>
+        <GroupName>note-primitive/noteheadHalfSmall</GroupName>
         <Color>#66FFC9</Color>
     </NodeClass>
     <NodeClass>

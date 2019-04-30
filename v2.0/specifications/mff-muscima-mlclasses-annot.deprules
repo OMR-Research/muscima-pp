@@ -6,26 +6,27 @@ This is the dependency grammar for the default annotations symbols.
 # Notes and grace notes
 # (no notehead-to-text attachment)
 
-notehead-* grace-notehead-* | sharp flat natural double_sharp double_flat ledger_line stem
-notehead-* grace-notehead-* | duration-dot
-noteheadFull grace-notehead-full | *_flag beam
+notehead* | sharp flat natural double_sharp double_flat ledger_line stem
+notehead* | duration-dot
+noteheadFull* | *_flag beam
 
-notehead-* grace-notehead-* | staccato-dot other-dot tenuto accent strong_accent
-notehead-* grace-notehead-* | curved-line_(tie-or-slur) slur tie hairpin-cresc. hairpin-decr.
-notehead-* grace-notehead-* | ornament(s)
-notehead-* grace-notehead-* | trill_"wobble" trill arpeggio_"wobble" glissando fermata
-notehead-* grace-notehead-* | tuple
-notehead-* grace-notehead-* | instrument_specific
+notehead* | staccato-dot other-dot tenuto accent strong_accent
+notehead* | curved-line_(tie-or-slur) slur tie hairpin-cresc. hairpin-decr.
+notehead* | ornament(s)
+notehead* | trill_"wobble" trill arpeggio_"wobble" glissando fermata
+notehead* | tuple
+notehead* | instrument_specific
 
-noteheadFull | grace-notehead-full grace-notehead-empty
-notehead-empty | grace-notehead-full grace-notehead-empty
+noteheadFull | noteheadFullSmall noteheadHalfSmall
+notehead-empty | noteheadFullSmall noteheadHalfSmall
 
 # Aggregate cardinalities
 
 noteheadFull{1,} |
-grace-notehead-full{1,} |
+noteheadFullSmall{1,} |
 
-| grace-notehead-*{1,}
+| noteheadFullSmall{1,}
+| noteheadHalfSmall{1,}
 | beam{1,} stem{1,}
 | duration-dot{1,} other-dot{1,} tenuto{1,} accent{1,} strong_accent{1,}
 | sharp{1,} flat{1,} natural{1,} double_sharp{1,} double_flat{1,}
@@ -142,7 +143,7 @@ other_numeric_sign | numeral_* other-dot letter_other
 *_text | continuation/connection_dash
 
 # Figured bass is attached to noteheads
-notehead-* | figured_bass_text
+notehead* | figured_bass_text
 
 *_text{1,} |
 rehearsal_mark{1,} |
