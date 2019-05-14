@@ -7,78 +7,131 @@ import xml.dom.minidom
 from muscima.cropobject import CropObject
 from muscima.io import parse_cropobject_list
 from tqdm import tqdm
-from typing import List, Dict
+from typing import List, Dict, Union
+
+CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
+                      "grace-notehead-full": "noteheadFullSmall",
+                      "grace-notehead-empty": "noteheadHalfSmall",
+                      "duration-dot": "augmentationDot",
+                      "sharp": "accidentalSharp",
+                      "flat": "accidentalFlat",
+                      "natural": "accidentalNatural",
+                      "double_sharp": "accidentalDoubleSharp",
+                      "double_flat": "accidentalDoubleFlat",
+                      "whole_rest": "restWhole",
+                      "half_rest": "restHalf",
+                      "quarter_rest": "restQuarter",
+                      "8th_rest": "rest8th",
+                      "16th_rest": "rest16th",
+                      "32th_rest": "rest32nd",
+                      "multiMeasureRest": "multiMeasureRest",
+                      "ledger_line": "legerLine",
+                      }
+
+UPWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thUp",
+                             "16th_flag": "flag16thUp",
+                             "32th_flag": "flag32ndUp",
+                             "64th_and_higher_flag": "flag64thUp",
+                             }
+DOWNWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thDown",
+                               "16th_flag": "flag16thDown",
+                               "32th_flag": "flag32ndDown",
+                               "64th_and_higher_flag": "flag64thDown",
+                               }
 
 
 def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) -> ElementTree:
     nodes = Element("Nodes", attrib={'xmlns:xsi': "http://www.w3.org/2001/XMLSchema-instance",
                                      "xsi:noNamespaceSchemaLocation": "CVC-MUSCIMA_Schema.xsd"})
 
-    class_mapping = {"notehead-full": "noteheadFull",
-                     "grace-notehead-full": "noteheadFullSmall",
-                     "grace-notehead-empty": "noteheadHalfSmall",
-                     "duration-dot": "augmentationDot",
-                     "sharp": "accidentalSharp",
-                     "flat": "accidentalFlat",
-                     "natural": "accidentalNatural",
-                     "double_sharp": "accidentalDoubleSharp",
-                     "double_flat": "accidentalDoubleFlat",
-                     "whole_rest": "restWhole",
-                     "half_rest": "restHalf",
-                     "quarter_rest": "restQuarter",
-                     "8th_rest": "rest8th",
-                     "16th_rest": "rest16th",
-                     "32th_rest": "rest32nd",
-                     "multiMeasureRest": "multiMeasureRest",
-                     "ledger_line": "legerLine",
-                     }
-
     id_to_cropobject_mapping = {o.objid: o for o in crop_objects}  # type: Dict[int, CropObject]
 
     for crop_object_node in element_tree.findall("*/CropObject"):
         # Copy all values from an existing crop-object
         node = deepcopy(crop_object_node)  # type: Element
-
-        remove_xml_namespace_before_id_attribute(node)
-
-        # Rename CropObject -> Node
-        node.tag = "Node"
-        id = None
-        for child in node:
-            # Remove the leading ML prefix from MLClassName, in case it still exists
-            if child.tag == "MLClassName":
-                child.tag = "ClassName"
-
-            # Map classes to new names
-            if child.tag == "ClassName":
-                if child.text in class_mapping:
-                    child.text = class_mapping[child.text]
-
-            if child.tag == "Id":
-                id = int(child.text)
-
-        # Split notehead-empty into noteheadHalf or noteheadWhole
+        id = int(node.find("Id").text)
         crop_object = id_to_cropobject_mapping[id]
+
+        node = remove_xml_namespace_before_id_attribute(node)
+        node = rename_CropObject_to_Node(node)
+        node = rename_MLClassName_to_ClassName(node)
+        node = map_class_to_new_name(node)
+
         if crop_object.clsname == "notehead-empty":
-            notehead_has_a_stem_attached = False
-            for outgoing_object in crop_object.get_outlink_objects(crop_objects):  # type: CropObject
-                if outgoing_object.clsname == "stem":
-                    notehead_has_a_stem_attached = True
+            node = split_notehead_empty_into_notheadHalf_or_noteheadWhole(node, crop_object, crop_objects)
 
-            if notehead_has_a_stem_attached:
-                node.find("ClassName").text = "noteheadHalf"
-            else:
-                node.find("ClassName").text = "noteheadWhole"
+        if "_flag" in crop_object.clsname:
+            node = split_flag_into_flagUp_or_flagDown(node, crop_object, crop_objects)
 
-        nodes.append(node)
+        if node is not None:
+            nodes.append(node)
 
     return ElementTree(nodes)
+
+
+def rename_CropObject_to_Node(node):
+    node.tag = "Node"
+    return node
+
+
+def rename_MLClassName_to_ClassName(node):
+    """ Removes the leading ML prefix from MLClassName, in case it still exists """
+    for child in node:
+        if child.tag == "MLClassName":
+            child.tag = "ClassName"
+    return node
+
+
+def map_class_to_new_name(node):
+    for child in node:
+        if child.tag == "ClassName":
+            if child.text in CLASS_NAME_MAPPING:
+                child.text = CLASS_NAME_MAPPING[child.text]
+    return node
+
+
+def split_notehead_empty_into_notheadHalf_or_noteheadWhole(node: Element, notehead_empty: CropObject,
+                                                           crop_objects: List[CropObject]) -> Element:
+    notehead_has_a_stem_attached = False
+    for outgoing_object in notehead_empty.get_outlink_objects(crop_objects):  # type: CropObject
+        if outgoing_object.clsname == "stem":
+            notehead_has_a_stem_attached = True
+
+    if notehead_has_a_stem_attached:
+        node.find("ClassName").text = "noteheadHalf"
+    else:
+        node.find("ClassName").text = "noteheadWhole"
+    return node
+
+
+def split_flag_into_flagUp_or_flagDown(node: Element, flag: CropObject,
+                                       crop_objects: List[CropObject]) -> Union[None, Element]:
+    center_of_flag = flag.top + (flag.bottom - flag.top) / 2.0
+
+    flag_converted_successfully = False
+    for outgoing_object in flag.get_inlink_objects(crop_objects):  # type: CropObject
+        if "notehead" in outgoing_object.clsname:
+            center_of_notehead = outgoing_object.top + (outgoing_object.bottom - outgoing_object.top) / 2.0
+            flag_converted_successfully = True
+            if center_of_flag < center_of_notehead:
+                node.find("ClassName").text = UPWARDS_FLAG_NAME_MAPPING[node.find("ClassName").text]
+                break
+            else:
+                node.find("ClassName").text = DOWNWARDS_FLAG_NAME_MAPPING[node.find("ClassName").text]
+                break
+
+    if not flag_converted_successfully:
+        print("Found a flag that is not attached to any notehead and thus could not be converted. "
+              "Skipping object (will not be included in the output). Id {0}".format(flag.uid))
+        return None
+    return node
 
 
 def remove_xml_namespace_before_id_attribute(node):
     uid = node.attrib["{http://www.w3.org/XML/1998/namespace}id"]
     node.attrib.pop("{http://www.w3.org/XML/1998/namespace}id")
     node.attrib["id"] = uid
+    return node
 
 
 def prettify_xml_file(path):

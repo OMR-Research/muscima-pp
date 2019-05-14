@@ -7,40 +7,10 @@
         <Color>#FF6666</Color>
     </NodeClass>
     <NodeClass>
-        <Id>1</Id>
-        <Name>noteheadHalf</Name>
-        <GroupName>note-primitive/noteheadHalf</GroupName>
-        <Color>#FF7566</Color>
-    </NodeClass>
-    <NodeClass>
         <Id>2</Id>
         <Name>stem</Name>
         <GroupName>note-primitive/stem</GroupName>
         <Color>#FF8566</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>3</Id>
-        <Name>8th_flag</Name>
-        <GroupName>note-primitive/8th_flag</GroupName>
-        <Color>#FF9466</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>4</Id>
-        <Name>16th_flag</Name>
-        <GroupName>note-primitive/16th_flag</GroupName>
-        <Color>#FFA466</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>5</Id>
-        <Name>32th_flag</Name>
-        <GroupName>note-primitive/32th_flag</GroupName>
-        <Color>#FFB466</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>6</Id>
-        <Name>64th_and_higher_flag</Name>
-        <GroupName>note-primitive/64th_and_higher_flag</GroupName>
-        <Color>#FFC366</Color>
     </NodeClass>
     <NodeClass>
         <Id>7</Id>
@@ -950,9 +920,63 @@
     </NodeClass>
     <!-- Re-Order, starting from here and re-assign the IDs afterwards, so groups are together -->
     <NodeClass>
-        <Id>158</Id> <!-- Should be Id 2 -->
+        <Id>158</Id>
+        <Name>noteheadHalf</Name>
+        <GroupName>note-primitive/noteheadHalf</GroupName>
+        <Color>#FF7566</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>159</Id>
         <Name>noteheadWhole</Name>
         <GroupName>note-primitive/noteheadWhole</GroupName>
         <Color>#FF7676</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>160</Id>
+        <Name>flag8thUp</Name>
+        <GroupName>note-primitive/flag8thUp</GroupName>
+        <Color>#FF9466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>161</Id>
+        <Name>flag8thDown</Name>
+        <GroupName>note-primitive/flag8thDown</GroupName>
+        <Color>#FF9466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>162</Id>
+        <Name>flag16thUp</Name>
+        <GroupName>note-primitive/flag16thUp</GroupName>
+        <Color>#FFA466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>163</Id>
+        <Name>flag16thDown</Name>
+        <GroupName>note-primitive/flag16thDown</GroupName>
+        <Color>#FFA466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>164</Id>
+        <Name>flag32ndUp</Name>
+        <GroupName>note-primitive/flag32ndUp</GroupName>
+        <Color>#FFB466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>165</Id>
+        <Name>flag32ndDown</Name>
+        <GroupName>note-primitive/flag32ndDown</GroupName>
+        <Color>#FFB466</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>166</Id>
+        <Name>flag64thUp</Name>
+        <GroupName>note-primitive/flag64thUp</GroupName>
+        <Color>#FFC366</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>167</Id>
+        <Name>flag64thDown</Name>
+        <GroupName>note-primitive/flag64thDown</GroupName>
+        <Color>#FFC366</Color>
     </NodeClass>
 </NodeClasses>

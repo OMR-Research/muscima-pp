@@ -8,7 +8,7 @@ This is the dependency grammar for the default annotations symbols.
 
 notehead* | accidental* legerLine stem
 notehead* | augmentationDot
-noteheadFull* | *_flag beam
+noteheadFull* | flag* beam
 
 notehead* | staccato-dot other-dot tenuto accent strong_accent
 notehead* | curved-line_(tie-or-slur) slur tie hairpin-cresc. hairpin-decr.
@@ -31,7 +31,7 @@ noteheadFullSmall{1,} |
 | accidental*{1,}
 | legerLine{1,}
 | curved-line_(tie-or-slur){1,} slur{2,} tie{2,}
-| *_flag{1,}
+| flag*{1,}
 
 
 ##############################################################################
