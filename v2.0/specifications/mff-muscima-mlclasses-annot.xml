@@ -337,12 +337,6 @@
         <Color>#66FF73</Color>
     </NodeClass>
     <NodeClass>
-        <Id>61</Id>
-        <Name>fermata</Name>
-        <GroupName>notations/fermata</GroupName>
-        <Color>#66FF83</Color>
-    </NodeClass>
-    <NodeClass>
         <Id>62</Id>
         <Name>tremolo_mark</Name>
         <GroupName>notations/tremolo_mark</GroupName>
@@ -978,5 +972,17 @@
         <Name>flag64thDown</Name>
         <GroupName>note-primitive/flag64thDown</GroupName>
         <Color>#FFC366</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>168</Id>
+        <Name>fermataAbove</Name>
+        <GroupName>notations/fermataAbove</GroupName>
+        <Color>#66FF83</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>169</Id>
+        <Name>fermataBelow</Name>
+        <GroupName>notations/fermataBelow</GroupName>
+        <Color>#66FF83</Color>
     </NodeClass>
 </NodeClasses>

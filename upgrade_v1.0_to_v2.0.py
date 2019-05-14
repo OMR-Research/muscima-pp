@@ -62,6 +62,9 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
         if crop_object.clsname == "notehead-empty":
             node = split_notehead_empty_into_notheadHalf_or_noteheadWhole(node, crop_object, crop_objects)
 
+        if crop_object.clsname == "fermata":
+            node = split_fermata_into_fermataAbove_or_fermataBelow(node, crop_object, crop_objects)
+
         if "_flag" in crop_object.clsname:
             node = split_flag_into_flagUp_or_flagDown(node, crop_object, crop_objects)
 
@@ -111,9 +114,9 @@ def split_flag_into_flagUp_or_flagDown(node: Element, flag: CropObject,
     center_of_flag = flag.top + (flag.bottom - flag.top) / 2.0
 
     flag_converted_successfully = False
-    for outgoing_object in flag.get_inlink_objects(crop_objects):  # type: CropObject
-        if "notehead" in outgoing_object.clsname:
-            center_of_notehead = outgoing_object.top + (outgoing_object.bottom - outgoing_object.top) / 2.0
+    for incoming_object in flag.get_inlink_objects(crop_objects):  # type: CropObject
+        if "notehead" in incoming_object.clsname:
+            center_of_notehead = incoming_object.top + (incoming_object.bottom - incoming_object.top) / 2.0
             flag_converted_successfully = True
             if center_of_flag < center_of_notehead:
                 node.find("ClassName").text = UPWARDS_FLAG_NAME_MAPPING[node.find("ClassName").text]
@@ -124,8 +127,28 @@ def split_flag_into_flagUp_or_flagDown(node: Element, flag: CropObject,
 
     if not flag_converted_successfully:
         print("Found a flag that is not attached to any notehead and thus could not be converted. "
-              "Skipping object (will not be included in the output). Id {0}".format(flag.uid))
+              "Skipping object {0} (will not be included in the output).".format(flag.uid))
         return None
+    return node
+
+
+def split_fermata_into_fermataAbove_or_fermataBelow(node: Element, fermata: CropObject,
+                                                    crop_objects: List[CropObject]) -> Union[None, Element]:
+    center_of_fermata = fermata.top + (fermata.bottom - fermata.top) / 2.0
+
+    if len(fermata.get_inlink_objects(crop_objects)) == 0:
+        print("Found a fermata that is not attached to anything. "
+              "Defaulting to fermataAbove. {0} ".format(fermata.uid))
+        node.find("ClassName").text = "fermataAbove"
+
+    for incoming_object in fermata.get_inlink_objects(crop_objects):  # type: CropObject
+        center_of_incoming_object = incoming_object.top + (incoming_object.bottom - incoming_object.top) / 2.0
+        if center_of_fermata < center_of_incoming_object:
+            node.find("ClassName").text = "fermataAbove"
+            break
+        else:
+            node.find("ClassName").text = "fermataBelow"
+            break
     return node
 
 
