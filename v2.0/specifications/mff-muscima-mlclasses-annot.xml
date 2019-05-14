@@ -200,14 +200,14 @@
     </NodeClass>
     <NodeClass>
         <Id>38</Id>
-        <Name>thin_barline</Name>
-        <GroupName>layout/thin_barline</GroupName>
+        <Name>barline</Name>
+        <GroupName>layout/barline</GroupName>
         <Color>#F766FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>39</Id>
-        <Name>thick_barline</Name>
-        <GroupName>layout/thick_barline</GroupName>
+        <Name>barlineHeavy</Name>
+        <GroupName>layout/barlineHeavy</GroupName>
         <Color>#FF66F7</Color>
     </NodeClass>
     <NodeClass>
@@ -248,8 +248,8 @@
     </NodeClass>
     <NodeClass>
         <Id>46</Id>
-        <Name>staccato-dot</Name>
-        <GroupName>notations/staccato-dot</GroupName>
+        <Name>articulationStaccato</Name>
+        <GroupName>notations/articulationStaccato</GroupName>
         <Color>#FFCA66</Color>
     </NodeClass>
     <NodeClass>
@@ -260,20 +260,20 @@
     </NodeClass>
     <NodeClass>
         <Id>48</Id>
-        <Name>tenuto</Name>
-        <GroupName>notations/tenuto</GroupName>
+        <Name>articulationTenuto</Name>
+        <GroupName>notations/articulationTenuto</GroupName>
         <Color>#FFEA66</Color>
     </NodeClass>
     <NodeClass>
         <Id>49</Id>
-        <Name>accent</Name>
-        <GroupName>notations/accent</GroupName>
+        <Name>articulationAccent</Name>
+        <GroupName>notations/articulationAccent</GroupName>
         <Color>#FFF966</Color>
     </NodeClass>
     <NodeClass>
         <Id>50</Id>
-        <Name>strong_accent</Name>
-        <GroupName>notations/strong_accent</GroupName>
+        <Name>articulationMarcato</Name>
+        <GroupName>notations/articulationMarcato</GroupName>
         <Color>#F4FF66</Color>
     </NodeClass>
     <NodeClass>
@@ -356,8 +356,8 @@
     </NodeClass>
     <NodeClass>
         <Id>65</Id>
-        <Name>tuple_bracket/line</Name>
-        <GroupName>notations/tuple_bracket/line</GroupName>
+        <Name>tupleBracket</Name>
+        <GroupName>notations/tupleBracket</GroupName>
         <Color>#66FFC1</Color>
     </NodeClass>
     <NodeClass>
@@ -878,8 +878,8 @@
     </NodeClass>
     <NodeClass>
         <Id>152</Id>
-        <Name>dotted_barline</Name>
-        <GroupName>layout/dotted_barline</GroupName>
+        <Name>barlineDotted</Name>
+        <GroupName>layout/barlineDotted</GroupName>
         <Color>#FF667A</Color>
     </NodeClass>
     <NodeClass>

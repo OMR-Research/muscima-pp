@@ -10,7 +10,7 @@ notehead* | accidental* legerLine stem
 notehead* | augmentationDot
 noteheadFull* | flag* beam
 
-notehead* | staccato-dot other-dot tenuto accent strong_accent
+notehead* | articulation* other-dot
 notehead* | curved-line_(tie-or-slur) slur tie dynamicCrescendoHairpin dynamicDiminuendoHairpin
 notehead* | ornament(s)
 notehead* | trill_"wobble" trill arpeggio_"wobble" glissando fermata*
@@ -27,7 +27,7 @@ noteheadFullSmall{1,} |
 | noteheadFullSmall{1,}
 | noteheadHalfSmall{1,}
 | beam{1,} stem{1,}
-| augmentationDot{1,} other-dot{1,} tenuto{1,} accent{1,} strong_accent{1,}
+| augmentationDot{1,} other-dot{1,} articulation*{1,}
 | accidental*{1,}
 | legerLine{1,}
 | curved-line_(tie-or-slur){1,} slur{2,} tie{2,}
@@ -60,7 +60,7 @@ trill | accidental*
 | trill{1,}
 trill{1,} |
 
-tuple | tuple_bracket/line numeral_*
+tuple | tupleBracket numeral_*
 tuple{1,}
 | tuple_bracket/line{1,}
 
@@ -86,19 +86,19 @@ time_signature{1,} |
 ##############################################################################
 # Measure delimiters
 
-measure_separator | *_barline
+measure_separator | barline*
 measure_separator{1,} |
 
-repeat | repeat-dot thin_barline thick_barline
+repeat | repeat-dot barline barlineHeavy
 repeat{1,} |
 | repeat-dot{1,}
 
-staff_grouping | *_barline multi-staff_bracket multi-staff_brace
+staff_grouping | barline* multi-staff_bracket multi-staff_brace
 staff_grouping | staff_grouping
 staff_grouping{1,}
 
 # Every barline is a measure_separator or staff grouping
-| *_barline{1,}
+| barline*{1,}
 
 # Non-duration fermatas are attached to a measure delimiter
 measure_separator | fermata*
