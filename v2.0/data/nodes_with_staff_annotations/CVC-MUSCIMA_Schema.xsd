@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Nodes" type="NodesType"/>
+  <xs:complexType name="NodeType">
+    <xs:choice maxOccurs="unbounded" minOccurs="0">
+      <xs:element type="xs:int" name="Id"/>
+      <xs:element type="xs:string" name="ClassName"/>
+      <xs:element type="xs:int" name="Top"/>
+      <xs:element type="xs:int" name="Left"/>
+      <xs:element type="xs:int" name="Width"/>
+      <xs:element type="xs:int" name="Height"/>
+      <xs:element type="xs:string" name="Mask"/>
+      <xs:element type="xs:string" name="Outlinks"/>
+      <xs:element type="xs:string" name="Inlinks"/>
+    </xs:choice>
+    <xs:attribute name="id" type="xs:ID" use="required"/>
+  </xs:complexType>
+  <xs:complexType name="NodesType">
+    <xs:sequence>
+      <xs:element type="NodeType" name="Node" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

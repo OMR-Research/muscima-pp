@@ -12,7 +12,7 @@ from typing import List, Dict
 
 def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) -> ElementTree:
     nodes = Element("Nodes", attrib={'xmlns:xsi': "http://www.w3.org/2001/XMLSchema-instance",
-                                     "xmlns:xsd": "http://www.w3.org/2001/XMLSchema"})
+                                     "xsi:noNamespaceSchemaLocation": "CVC-MUSCIMA_Schema.xsd"})
 
     class_mapping = {"notehead-full": "noteheadFull",
                      "grace-notehead-full": "noteheadFullSmall",
@@ -38,6 +38,8 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
     for crop_object_node in element_tree.findall("*/CropObject"):
         # Copy all values from an existing crop-object
         node = deepcopy(crop_object_node)  # type: Element
+
+        remove_xml_namespace_before_id_attribute(node)
 
         # Rename CropObject -> Node
         node.tag = "Node"
@@ -71,6 +73,12 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
         nodes.append(node)
 
     return ElementTree(nodes)
+
+
+def remove_xml_namespace_before_id_attribute(node):
+    uid = node.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+    node.attrib.pop("{http://www.w3.org/XML/1998/namespace}id")
+    node.attrib["id"] = uid
 
 
 def prettify_xml_file(path):
