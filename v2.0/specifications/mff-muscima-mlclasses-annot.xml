@@ -104,8 +104,8 @@
     </NodeClass>
     <NodeClass>
         <Id>22</Id>
-        <Name>repeat_measure</Name>
-        <GroupName>note-primitive/repeat_measure</GroupName>
+        <Name>repeat1Bar</Name>
+        <GroupName>note-primitive/repeat1Bar</GroupName>
         <Color>#66FF8B</Color>
     </NodeClass>
     <NodeClass>

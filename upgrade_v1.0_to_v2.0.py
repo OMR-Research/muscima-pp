@@ -36,6 +36,7 @@ CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       "thick_barline": "barlineHeavy",
                       "dotted_barline": "barlineDotted",
                       "tuple_bracket/line": "tupleBracket",
+                      "repeat_measure": "repeat1Bar",
                       }
 
 UPWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thUp",
