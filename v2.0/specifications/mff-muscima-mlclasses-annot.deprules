@@ -17,8 +17,7 @@ notehead* | trill_"wobble" trill arpeggio_"wobble" glissando fermata
 notehead* | tuple
 notehead* | instrument_specific
 
-noteheadFull | noteheadFullSmall noteheadHalfSmall
-notehead-empty | noteheadFullSmall noteheadHalfSmall
+noteheadFull noteheadHalf noteheadWhole | noteheadFullSmall noteheadHalfSmall
 
 # Aggregate cardinalities
 

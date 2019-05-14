@@ -8,8 +8,8 @@
     </NodeClass>
     <NodeClass>
         <Id>1</Id>
-        <Name>notehead-empty</Name>
-        <GroupName>note-primitive/notehead-empty</GroupName>
+        <Name>noteheadHalf</Name>
+        <GroupName>note-primitive/noteheadHalf</GroupName>
         <Color>#FF7566</Color>
     </NodeClass>
     <NodeClass>
@@ -947,5 +947,12 @@
         <Name>breath_mark</Name>
         <GroupName>notations/breath_mark</GroupName>
         <Color>#66FFE0</Color>
+    </NodeClass>
+    <!-- Re-Order, starting from here and re-assign the IDs afterwards, so groups are together -->
+    <NodeClass>
+        <Id>158</Id> <!-- Should be Id 2 -->
+        <Name>noteheadWhole</Name>
+        <GroupName>note-primitive/noteheadWhole</GroupName>
+        <Color>#FF7676</Color>
     </NodeClass>
 </NodeClasses>
