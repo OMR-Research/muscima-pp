@@ -26,6 +26,8 @@ CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       "32th_rest": "rest32nd",
                       "multiMeasureRest": "multiMeasureRest",
                       "ledger_line": "legerLine",
+                      "hairpin-cresc.": "dynamicCrescendoHairpin",
+                      "hairpin-decr.": "dynamicDiminuendoHairpin",
                       }
 
 UPWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thUp",

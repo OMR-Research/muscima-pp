@@ -296,14 +296,14 @@
     </NodeClass>
     <NodeClass>
         <Id>54</Id>
-        <Name>hairpin-cresc.</Name>
-        <GroupName>notations/hairpin-cresc.</GroupName>
+        <Name>dynamicCrescendoHairpin</Name>
+        <GroupName>notations/dynamicCrescendoHairpin</GroupName>
         <Color>#B6FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>55</Id>
-        <Name>hairpin-decr.</Name>
-        <GroupName>notations/hairpin-decr.</GroupName>
+        <Name>dynamicDiminuendoHairpin</Name>
+        <GroupName>notations/dynamicDiminuendoHairpin</GroupName>
         <Color>#A6FF66</Color>
     </NodeClass>
     <NodeClass>

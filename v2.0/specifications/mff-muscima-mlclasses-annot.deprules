@@ -11,7 +11,7 @@ notehead* | augmentationDot
 noteheadFull* | flag* beam
 
 notehead* | staccato-dot other-dot tenuto accent strong_accent
-notehead* | curved-line_(tie-or-slur) slur tie hairpin-cresc. hairpin-decr.
+notehead* | curved-line_(tie-or-slur) slur tie dynamicCrescendoHairpin dynamicDiminuendoHairpin
 notehead* | ornament(s)
 notehead* | trill_"wobble" trill arpeggio_"wobble" glissando fermata
 notehead* | tuple
