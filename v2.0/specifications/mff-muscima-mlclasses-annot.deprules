@@ -60,7 +60,7 @@ trill | accidental*
 | trill{1,}
 trill{1,} |
 
-tuple | tupleBracket numeral_*
+tuple | tupleBracket numeral*
 tuple{1,}
 | tuple_bracket/line{1,}
 
@@ -78,7 +78,7 @@ transposition_text | horizontal_spanner dotted_horizontal_spanner
 key_signature | accidental*
 key_signature{1,} |
 
-time_signature | whole-time_mark alla_breve other_time_signature numeral_*
+time_signature | whole-time_mark alla_breve other_time_signature numeral*
 time_signature{1,} |
 | whole-time_mark{1,} alla_breve{1,} other_time_signature{1,}
 
@@ -122,23 +122,23 @@ staff_grouping | staff
 dynamics_text | letter_p letter_f letter_m letter_s letter_z letter_r other-dot
 dynamics_text | letter_F letter_M letter_P
 
-tempo_text | letter_* numeral_* other-dot
+tempo_text | letter_* numeral* other-dot
 
 lyrics_text | letter_* other-dot
 
-instrument_name | letter_* numeral_* other-dot
+instrument_name | letter_* numeral* other-dot
 
-rehearsal_mark | letter_* numeral_* other-dot
+rehearsal_mark | letter_* numeral* other-dot
 
 transposition_text | letter_v letter_V letter_a letter_A letter_m letter_M letter_e letter_E
-transposition_text | numeral_1 numeral_5 numeral_8
+transposition_text | numeral1 numeral5 numeral8
 
-figured_bass_text | numeral_* accidental*
+figured_bass_text | numeral* accidental*
 
-other_text | letter_* numeral_* other-dot
+other_text | letter_* numeral* other-dot
 
-bar_number | numeral_*
-other_numeric_sign | numeral_* other-dot letter_other
+bar_number | numeral*
+other_numeric_sign | numeral* other-dot letter_other
 *_text | continuation/connection_dash
 
 # Figured bass is attached to noteheads
@@ -146,5 +146,5 @@ notehead* | figured_bass_text
 
 *_text{1,} |
 rehearsal_mark{1,} |
-| numeral_*{1,}
+| numeral*{1,}
 | letter_*{1,1}

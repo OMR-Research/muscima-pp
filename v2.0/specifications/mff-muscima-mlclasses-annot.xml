@@ -776,62 +776,62 @@
     </NodeClass>
     <NodeClass>
         <Id>135</Id>
-        <Name>numeral_0</Name>
-        <GroupName>numeral/numeral_0</GroupName>
+        <Name>numeral0</Name>
+        <GroupName>numeral/numeral0</GroupName>
         <Color>#66ACFF</Color>
     </NodeClass>
     <NodeClass>
         <Id>136</Id>
-        <Name>numeral_1</Name>
-        <GroupName>numeral/numeral_1</GroupName>
+        <Name>numeral1</Name>
+        <GroupName>numeral/numeral1</GroupName>
         <Color>#669CFF</Color>
     </NodeClass>
     <NodeClass>
         <Id>137</Id>
-        <Name>numeral_2</Name>
-        <GroupName>numeral/numeral_2</GroupName>
+        <Name>numeral2</Name>
+        <GroupName>numeral/numeral2</GroupName>
         <Color>#668DFF</Color>
     </NodeClass>
     <NodeClass>
         <Id>138</Id>
-        <Name>numeral_3</Name>
-        <GroupName>numeral/numeral_3</GroupName>
+        <Name>numeral3</Name>
+        <GroupName>numeral/numeral3</GroupName>
         <Color>#667DFF</Color>
     </NodeClass>
     <NodeClass>
         <Id>139</Id>
-        <Name>numeral_4</Name>
-        <GroupName>numeral/numeral_4</GroupName>
+        <Name>numeral4</Name>
+        <GroupName>numeral/numeral4</GroupName>
         <Color>#666DFF</Color>
     </NodeClass>
     <NodeClass>
         <Id>140</Id>
-        <Name>numeral_5</Name>
-        <GroupName>numeral/numeral_5</GroupName>
+        <Name>numeral5</Name>
+        <GroupName>numeral/numeral5</GroupName>
         <Color>#6D66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>141</Id>
-        <Name>numeral_6</Name>
-        <GroupName>numeral/numeral_6</GroupName>
+        <Name>numeral6</Name>
+        <GroupName>numeral/numeral6</GroupName>
         <Color>#7D66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>142</Id>
-        <Name>numeral_7</Name>
-        <GroupName>numeral/numeral_7</GroupName>
+        <Name>numeral7</Name>
+        <GroupName>numeral/numeral7</GroupName>
         <Color>#8C66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>143</Id>
-        <Name>numeral_8</Name>
-        <GroupName>numeral/numeral_8</GroupName>
+        <Name>numeral8</Name>
+        <GroupName>numeral/numeral8</GroupName>
         <Color>#9C66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>144</Id>
-        <Name>numeral_9</Name>
-        <GroupName>numeral/numeral_9</GroupName>
+        <Name>numeral9</Name>
+        <GroupName>numeral/numeral9</GroupName>
         <Color>#AC66FF</Color>
     </NodeClass>
     <NodeClass>
