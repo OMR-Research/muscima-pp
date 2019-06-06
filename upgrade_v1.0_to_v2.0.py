@@ -61,8 +61,11 @@ DOWNWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thDown",
                                }
 
 DYNAMICS_LETTER_NAME_MAPPING = {"letter_p": "dynamicLetterP",
+                                "letter_P": "dynamicLetterP",
                                 "letter_m": "dynamicLetterM",
+                                "letter_M": "dynamicLetterM",
                                 "letter_f": "dynamicLetterF",
+                                "letter_F": "dynamicLetterF",
                                 "letter_s": "dynamicLetterS",
                                 "letter_z": "dynamicLetterZ",
                                 }
@@ -189,10 +192,11 @@ def split_fermata_into_fermataAbove_or_fermataBelow(node: Element, fermata: Crop
 
 def introduce_dymanic_letter_x(node: Element, letter: CropObject, crop_objects: List[CropObject],
                                crop_object_nodes: List[Element]) -> Union[None, Element]:
-    if letter.clsname not in ["letter_p", "letter_m", "letter_f", "letter_s", "letter_z"]:
+    if letter.clsname not in ["letter_p", "letter_m", "letter_f", "letter_s", "letter_z", "letter_F", "letter_M",
+                              "letter_P"]:
         return None
 
-    inlink_objects = letter.get_inlink_objects(crop_objects) # type: List[CropObject]
+    inlink_objects = letter.get_inlink_objects(crop_objects)  # type: List[CropObject]
     letter_has_no_incoming_connection = len(inlink_objects) < 1
     if letter_has_no_incoming_connection:
         return None
