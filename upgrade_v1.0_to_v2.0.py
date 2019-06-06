@@ -103,6 +103,9 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
         if node is not None:
             nodes.append(node)
 
+    for node in nodes:
+        node.attrib["id"] = node.attrib["id"].replace("MUSCIMA-pp_1.0", "MUSCIMA-pp_2.0")
+
     return ElementTree(nodes)
 
 
