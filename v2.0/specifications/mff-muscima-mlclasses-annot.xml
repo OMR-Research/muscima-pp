@@ -182,14 +182,14 @@
     </NodeClass>
     <NodeClass>
         <Id>35</Id>
-        <Name>multi-staff_bracket</Name>
-        <GroupName>layout/multi-staff_bracket</GroupName>
+        <Name>bracket</Name>
+        <GroupName>layout/bracket</GroupName>
         <Color>#C866FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>36</Id>
-        <Name>multi-staff_brace</Name>
-        <GroupName>layout/multi-staff_brace</GroupName>
+        <Name>brace</Name>
+        <GroupName>layout/brace</GroupName>
         <Color>#D866FF</Color>
     </NodeClass>
     <NodeClass>

@@ -93,7 +93,7 @@ repeat | repeat-dot barline barlineHeavy
 repeat{1,} |
 | repeat-dot{1,}
 
-staff_grouping | barline* multi-staff_bracket multi-staff_brace
+staff_grouping | barline* bracket brace
 staff_grouping | staff_grouping
 staff_grouping{1,}
 
