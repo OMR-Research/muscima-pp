@@ -385,12 +385,6 @@
         <Color>#66F2FF</Color>
     </NodeClass>
     <NodeClass>
-        <Id>70</Id>
-        <Name>other-clef</Name>
-        <GroupName>part-defaults/other-clef</GroupName>
-        <Color>#66E2FF</Color>
-    </NodeClass>
-    <NodeClass>
         <Id>71</Id>
         <Name>key_signature</Name>
         <GroupName>part-defaults/key_signature</GroupName>

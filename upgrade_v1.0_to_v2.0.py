@@ -47,6 +47,7 @@ CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       "numeral_7": "numeral7",
                       "numeral_8": "numeral8",
                       "numeral_9": "numeral9",
+                      "other-clef": "c-clef",
                       }
 
 UPWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thUp",
