@@ -985,4 +985,34 @@
         <GroupName>notations/fermataBelow</GroupName>
         <Color>#66FF83</Color>
     </NodeClass>
+    <NodeClass>
+        <Id>170</Id>
+        <Name>dynamicLetterP</Name>
+        <GroupName>text/dynamicLetterP</GroupName>
+        <Color>#FFB266</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>171</Id>
+        <Name>dynamicLetterM</Name>
+        <GroupName>text/dynamicLetterM</GroupName>
+        <Color>#FFA13D</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>172</Id>
+        <Name>dynamicLetterF</Name>
+        <GroupName>text/dynamicLetterF</GroupName>
+        <Color>#FFA149</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>173</Id>
+        <Name>dynamicLetterS</Name>
+        <GroupName>text/dynamicLetterS</GroupName>
+        <Color>#FF8514</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>174</Id>
+        <Name>dynamicLetterZ</Name>
+        <GroupName>text/dynamicLetterZ</GroupName>
+        <Color>#FF7905</Color>
+    </NodeClass>
 </NodeClasses>

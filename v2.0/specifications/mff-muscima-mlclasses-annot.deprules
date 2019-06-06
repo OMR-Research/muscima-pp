@@ -121,6 +121,7 @@ staff_grouping | staff
 
 dynamics_text | letter_p letter_f letter_m letter_s letter_z letter_r other-dot
 dynamics_text | letter_F letter_M letter_P
+dynamics_text | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ
 
 tempo_text | letter_* numeral* other-dot
 
