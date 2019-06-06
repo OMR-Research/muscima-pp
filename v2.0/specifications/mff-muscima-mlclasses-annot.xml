@@ -224,8 +224,8 @@
     </NodeClass>
     <NodeClass>
         <Id>42</Id>
-        <Name>repeat-dot</Name>
-        <GroupName>layout/repeat-dot</GroupName>
+        <Name>repeatDot</Name>
+        <GroupName>layout/repeatDot</GroupName>
         <Color>#FF66C8</Color>
     </NodeClass>
     <NodeClass>

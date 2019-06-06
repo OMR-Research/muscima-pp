@@ -89,9 +89,9 @@ time_signature{1,} |
 measure_separator | barline*
 measure_separator{1,} |
 
-repeat | repeat-dot barline barlineHeavy
+repeat | repeatDot barline barlineHeavy
 repeat{1,} |
-| repeat-dot{1,}
+| repeatDot{1,}
 
 staff_grouping | barline* bracket brace
 staff_grouping | staff_grouping
