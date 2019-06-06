@@ -235,10 +235,16 @@
         <Color>#FFF966</Color>
     </NodeClass>
     <NodeClass>
+        <Id>50</Id>
+        <Name>articulationMarcatoAbove</Name>
+        <GroupName>notations/articulationMarcatoAbove</GroupName>
+        <Color>#F4FF66</Color>
+    </NodeClass>
+    <NodeClass>
         <Id>51</Id>
-        <Name>curved-line_(tie-or-slur)</Name>
-        <GroupName>notations/curved-line_(tie-or-slur)</GroupName>
-        <Color>#E4FF66</Color>
+        <Name>articulationMarcatoBelow</Name>
+        <GroupName>notations/articulationMarcatoBelow</GroupName>
+        <Color>#F4FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>52</Id>
@@ -356,21 +362,15 @@
     </NodeClass>
     <NodeClass>
         <Id>73</Id>
-        <Name>whole-time_mark</Name>
-        <GroupName>part-defaults/whole-time_mark</GroupName>
+        <Name>timeSigCommon</Name>
+        <GroupName>part-defaults/timeSigCommon</GroupName>
         <Color>#66B3FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>74</Id>
-        <Name>alla_breve</Name>
-        <GroupName>part-defaults/alla_breve</GroupName>
+        <Name>timeSigCutCommon</Name>
+        <GroupName>part-defaults/timeSigCutCommon</GroupName>
         <Color>#66A4FF</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>75</Id>
-        <Name>other_time_signature</Name>
-        <GroupName>part-defaults/other_time_signature</GroupName>
-        <Color>#6694FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>76</Id>
@@ -966,17 +966,5 @@
         <Name>dynamicLetterZ</Name>
         <GroupName>text/dynamicLetterZ</GroupName>
         <Color>#FF7905</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>175</Id>
-        <Name>articulationMarcatoAbove</Name>
-        <GroupName>notations/articulationMarcatoAbove</GroupName>
-        <Color>#F4FF66</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>176</Id>
-        <Name>articulationMarcatoBelow</Name>
-        <GroupName>notations/articulationMarcatoBelow</GroupName>
-        <Color>#F4FF66</Color>
     </NodeClass>
 </NodeClasses>
