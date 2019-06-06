@@ -235,12 +235,6 @@
         <Color>#FFF966</Color>
     </NodeClass>
     <NodeClass>
-        <Id>50</Id>
-        <Name>articulationMarcato</Name>
-        <GroupName>notations/articulationMarcato</GroupName>
-        <Color>#F4FF66</Color>
-    </NodeClass>
-    <NodeClass>
         <Id>51</Id>
         <Name>curved-line_(tie-or-slur)</Name>
         <GroupName>notations/curved-line_(tie-or-slur)</GroupName>
@@ -972,5 +966,17 @@
         <Name>dynamicLetterZ</Name>
         <GroupName>text/dynamicLetterZ</GroupName>
         <Color>#FF7905</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>175</Id>
+        <Name>articulationMarcatoAbove</Name>
+        <GroupName>notations/articulationMarcatoAbove</GroupName>
+        <Color>#F4FF66</Color>
+    </NodeClass>
+    <NodeClass>
+        <Id>176</Id>
+        <Name>articulationMarcatoBelow</Name>
+        <GroupName>notations/articulationMarcatoBelow</GroupName>
+        <Color>#F4FF66</Color>
     </NodeClass>
 </NodeClasses>
