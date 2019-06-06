@@ -60,6 +60,13 @@ DOWNWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thDown",
                                "64th_and_higher_flag": "flag64thDown",
                                }
 
+DYNAMICS_LETTER_NAME_MAPPING = {"letter_p": "dynamicLetterP",
+                                "letter_m": "dynamicLetterM",
+                                "letter_f": "dynamicLetterF",
+                                "letter_s": "dynamicLetterS",
+                                "letter_z": "dynamicLetterZ",
+                                }
+
 
 def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) -> ElementTree:
     nodes = Element("Nodes", attrib={'xmlns:xsi': "http://www.w3.org/2001/XMLSchema-instance",
@@ -67,7 +74,8 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
 
     id_to_cropobject_mapping = {o.objid: o for o in crop_objects}  # type: Dict[int, CropObject]
 
-    for crop_object_node in element_tree.findall("*/CropObject"):
+    crop_object_nodes = element_tree.findall("*/CropObject")
+    for crop_object_node in crop_object_nodes:
         # Copy all values from an existing crop-object
         node = deepcopy(crop_object_node)  # type: Element
         id = int(node.find("Id").text)
@@ -86,6 +94,11 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
 
         if "_flag" in crop_object.clsname:
             node = split_flag_into_flagUp_or_flagDown(node, crop_object, crop_objects)
+
+        if "letter_" in crop_object.clsname:
+            new_node = introduce_dymanic_letter_x(node, crop_object, crop_objects, crop_object_nodes)
+            if new_node is not None:
+                nodes.append(new_node)
 
         if node is not None:
             nodes.append(node)
@@ -169,6 +182,40 @@ def split_fermata_into_fermataAbove_or_fermataBelow(node: Element, fermata: Crop
             node.find("ClassName").text = "fermataBelow"
             break
     return node
+
+
+def introduce_dymanic_letter_x(node: Element, letter: CropObject, crop_objects: List[CropObject],
+                               crop_object_nodes: List[Element]) -> Union[None, Element]:
+    if letter.clsname not in ["letter_p", "letter_m", "letter_f", "letter_s", "letter_z"]:
+        return None
+
+    inlink_objects = letter.get_inlink_objects(crop_objects) # type: List[CropObject]
+    letter_has_no_incoming_connection = len(inlink_objects) < 1
+    if letter_has_no_incoming_connection:
+        return None
+
+    letter_belongs_to_dynamics = inlink_objects[0].clsname == "dynamics_text"
+    if not letter_belongs_to_dynamics:
+        return None
+
+    new_class_name = DYNAMICS_LETTER_NAME_MAPPING[letter.clsname]
+    dynamics_letter = deepcopy(letter)
+    new_node = deepcopy(node)  # type: Element
+    dynamics_letter.clsname = new_class_name
+    new_node.find("ClassName").text = new_class_name
+
+    objids = [c.objid for c in crop_objects]
+    new_id = max(objids) + 1
+    dynamics_letter.objid = new_id
+    new_node.find("Id").text = str(new_id)
+    new_node.attrib["id"] = new_node.attrib["id"].replace("___{0}".format(letter.objid), "___{0}".format(new_id))
+
+    inlink_objects[0].outlinks.append(new_id)
+    inlink_node = [n for n in crop_object_nodes if n.find("Id").text == str(inlink_objects[0].objid)][0]
+    inlink_node.find("Outlinks").text += " {0}".format(new_id)
+    crop_objects.append(dynamics_letter)
+
+    return new_node
 
 
 def remove_xml_namespace_before_id_attribute(node):
