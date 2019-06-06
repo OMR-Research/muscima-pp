@@ -134,8 +134,8 @@
     </NodeClass>
     <NodeClass>
         <Id>33</Id>
-        <Name>staff_line</Name>
-        <GroupName>layout/staff_line</GroupName>
+        <Name>staffLine</Name>
+        <GroupName>layout/staffLine</GroupName>
         <Color>#191126</Color>
     </NodeClass>
     <NodeClass>
@@ -158,8 +158,8 @@
     </NodeClass>
     <NodeClass>
         <Id>37</Id>
-        <Name>staff_grouping</Name>
-        <GroupName>layout/staff_grouping</GroupName>
+        <Name>staffGrouping</Name>
+        <GroupName>layout/staffGrouping</GroupName>
         <Color>#E766FF</Color>
     </NodeClass>
     <NodeClass>
@@ -176,8 +176,8 @@
     </NodeClass>
     <NodeClass>
         <Id>40</Id>
-        <Name>measure_separator</Name>
-        <GroupName>layout/measure_separator</GroupName>
+        <Name>measureSeparator</Name>
+        <GroupName>layout/measureSeparator</GroupName>
         <Color>#FF66E7</Color>
     </NodeClass>
     <NodeClass>

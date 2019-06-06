@@ -86,33 +86,33 @@ time_signature{1,} |
 ##############################################################################
 # Measure delimiters
 
-measure_separator | barline*
-measure_separator{1,} |
+measureSeparator | barline*
+measureSeparator{1,} |
 
 repeat | repeatDot barline barlineHeavy
 repeat{1,} |
 | repeatDot{1,}
 
-staff_grouping | barline* bracket brace
-staff_grouping | staff_grouping
-staff_grouping{1,}
+staffGrouping | barline* bracket brace
+staffGrouping | staffGrouping
+staffGrouping{1,}
 
-# Every barline is a measure_separator or staff grouping
+# Every barline is a measureSeparator or staff grouping
 | barline*{1,}
 
 # Non-duration fermatas are attached to a measure delimiter
-measure_separator | fermata*
+measureSeparator | fermata*
 
 
 ##############################################################################
 # Staff rules
 
-staff | staff_line
+staff | staffLine
 key_signature time_signature gClef cClef fClef | staff
-measure_separator | staff
-staff_grouping | staff
+measureSeparator | staff
+staffGrouping | staff
 
-| staff_line{1,}
+| staffLine{1,}
 
 
 

@@ -58,6 +58,9 @@ CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       "c-clef": "cClef",
                       "other-dot": "characterDot",
                       "curved-line_(tie-or-slur)": "slur",
+                      "staff_line": "staffLine",
+                      "staff_grouping": "staffGrouping",
+                      "measure_separator": "measureSeparator",
                       }
 
 UPWARDS_FLAG_NAME_MAPPING = {"8th_flag": "flag8thUp",
