@@ -116,8 +116,8 @@
     </NodeClass>
     <NodeClass>
         <Id>24</Id>
-        <Name>grace_strikethrough</Name>
-        <GroupName>note-primitive/grace_strikethrough</GroupName>
+        <Name>graceNoteAcciaccatura</Name>
+        <GroupName>note-primitive/graceNoteAcciaccatura</GroupName>
         <Color>#66FFAA</Color>
     </NodeClass>
     <NodeClass>
@@ -131,42 +131,6 @@
         <Name>noteheadHalfSmall</Name>
         <GroupName>note-primitive/noteheadHalfSmall</GroupName>
         <Color>#66FFC9</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>27</Id>
-        <Name>solitary_note</Name>
-        <GroupName>note-complex/solitary_note</GroupName>
-        <Color>#66FF87</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>28</Id>
-        <Name>solitary_chord</Name>
-        <GroupName>note-complex/solitary_chord</GroupName>
-        <Color>#66FF97</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>29</Id>
-        <Name>beamed_group</Name>
-        <GroupName>note-complex/beamed_group</GroupName>
-        <Color>#66FFA6</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>30</Id>
-        <Name>grace_note</Name>
-        <GroupName>note-complex/grace_note</GroupName>
-        <Color>#66FFB6</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>31</Id>
-        <Name>grace_chord</Name>
-        <GroupName>note-complex/grace_chord</GroupName>
-        <Color>#66FFC6</Color>
-    </NodeClass>
-    <NodeClass>
-        <Id>32</Id>
-        <Name>grace_beamed_group</Name>
-        <GroupName>note-complex/grace_beamed_group</GroupName>
-        <Color>#66FFD5</Color>
     </NodeClass>
     <NodeClass>
         <Id>33</Id>

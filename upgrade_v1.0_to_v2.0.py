@@ -12,6 +12,7 @@ from typing import List, Dict, Union
 CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       "grace-notehead-full": "noteheadFullSmall",
                       "grace-notehead-empty": "noteheadHalfSmall",
+                      "grace_strikethrough": "graceNoteAcciaccatura",
                       "duration-dot": "augmentationDot",
                       "sharp": "accidentalSharp",
                       "flat": "accidentalFlat",

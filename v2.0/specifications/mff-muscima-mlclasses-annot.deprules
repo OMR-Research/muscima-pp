@@ -45,10 +45,10 @@ rest* | fermata*
 ##############################################################################
 # Stem modifiers
 
-stem | grace_strikethrough
+stem | graceNoteAcciaccatura
 stem | tremolo_mark single-note_tremolo multiple-note_tremolo
 
-| grace_strikethrough{1}
+| graceNoteAcciaccatura{1}
 
 
 ##############################################################################
