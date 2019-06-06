@@ -133,6 +133,12 @@
         <Color>#66FFC9</Color>
     </NodeClass>
     <NodeClass>
+        <Id>32</Id>
+        <Name>staffSpace</Name>
+        <GroupName>layout/staffSpace</GroupName>
+        <Color>#EAF2FF</Color>
+    </NodeClass>
+    <NodeClass>
         <Id>33</Id>
         <Name>staffLine</Name>
         <GroupName>layout/staffLine</GroupName>
@@ -272,26 +278,26 @@
     </NodeClass>
     <NodeClass>
         <Id>56</Id>
-        <Name>ornament(s)</Name>
-        <GroupName>notations/ornament(s)</GroupName>
+        <Name>ornament</Name>
+        <GroupName>notations/ornament</GroupName>
         <Color>#96FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>57</Id>
-        <Name>trill_"wobble"</Name>
-        <GroupName>notations/trill_"wobble"</GroupName>
+        <Name>wiggleTrill</Name>
+        <GroupName>notations/wiggleTrill</GroupName>
         <Color>#87FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>58</Id>
-        <Name>trill</Name>
-        <GroupName>notations/trill</GroupName>
+        <Name>ornamentTrill</Name>
+        <GroupName>notations/ornamentTrill</GroupName>
         <Color>#77FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>59</Id>
-        <Name>arpeggio_"wobble"</Name>
-        <GroupName>notations/arpeggio_"wobble"</GroupName>
+        <Name>arpeggio</Name>
+        <GroupName>notations/arpeggio</GroupName>
         <Color>#68FF66</Color>
     </NodeClass>
     <NodeClass>
@@ -302,20 +308,20 @@
     </NodeClass>
     <NodeClass>
         <Id>62</Id>
-        <Name>tremolo_mark</Name>
-        <GroupName>notations/tremolo_mark</GroupName>
+        <Name>tremoloMark</Name>
+        <GroupName>notations/tremoloMark</GroupName>
         <Color>#66FF92</Color>
     </NodeClass>
     <NodeClass>
         <Id>63</Id>
-        <Name>single-note_tremolo</Name>
-        <GroupName>notations/single-note_tremolo</GroupName>
+        <Name>singleNoteTremolo</Name>
+        <GroupName>notations/singleNoteTremolo</GroupName>
         <Color>#66FFA2</Color>
     </NodeClass>
     <NodeClass>
         <Id>64</Id>
-        <Name>multiple-note_tremolo</Name>
-        <GroupName>notations/multiple-note_tremolo</GroupName>
+        <Name>multipleNoteTremolo</Name>
+        <GroupName>notations/multipleNoteTremolo</GroupName>
         <Color>#66FFB1</Color>
     </NodeClass>
     <NodeClass>
@@ -350,14 +356,14 @@
     </NodeClass>
     <NodeClass>
         <Id>71</Id>
-        <Name>key_signature</Name>
-        <GroupName>part-defaults/key_signature</GroupName>
+        <Name>keySignature</Name>
+        <GroupName>part-defaults/keySignature</GroupName>
         <Color>#66D2FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>72</Id>
-        <Name>time_signature</Name>
-        <GroupName>part-defaults/time_signature</GroupName>
+        <Name>timeSignature</Name>
+        <GroupName>part-defaults/timeSignature</GroupName>
         <Color>#66C3FF</Color>
     </NodeClass>
     <NodeClass>

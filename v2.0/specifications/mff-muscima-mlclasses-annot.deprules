@@ -12,8 +12,8 @@ noteheadFull* | flag* beam
 
 notehead* | articulation* characterDot
 notehead* | slur tie dynamicCrescendoHairpin dynamicDiminuendoHairpin
-notehead* | ornament(s)
-notehead* | trill_"wobble" trill arpeggio_"wobble" glissando fermata*
+notehead* | ornament
+notehead* | wiggleTrill ornamentTrill arpeggio glissando fermata*
 notehead* | tuple
 notehead* | instrument_specific
 
@@ -46,7 +46,7 @@ rest* | fermata*
 # Stem modifiers
 
 stem | graceNoteAcciaccatura
-stem | tremolo_mark single-note_tremolo multiple-note_tremolo
+stem | tremoloMark singleNoteTremolo multipleNoteTremolo
 
 | graceNoteAcciaccatura{1}
 
@@ -55,31 +55,31 @@ stem | tremolo_mark single-note_tremolo multiple-note_tremolo
 # Notations
 
 
-trill | trill_"wobble" letter_t letter_r characterDot letter_T letter_R letter_other
-trill | accidental*
-| trill{1,}
-trill{1,} |
+ornamentTrill | wiggleTrill letter_t letter_r characterDot letter_T letter_R letter_other
+ornamentTrill | accidental*
+| ornamentTrill{1,}
+ornamentTrill{1,} |
 
 tuple | tupleBracket numeral*
 tuple{1,}
-| tuple_bracket/line{1,}
+| tupleBracket{1,}
 
 volta | other_numeric_sign horizontal_spanner dotted_horizontal_spanner
 transposition_text | horizontal_spanner dotted_horizontal_spanner
 
 *Clef | transposition_text
 
-| arpeggio_"wobble"{1,}
+| arpeggio{1,}
 
 
 ##############################################################################
 # Part defaults
 
-key_signature | accidental*
-key_signature{1,} |
+keySignature | accidental*
+keySignature{1,} |
 
-time_signature | timeSigCommon timeSigCutCommon other_time_signature numeral*
-time_signature{1,} |
+timeSignature | timeSigCommon timeSigCutCommon numeral*
+timeSignature{1,} |
 | timeSigCommon{1,} timeSigCutCommon{1,}
 
 
@@ -107,8 +107,8 @@ measureSeparator | fermata*
 ##############################################################################
 # Staff rules
 
-staff | staffLine
-key_signature time_signature gClef cClef fClef | staff
+staff | staffLine staffSpace
+keySignature timeSignature gClef cClef fClef | staff
 measureSeparator | staff
 staffGrouping | staff
 
