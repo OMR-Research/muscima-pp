@@ -67,7 +67,7 @@ tuple{1,}
 volta | other_numeric_sign horizontal_spanner dotted_horizontal_spanner
 transposition_text | horizontal_spanner dotted_horizontal_spanner
 
-*-clef | transposition_text
+*Clef | transposition_text
 
 | arpeggio_"wobble"{1,}
 
@@ -108,7 +108,7 @@ measure_separator | fermata*
 # Staff rules
 
 staff | staff_line
-key_signature time_signature g-clef c-clef f-clef | staff
+key_signature time_signature gClef cClef fClef | staff
 measure_separator | staff
 staff_grouping | staff
 

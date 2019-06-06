@@ -368,20 +368,20 @@
     </NodeClass>
     <NodeClass>
         <Id>67</Id>
-        <Name>g-clef</Name>
-        <GroupName>part-defaults/g-clef</GroupName>
+        <Name>gClef</Name>
+        <GroupName>part-defaults/gClef</GroupName>
         <Color>#66FFEC</Color>
     </NodeClass>
     <NodeClass>
         <Id>68</Id>
-        <Name>f-clef</Name>
-        <GroupName>part-defaults/f-clef</GroupName>
+        <Name>fClef</Name>
+        <GroupName>part-defaults/fClef</GroupName>
         <Color>#66FFFC</Color>
     </NodeClass>
     <NodeClass>
         <Id>69</Id>
-        <Name>c-clef</Name>
-        <GroupName>part-defaults/c-clef</GroupName>
+        <Name>cClef</Name>
+        <GroupName>part-defaults/cClef</GroupName>
         <Color>#66F2FF</Color>
     </NodeClass>
     <NodeClass>
