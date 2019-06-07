@@ -12,7 +12,8 @@ The MUSCIMA++ dataset is intended for musical symbol detection and classificatio
 ## Tools
 Apart from the symbol annotation data themselves, we also provide two Python packages:
 
-- `muscima`, which is basically an I/O interface to the dataset (also available through pip install muscima)
+- `muscima`, which is basically an I/O interface to the v1.0 dataset (also available through pip install muscima)
+- `mung`, which is the same as `muscima` but for v2.0+ (currently [under development](https://github.com/OMR-Research/mung))
 - `MUSCIMarker`, which is the annotation tool used to create the dataset.
 
 We believe the functionality in `muscima` will make it easier for you to use the dataset. You don’t need MUSCIMarker unless you want to extend the dataset, although it is also nifty for visualization. If you do not want to use the Python interface, you can of course make your own: the data is stored as a regular XML file, described in detail in the README (and also in the `muscima.io` module).
@@ -65,33 +66,53 @@ in the [annotation guidelines](http://muscimarker.readthedocs.io/en/develop/inst
 
 The dataset package has the following structure:
 
-    +--+ MUSCIMA-pp_v1.0/
-       |
-       +--+ data/                               ... Contains the data files.
-       |  +--+ nodes_without_staff_annotations/ ... Contains the annotation files without automatically
-       |  |                                         extracted staff objects and their relationships.
-       |  +--+ nodes_with_staff_annotations/    ... Contains the annotation files enriched by staff objects,
-       |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
-       |  |                                         using scripts from the ``muscima’’ package.
-       |  |  +--- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
-       |  |  +...
-       |  |
-       |  +--+ images/                          ... Put corresponding CVC-MUSCIMA image files here.
-       |                                            (Analogously, use e.g. data/fulls/ for full images.)
-       |
-       +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
-       |  +--- cvc-muscima-image-list.txt               ... list of CVC-MUSCIMA images used for annotation,
-       |  +--- mff-muscima-mlclasses-annot.xml          ... list of object classes,
-       |  +--- mff-muscima-mlclasses-annot.deprules     ... and list of rules governing their relationships.
-       |  +-—- testset-dependent.txt                    ... List of writer-dependent test set images. 
-       |  |                                                 (Same handwriting in training and test set.)
-       |  +-—- testset-independent.txt                  ... List of writer-dependent test set images.
-       |                                                    (Test set handwriting never seen in training set.)
-       | 
-       +--- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine) 
-       |                                            unless you want to make money off of this data).
-       +--- ERRATA.txt                          ... File which lists errors in the data and their corrections. 
-       +--- README.md                           ... This file.
+    muscima-pp
+    |
+    +--+ v1.0/
+    |  |
+    |  +--+ data/                               ... Contains the data files.
+    |  |  +--+ cropobjects_manual/              ... Contains the annotation files without automatically
+    |  |  |                                         extracted staff objects and their relationships.
+    |  |  +--+ cropobjects_withstaff/           ... Contains the annotation files enriched by staff objects,
+    |  |  |                                         inferred automatically from CVC-MUSCIMA staff-only images
+    |  |  |                                         using scripts from the ``muscima’’ package.
+    |  |  |  +-- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
+    |  |  |  +...
+    |  |  |
+    |  |  +--+ images/                          ... Put corresponding CVC-MUSCIMA image files here.
+    |  |                                            (Analogously, use e.g. data/fulls/ for full images.)
+    |  |
+    |  +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
+    |  |  +-- cvc-muscima-image-list.txt               ... list of CVC-MUSCIMA images used for annotation,
+    |  |  +-- mff-muscima-mlclasses-annot.xml          ... list of object classes,
+    |  |  +-- mff-muscima-mlclasses-annot.deprules     ... and list of rules governing their relationships.
+    |  |  +-- testset-dependent.txt                    ... List of writer-dependent test set images. 
+    |  |  |                                                 (Same handwriting in training and test set.)
+    |  |  +-- testset-independent.txt                  ... List of writer-dependent test set images.
+    |  |                                                    (Test set handwriting never seen in training set.)
+    +--+ v2.0/
+    |  |
+    |  +--+ data/                               ... Contains the data files.
+    |  |  +--+ nodes_with_staff_annotations/    ... Contains the annotation files enriched by staff objects,
+    |  |     |                                         inferred automatically from CVC-MUSCIMA staff-only images
+    |  |     |                                         using scripts from the ``muscima’’ package.
+    |  |     +-- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
+    |  |     +-- ...
+    |  |
+    |  +--+ specifications/                             ... Contains the ground truth definition files for MUSCIMarker:
+    |     +-- cvc-muscima-image-list.txt               ... list of CVC-MUSCIMA images used for annotation,
+    |     +-- mff-muscima-mlclasses-annot.xml          ... list of object classes,
+    |     +-- mff-muscima-mlclasses-annot.deprules     ... and list of rules governing their relationships.
+    |     +-- testset-dependent.txt                    ... List of writer-dependent test set images. 
+    |     |                                                 (Same handwriting in training and test set.)
+    |     +-- testset-independent.txt                  ... List of writer-dependent test set images.
+    |   
+	|  
+    +-- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine) 
+    |                                            unless you want to make money off of this data).
+    +-- ERRATA.txt                          ... File which lists errors in the data and their corrections. 
+    +-- README.md                           ... This file.
+	+-- upgrade_v1.0_to_v2.0.py             ... A script to upgrade existing annotations from version 1 to 2.
 
 
 
@@ -100,7 +121,7 @@ The dataset package has the following structure:
 The MUSCIMA++ annotations are provided as XML files.
 The data itself is inside <Node> elements:
 
-    <Node xml:id="MUSCIMA-pp_1.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
+    <Node id="MUSCIMA-pp_2.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
       <Id>25</Id>
       <ClassName>grace-notehead-full</ClassName>
       <Top>119</Top>
@@ -124,7 +145,7 @@ element in the data files:
 >   NOTE: Parsing (muscima.io.parse_nodes_list()) is only implemented for files that consist of a single `<Nodes>` list.
 
 
-The value of the xml:id attribute of the <Node> element
+The value of the id attribute of the <Node> element
 is a string that uniquely identifies the Node
 in the entire dataset. It is derived from a global dataset name and version
 identifier (the + signs in MUSCIMA++ 1.0 unfortunately do not comply
@@ -154,7 +175,7 @@ and the number of the Node within the given NodeList
   within the Node's bounding box (specified by top, left,
   height and width) that the Node actually occupies. If
   the mask is not given, the object is understood to occupy the entire
-  bounding box (within MUSCIMA++ 1.0, all objects have explicit masks,
+  bounding box (within MUSCIMA++, all objects have explicit masks,
   but the format enables annotating bounding boxes only). The run-length
   encoding is obtained from a flattened version of the binary array
   in the C order, using the flatten() method of numpy
@@ -195,12 +216,12 @@ versions of the dataset, and need to plan for that.)
 To uniquely identify a Node, we need three "levels":
 
 * The "global", **dataset-level identification**: which dataset is this
-  Node coming from? (For this dataset: MUSCIMA-pp_1.0.
+  Node coming from? (For this dataset: MUSCIMA-pp_2.0.
   Unfortunately, rules for XML NAME-type attributes do not allow
   the + character in the attribute value.)
 * The "local", **document-level identification**: which document
   (within the given dataset) is this Node coming from?
-  For MUSCIMA++ 1.0, this will usually be a string like
+  For MUSCIMA++, this will usually be a string like
   CVC-MUSCIMA_W-35_N-08_D-ideal, derived from the filename
   under which the NodeList containing the given Node
   is stored.
@@ -212,7 +233,7 @@ a delimiter: ___
 
 The full xml:id of a Node then might look like this:
 
-  `MUSCIMA-pp_0.9__CVC-MUSCIMA_W-35_N-08_D-ideal___611`
+  `MUSCIMA-pp_2.0__CVC-MUSCIMA_W-35_N-08_D-ideal___611`
 
 You will need to use UIDs whenever you are combining Nodes
 from different documents, and/or datasets. (If you are really combining
@@ -257,7 +278,7 @@ the test set also has (another) image in the training set.
 Both of the test sets contain one instance of each page (so there are
 20 test pages in each).
 
-To get the indexes for a test set (in this case, writer-independnet):
+To get the indexes for a test set (in this case, writer-independent):
 
     paste <(seq 140) <(ls data/Nodes/) 
         | grep -f specifications/testset-independent.txt
@@ -271,9 +292,9 @@ human-annotated datasets. In the interest of full disclosure and managing
 expectations, we list the known issues. We will do our best to deal with them
 in follow-up version of MUSCIMA++. If you find some errors that are not on this
 list and should be, especially problems that seem systematic, feel free to drop
-us a line at::
+us a line at:
 
-    hajicj@ufal.mff.cuni.cz
+    alexander.pacha@tuwien.ac.at and hajicj@ufal.mff.cuni.cz
 
 Of course, we will greatly appreciate any effort towards fixing these issues!
 
@@ -307,6 +328,16 @@ to maintain a list of "known offender" Nodes this way, so that
 other users will be able to benefit from your discoveries as well,
 and keep releasing corrected versions.
 
+## UPDATE (2.0) 
+
+2019-06-07: The format of the MUSCIMA++ dataset has changed to achieve certain goals, including:
+- better readability
+- consistent naming conventions
+- removal of unused classes that only clutter the code
+- renaming of classes with special characters
+- alignment of class-names with [SMuFL]() as far as possible, See [Issue #2](https://github.com/OMR-Research/muscima-pp/issues/2) for more details.
+- alignment of the dataset with the [DeepScores dataset](https://tuggeluk.github.io/deepscores/).
+
 
 ## UPDATE (0.9.1) 
 
@@ -337,6 +368,7 @@ Note (2018-01-05): The attribution [1] changed to a peer-reviewed article for MU
 If you wish to contact the authors of this dataset, write to:
 
   hajicj@ufal.mff.cuni.cz
+  alexander.pacha@tuwien.ac.at
 
 We will be happy to hear your feedback!
 
