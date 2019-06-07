@@ -15,7 +15,7 @@ notehead* | slur tie dynamicCrescendoHairpin dynamicDiminuendoHairpin
 notehead* | ornament
 notehead* | wiggleTrill ornamentTrill arpeggio glissando fermata*
 notehead* | tuple
-notehead* | instrument_specific
+notehead* | instrumentSpecific
 
 noteheadFull noteheadHalf noteheadWhole | noteheadFullSmall noteheadHalfSmall
 
@@ -64,10 +64,10 @@ tuple | tupleBracket numeral*
 tuple{1,}
 | tupleBracket{1,}
 
-volta | other_numeric_sign horizontal_spanner dotted_horizontal_spanner
-transposition_text | horizontal_spanner dotted_horizontal_spanner
+volta | otherNumericSign horizontalSpanner dottedHorizontalSpanner
+transpositionText | horizontalSpanner dottedHorizontalSpanner
 
-*Clef | transposition_text
+*Clef | transpositionText
 
 | arpeggio{1,}
 
@@ -119,33 +119,32 @@ staffGrouping | staff
 ##############################################################################
 # Text rules
 
-dynamics_text | characterSmallP characterSmallF characterSmallM characterSmallS characterSmallZ characterSmallR
-dynamics_text | characterCapitalF characterCapitalM characterCapitalP
-dynamics_text | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ, dynamicLetterR, dynamicLetterN
+dynamicsText | characterSmallP characterSmallF characterSmallM characterSmallS characterSmallZ characterSmallR
+dynamicsText | characterCapitalF characterCapitalM characterCapitalP
+dynamicsText | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ, dynamicLetterR, dynamicLetterN
 
-tempo_text | character* numeral* characterDot
+tempoText | character* numeral* characterDot
 
-lyrics_text | character* characterDot
+lyricsText | character* characterDot
 
-instrument_name | character* numeral* characterDot
+instrumentName | character* numeral* characterDot
 
-rehearsal_mark | character* numeral* characterDot
+rehearsalMark | character* numeral* characterDot
 
-transposition_text | characterSmallV characterCapitalV characterSmallA characterCapitalA characterSmallM characterCapitalM characterSmallE characterCapitalE
-transposition_text | numeral1 numeral5 numeral8
+transpositionText | characterSmallV characterCapitalV characterSmallA characterCapitalA characterSmallM characterCapitalM characterSmallE characterCapitalE
+transpositionText | numeral1 numeral5 numeral8
 
-figured_bass_text | numeral* accidental*
+figuredBassText | numeral* accidental*
 
-other_text | character* numeral* characterDot
+otherText | character* numeral* characterDot
 
-bar_number | numeral*
-other_numeric_sign | numeral* characterDot characterOther
-*_text | continuation/connection_dash
+barNumber | numeral*
+otherNumericSign | numeral* characterDot characterOther
 
 # Figured bass is attached to noteheads
-notehead* | figured_bass_text
+notehead* | figuredBassText
 
-*_text{1,} |
-rehearsal_mark{1,} |
+*Text{1,} |
+rehearsalMark{1,} |
 | numeral*{1,}
 | character*{1,1}

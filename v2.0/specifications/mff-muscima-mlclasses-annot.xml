@@ -224,8 +224,8 @@
     </NodeClass>
     <NodeClass>
         <Id>47</Id>
-        <Name>other-dot</Name>
-        <GroupName>notations/other-dot</GroupName>
+        <Name>characterDot</Name>
+        <GroupName>notations/characterDot</GroupName>
         <Color>#FFDA66</Color>
     </NodeClass>
     <NodeClass>
@@ -386,38 +386,38 @@
     </NodeClass>
     <NodeClass>
         <Id>77</Id>
-        <Name>dynamics_text</Name>
-        <GroupName>text/dynamics_text</GroupName>
+        <Name>dynamicsText</Name>
+        <GroupName>text/dynamicsText</GroupName>
         <Color>#CEFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>78</Id>
-        <Name>tempo_text</Name>
-        <GroupName>text/tempo_text</GroupName>
+        <Name>tempoText</Name>
+        <GroupName>text/tempoText</GroupName>
         <Color>#BEFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>79</Id>
-        <Name>instrument_name</Name>
-        <GroupName>text/instrument_name</GroupName>
+        <Name>instrumentName</Name>
+        <GroupName>text/instrumentName</GroupName>
         <Color>#AEFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>80</Id>
-        <Name>lyrics_text</Name>
-        <GroupName>text/lyrics_text</GroupName>
+        <Name>lyricsText</Name>
+        <GroupName>text/lyricsText</GroupName>
         <Color>#9FFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>81</Id>
-        <Name>rehearsal_mark</Name>
-        <GroupName>text/rehearsal_mark</GroupName>
+        <Name>rehearsalMark</Name>
+        <GroupName>text/rehearsalMark</GroupName>
         <Color>#8FFF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>82</Id>
-        <Name>other_text</Name>
-        <GroupName>text/other_text</GroupName>
+        <Name>otherText</Name>
+        <GroupName>text/otherText</GroupName>
         <Color>#80FF66</Color>
     </NodeClass>
     <NodeClass>
@@ -794,20 +794,20 @@
     </NodeClass>
     <NodeClass>
         <Id>145</Id>
-        <Name>bar_number</Name>
-        <GroupName>numeral/bar_number</GroupName>
+        <Name>barNumber</Name>
+        <GroupName>numeral/barNumber</GroupName>
         <Color>#BB66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>146</Id>
-        <Name>other_numeric_sign</Name>
-        <GroupName>numeral/other_numeric_sign</GroupName>
+        <Name>otherNumericSign</Name>
+        <GroupName>numeral/otherNumericSign</GroupName>
         <Color>#CB66FF</Color>
     </NodeClass>
     <NodeClass>
         <Id>147</Id>
-        <Name>instrument_specific</Name>
-        <GroupName>misc/instrument_specific</GroupName>
+        <Name>instrumentSpecific</Name>
+        <GroupName>misc/instrumentSpecific</GroupName>
         <Color>#FF668A</Color>
     </NodeClass>
     <NodeClass>
@@ -818,20 +818,20 @@
     </NodeClass>
     <NodeClass>
         <Id>149</Id>
-        <Name>horizontal_spanner</Name>
-        <GroupName>notation/horizontal_spanner</GroupName>
+        <Name>horizontalSpanner</Name>
+        <GroupName>notation/horizontalSpanner</GroupName>
         <Color>#69FF66</Color>
     </NodeClass>
     <NodeClass>
         <Id>150</Id>
-        <Name>dotted_horizontal_spanner</Name>
-        <GroupName>notation/dotted_horizontal_spanner</GroupName>
+        <Name>dottedHorizontalSpanner</Name>
+        <GroupName>notation/dottedHorizontalSpanner</GroupName>
         <Color>#66FF72</Color>
     </NodeClass>
     <NodeClass>
         <Id>151</Id>
-        <Name>system_separator</Name>
-        <GroupName>layout/system_separator</GroupName>
+        <Name>systemSeparator</Name>
+        <GroupName>layout/systemSeparator</GroupName>
         <Color>#FF6689</Color>
     </NodeClass>
     <NodeClass>
@@ -842,20 +842,14 @@
     </NodeClass>
     <NodeClass>
         <Id>153</Id>
-        <Name>figured_bass_text</Name>
-        <GroupName>text/figured_bass_text</GroupName>
+        <Name>figuredBassText</Name>
+        <GroupName>text/figuredBassText</GroupName>
         <Color>#DAFF66</Color>
     </NodeClass>
     <NodeClass>
-        <Id>154</Id>
-        <Name>continuation/connection_dash</Name>
-        <GroupName>text/continuation/connection_dash</GroupName>
-        <Color>#CBFF66</Color>
-    </NodeClass>
-    <NodeClass>
         <Id>155</Id>
-        <Name>transposition_text</Name>
-        <GroupName>text/transposition_text</GroupName>
+        <Name>transpositionText</Name>
+        <GroupName>text/transpositionText</GroupName>
         <Color>#BBFF66</Color>
     </NodeClass>
     <NodeClass>
@@ -866,8 +860,8 @@
     </NodeClass>
     <NodeClass>
         <Id>157</Id>
-        <Name>breath_mark</Name>
-        <GroupName>notations/breath_mark</GroupName>
+        <Name>breathMark</Name>
+        <GroupName>notations/breathMark</GroupName>
         <Color>#66FFE0</Color>
     </NodeClass>
     <!-- Re-Order, starting from here and re-assign the IDs afterwards, so groups are together -->

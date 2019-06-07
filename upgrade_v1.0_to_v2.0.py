@@ -71,6 +71,21 @@ CLASS_NAME_MAPPING = {"notehead-full": "noteheadFull",
                       'arpeggio_"wobble"': "arpeggio",
                       'time_signature': "timeSignature",
                       'key_signature': "keySignature",
+                      "instrument_specific": "instrumentSpecific",
+                      "other_numeric_sign": "otherNumericSign",
+                      "horizontal_spanner": "horizontalSpanner",
+                      "dotted_horizontal_spanner": "dottedHorizontalSpanner",
+                      "transposition_text": "transpositionText",
+                      "figured_bass_text": "figuredBassText",
+                      "other_text": "otherText",
+                      "tempo_text": "tempoText",
+                      "dynamics_text": "dynamicsText",
+                      "lyrics_text": "lyricsText",
+                      "instrument_name": "instrumentName",
+                      "bar_number": "barNumber",
+                      "rehearsal_mark": "rehearsalMark",
+                      "system_separator": "systemSeparator",
+                      "breath_mark": "breathMark",
                       'letter_a': "characterSmallA",
                       'letter_b': "characterSmallB",
                       'letter_c': "characterSmallC",
@@ -181,7 +196,7 @@ def upgrade_xml_file(element_tree: ElementTree, crop_objects: List[CropObject]) 
             node = split_flag_into_flagUp_or_flagDown(node, crop_object, crop_objects)
 
         if "letter_" in crop_object.clsname:
-            new_node = introduce_dymanic_letter_x(node, crop_object, crop_objects, crop_object_nodes)
+            new_node = introduce_dynamic_letters(node, crop_object, crop_objects, crop_object_nodes)
             if new_node is not None:
                 nodes.append(new_node)
 
@@ -272,8 +287,8 @@ def split_fermata_into_fermataAbove_or_fermataBelow(node: Element, fermata: Crop
     return node
 
 
-def introduce_dymanic_letter_x(node: Element, letter: CropObject, crop_objects: List[CropObject],
-                               crop_object_nodes: List[Element]) -> Union[None, Element]:
+def introduce_dynamic_letters(node: Element, letter: CropObject, crop_objects: List[CropObject],
+                              crop_object_nodes: List[Element]) -> Union[None, Element]:
     if letter.clsname not in DYNAMICS_LETTER_NAME_MAPPING.keys():
         return None
 
