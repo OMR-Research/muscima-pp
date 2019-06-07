@@ -55,7 +55,7 @@ stem | tremoloMark singleNoteTremolo multipleNoteTremolo
 # Notations
 
 
-ornamentTrill | wiggleTrill letter_t letter_r characterDot letter_T letter_R letter_other
+ornamentTrill | wiggleTrill characterSmallT characterSmallR characterDot characterCapitalT characterCapitalR characterOther
 ornamentTrill | accidental*
 | ornamentTrill{1,}
 ornamentTrill{1,} |
@@ -119,27 +119,27 @@ staffGrouping | staff
 ##############################################################################
 # Text rules
 
-dynamics_text | letter_p letter_f letter_m letter_s letter_z letter_r
-dynamics_text | letter_F letter_M letter_P
-dynamics_text | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ
+dynamics_text | characterSmallP characterSmallF characterSmallM characterSmallS characterSmallZ characterSmallR
+dynamics_text | characterCapitalF characterCapitalM characterCapitalP
+dynamics_text | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ, dynamicLetterR, dynamicLetterN
 
-tempo_text | letter_* numeral* characterDot
+tempo_text | character* numeral* characterDot
 
-lyrics_text | letter_* characterDot
+lyrics_text | character* characterDot
 
-instrument_name | letter_* numeral* characterDot
+instrument_name | character* numeral* characterDot
 
-rehearsal_mark | letter_* numeral* characterDot
+rehearsal_mark | character* numeral* characterDot
 
-transposition_text | letter_v letter_V letter_a letter_A letter_m letter_M letter_e letter_E
+transposition_text | characterSmallV characterCapitalV characterSmallA characterCapitalA characterSmallM characterCapitalM characterSmallE characterCapitalE
 transposition_text | numeral1 numeral5 numeral8
 
 figured_bass_text | numeral* accidental*
 
-other_text | letter_* numeral* characterDot
+other_text | character* numeral* characterDot
 
 bar_number | numeral*
-other_numeric_sign | numeral* characterDot letter_other
+other_numeric_sign | numeral* characterDot characterOther
 *_text | continuation/connection_dash
 
 # Figured bass is attached to noteheads
@@ -148,4 +148,4 @@ notehead* | figured_bass_text
 *_text{1,} |
 rehearsal_mark{1,} |
 | numeral*{1,}
-| letter_*{1,1}
+| character*{1,1}
