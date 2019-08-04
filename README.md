@@ -121,7 +121,7 @@ The dataset package has the following structure:
 The MUSCIMA++ annotations are provided as XML files.
 The data itself is inside <Node> elements:
 
-    <Node id="MUSCIMA-pp_2.0___CVC-MUSCIMA_W-35_N-08_D-ideal___25">
+    <Node>
       <Id>25</Id>
       <ClassName>grace-notehead-full</ClassName>
       <Top>119</Top>
@@ -136,7 +136,7 @@ The data itself is inside <Node> elements:
 The Nodes are themselves kept as a list, which is the top-level
 element in the data files:
 
-    <Nodes>
+    <Nodes dataset="MUSCIMA-pp_2.0" document="CVC-MUSCIMA_W-01_N-10_D-ideal">
         <Node xml:id="..."> ... </Node>
         <Node xml:id="..."> ... </Node>
     </Nodes>
@@ -205,50 +205,24 @@ for your own purposes.
 
 ### Unique IDs policy
 
-Each Node has two identifiers: one is a dataset-wide
-unique identifier, and one is an integer ID that is valid
-within the scope of annotation of one document.
+The ID field of each node has to be unique within the document!
 
-The xml:id serves to identify the Node uniquely,
-at least within the MUSCIMA dataset system. (We anticipate further
-versions of the dataset, and need to plan for that.)
+MUSCIMA++ before version 2.0 had two separate IDs. A dataset-wide "unique ID", 
+and an integer "node ID", that was valid within the scope of a single document.
+Give that the unique-id was just a join of `Dataset_Document_NodeId` 
+and not a globally unique value, such as a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)
+it caused more trouble than it was worth it, because it had to be kept in sync. 
+The attribute was, therefore, removed.
 
-To uniquely identify a Node, we need three "levels":
+The dataset and document information has been moved to the root node as attributes 
 
-* The "global", **dataset-level identification**: which dataset is this
-  Node coming from? (For this dataset: MUSCIMA-pp_2.0.
-  Unfortunately, rules for XML NAME-type attributes do not allow
-  the + character in the attribute value.)
-* The "local", **document-level identification**: which document
-  (within the given dataset) is this Node coming from?
-  For MUSCIMA++, this will usually be a string like
-  CVC-MUSCIMA_W-35_N-08_D-ideal, derived from the filename
-  under which the NodeList containing the given Node
-  is stored.
-* The **within-document identification**, which is an integer
-  identical to the <Id>.
+    <Nodes dataset="MUSCIMA-pp_2.0" document="CVC-MUSCIMA_W-01_N-10_D-ideal">
+        <Node xml:id="..."> ... </Node>
+        <Node xml:id="..."> ... </Node>
+    </Nodes>
 
-These three components are joined together into one string by
-a delimiter: ___
-
-The full xml:id of a Node then might look like this:
-
-  `MUSCIMA-pp_2.0__CVC-MUSCIMA_W-35_N-08_D-ideal___611`
-
-You will need to use UIDs whenever you are combining Nodes
-from different documents, and/or datasets. (If you are really combining
-datasets, make sure you know what you are doing -- some annotation
-instructions may change between versions, so objects of the same class
-might not exactly correspond to each other...)
-
-On the other hand, the <Id> field is intended to uniquely identify
-a Node *within the scope of one Node list* (one annotation
-document), and enable integer manipulation. (We admit this is a bit
-of a legacy issue, connected to the annotation tool, which assumes
-that there is an integer identification of Nodes when annotating
-a single document.)
-
-> CAUTION: The scope of unique identification within MUSCIMA++ is only within a `<NodeList>`. Don't use objid to mix Nodes from multiple files! Use their uid attribute, which is taken from the <Node> element's xml:id.
+For compatibility reasons, the unique_id can be restored by joining the information from the
+root note with the ID field from each individual node with two underscores, e.g., `MUSCIMA-pp_2.0__CVC-MUSCIMA_W-01_N-10_D-ideal__352`.
 
 
 ## Classes
