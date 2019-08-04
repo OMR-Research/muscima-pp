@@ -13,11 +13,12 @@
       <xs:element type="xs:string" name="Inlinks" minOccurs="0"/>
       <xs:element type="xs:string" name="Outlinks" minOccurs="0"/>
     </xs:sequence>
-    <xs:attribute name="id" type="xs:ID" use="required"/>
   </xs:complexType>
   <xs:complexType name="NodesType">
     <xs:sequence>
       <xs:element type="NodeType" name="Node" maxOccurs="unbounded" minOccurs="0"/>
     </xs:sequence>
+    <xs:attribute name="dataset" type="xs:string" use="required"/>
+    <xs:attribute name="document" type="xs:string" use="required"/>
   </xs:complexType>
 </xs:schema>
