@@ -121,7 +121,7 @@ staffGrouping | staff
 
 dynamicsText | characterSmallP characterSmallF characterSmallM characterSmallS characterSmallZ characterSmallR
 dynamicsText | characterCapitalF characterCapitalM characterCapitalP
-dynamicsText | dynamicLetterP, dynamicLetterM, dynamicLetterF, dynamicLetterS, dynamicLetterZ, dynamicLetterR, dynamicLetterN
+dynamicsText | dynamicLetterP dynamicLetterM dynamicLetterF dynamicLetterS dynamicLetterZ dynamicLetterR dynamicLetterN
 
 tempoText | character* numeral* characterDot
 
