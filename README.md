@@ -13,7 +13,7 @@ The MUSCIMA++ dataset is intended for musical symbol detection and classificatio
 Apart from the symbol annotation data themselves, we also provide two Python packages:
 
 - `muscima`, which is basically an I/O interface to the v1.0 dataset (also available through pip install muscima)
-- `mung`, which is the same as `muscima` but for v2.0+ (currently [under development](https://github.com/OMR-Research/mung))
+- [`mung`](https://github.com/OMR-Research/mung), which is the same as `muscima` but for v2.0+
 - `MUSCIMarker`, which is the annotation tool used to create the dataset.
 
 We believe the functionality in `muscima` will make it easier for you to use the dataset. You don’t need MUSCIMarker unless you want to extend the dataset, although it is also nifty for visualization. If you do not want to use the Python interface, you can of course make your own: the data is stored as a regular XML file, described in detail in the README (and also in the `muscima.io` module).
@@ -21,7 +21,7 @@ We believe the functionality in `muscima` will make it easier for you to use the
 # First Steps 
 
 - Download the latest version [here](http://hdl.handle.net/11372/LRT-2372).
-- Install the [muscima](https://muscima.readthedocs.io/) package.
+- Install the [mung](https://mung.readthedocs.io/) package.
 - Follow the musicma package [tutorial](https://muscima.readthedocs.io/en/latest/Tutorial.html).
 
 To understand how to leverage the dataset for your particular use case, you will need to familiarize yourself with how the MuNG ground truth is defined in detail. To this end, see the [annotation instructions](https://muscimarker.readthedocs.io/en/develop/instructions.html) as a reference guide. If you want to look at the notation graph, you can use the [MUSCIMarker](https://muscimarker.readthedocs.io/en/develop/) GUI app.
