@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="NodeClasses">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="NodeClass" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:int" name="Id" />
+                            <xs:element type="xs:string" name="Name" />
+                            <xs:element type="xs:string" name="GroupName" />
+                            <xs:element type="xs:string" name="Color" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NodeClasses noNamespaceSchema="mff-muscima-mlclasses.xsd">
+<NodeClasses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="NodeClasses_Schema.xsd">
     <NodeClass>
         <Id>0</Id>
         <Name>noteheadFull</Name>
