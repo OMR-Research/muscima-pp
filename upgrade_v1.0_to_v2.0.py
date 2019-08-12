@@ -355,7 +355,7 @@ if __name__ == "__main__":
     source_directory = flags.source_directory
     destination_directory = flags.destination_directory
 
-    directory_mapping = {"data/cropobjects_withstaff": "data/nodes_with_staff_annotations"}
+    directory_mapping = {"data/cropobjects_withstaff": "data/annotations"}
 
     for source_subdirectory, destination_subdirectory in directory_mapping.items():
         source = os.path.join(source_directory, source_subdirectory)

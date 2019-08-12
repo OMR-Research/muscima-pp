@@ -93,7 +93,7 @@ The dataset package has the following structure:
     +--+ v2.0/
     |  |
     |  +--+ data/                               ... Contains the data files.
-    |  |  +--+ nodes_with_staff_annotations/    ... Contains the annotation files enriched by staff objects,
+    |  |  +--+ annotations/                     ... Contains the annotation files enriched by staff objects,
     |  |     |                                         inferred automatically from CVC-MUSCIMA staff-only images
     |  |     |                                         using scripts from the ``muscima’’ package.
     |  |     +-- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
