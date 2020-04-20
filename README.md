@@ -31,7 +31,7 @@ As a part of the agreement that enabled us to release MUSCIMA++ under a permissi
 
 Then, use the get_images_from_muscima.py script from the muscima package, using -i `cat specifications/cvc-muscima-image-list.txt`, and specify data/images as the target directory. This will extract the 140 annotated symbol images for which there are annotations, with the correct filenames.
 
-For convenience reasons, the [`omrdatasettools`](https://omr-datasets.readthedocs.io/en/latest/index.html) package contains a [simple script](https://omr-datasets.readthedocs.io/en/latest/downloaders/MuscimaPlusPlusDatasetDownloader.html) to download the MUSCIMA++ dataset and the images.
+For convenience reasons, the [`omrdatasettools`](https://omr-datasets.readthedocs.io/en/latest/index.html) package contains a [simple script](https://omr-datasets.readthedocs.io/en/latest/downloaders.html) to download the MUSCIMA++ dataset and the images.
 
 # Ground Truth Definition
 
