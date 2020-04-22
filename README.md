@@ -16,7 +16,7 @@ Apart from the symbol annotation data themselves, we also provide two Python pac
 - [`mung`](https://github.com/OMR-Research/mung), which is the same as `muscima` but for v2.0+
 - `MUSCIMarker`, which is the annotation tool used to create the dataset.
 
-We believe the functionality in `muscima` will make it easier for you to use the dataset. You don’t need MUSCIMarker unless you want to extend the dataset, although it is also nifty for visualization. If you do not want to use the Python interface, you can of course make your own: the data is stored as a regular XML file, described in detail in the README (and also in the `muscima.io` module).
+We believe the functionality in `mung` will make it easier for you to use the dataset. You don’t need MUSCIMarker unless you want to extend the dataset, although it is also nifty for visualization. If you do not want to use the Python interface, you can of course make your own: the data is stored as a regular XML file, described in detail in the README (and also in the [`mung.io`](https://github.com/OMR-Research/mung/blob/master/mung/io.py) module).
 
 # First Steps 
 
@@ -27,11 +27,9 @@ We believe the functionality in `muscima` will make it easier for you to use the
 To understand how to leverage the dataset for your particular use case, you will need to familiarize yourself with how the MuNG ground truth is defined in detail. To this end, see the [annotation instructions](https://muscimarker.readthedocs.io/en/develop/instructions.html) as a reference guide. If you want to look at the notation graph, you can use the [MUSCIMarker](https://muscimarker.readthedocs.io/en/develop/) GUI app.
 
 ## Getting the CVC-MUSCIMA Images
-As a part of the agreement that enabled us to release MUSCIMA++ under a permissive license, we do not distribute the underlying CVC-MUSCIMA images themselves, only the annotations. To get these underlying images, you will need to download the [CVC-MUSCIMA](http://www.cvc.uab.es/cvcmuscima/index_database.html) staff removal dataset.
+As a part of the agreement that enabled us to release MUSCIMA++ under a permissive license, we do not directly distribute the underlying CVC-MUSCIMA images themselves, only the annotations. To get these underlying images, you will need to download the [CVC-MUSCIMA](http://www.cvc.uab.es/cvcmuscima/index_database.html) staff removal dataset.
 
-Then, use the get_images_from_muscima.py script from the muscima package, using -i `cat specifications/cvc-muscima-image-list.txt`, and specify data/images as the target directory. This will extract the 140 annotated symbol images for which there are annotations, with the correct filenames.
-
-For convenience reasons, the [`omrdatasettools`](https://omr-datasets.readthedocs.io/en/latest/index.html) package contains a [simple script](https://omr-datasets.readthedocs.io/en/latest/downloaders.html) to download the MUSCIMA++ dataset and the images.
+However, for convenience reasons, the [`omrdatasettools`](https://omr-datasets.readthedocs.io/en/latest/index.html) package contains a [simple script](https://omr-datasets.readthedocs.io/en/latest/downloaders.html) that can download the MUSCIMA++ dataset and the respective images jointly.
 
 # Ground Truth Definition
 
@@ -95,7 +93,7 @@ The dataset package has the following structure:
     |  +--+ data/                               ... Contains the data files.
     |  |  +--+ annotations/                     ... Contains the annotation files enriched by staff objects,
     |  |     |                                         inferred automatically from CVC-MUSCIMA staff-only images
-    |  |     |                                         using scripts from the ``muscima’’ package.
+    |  |     |                                         using scripts from the ``mung’’ package.
     |  |     +-- CVC-MUSCIMA_W-01_N-10_D-ideal.xml
     |  |     +-- ...
     |  |
@@ -108,7 +106,7 @@ The dataset package has the following structure:
     |     +-- testset-independent.txt                  ... List of writer-dependent test set images.
     |   
 	|  
-    +-- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine) 
+    +-- LICENSE.txt                         ... The legal stuff (CC-BY-NC-SA 4.0, which is fine 
     |                                            unless you want to make money off of this data).
     +-- ERRATA.txt                          ... File which lists errors in the data and their corrections. 
     +-- README.md                           ... This file.
@@ -137,25 +135,12 @@ The Nodes are themselves kept as a list, which is the top-level
 element in the data files:
 
     <Nodes dataset="MUSCIMA-pp_2.0" document="CVC-MUSCIMA_W-01_N-10_D-ideal">
-        <Node xml:id="..."> ... </Node>
-        <Node xml:id="..."> ... </Node>
+        <Node> ... </Node>
+        <Node> ... </Node>
     </Nodes>
 
 
 >   NOTE: Parsing (muscima.io.parse_nodes_list()) is only implemented for files that consist of a single `<Nodes>` list.
-
-
-The value of the id attribute of the <Node> element
-is a string that uniquely identifies the Node
-in the entire dataset. It is derived from a global dataset name and version
-identifier (the + signs in MUSCIMA++ 1.0 unfortunately do not comply
-with the XML specification for the xml:id value), a NodeList identifier
-which is unique within the dataset (derived from the filename:
-usually in the format CVC-MUSCIMA_W-{:02}_N-{:02}_D-ideal),
-and the number of the Node within the given NodeList
-(which matches the <Id> value). The delimiter is three underscores
-(___), in order to comply with XML rules for the xml:id attribute.
-
 
 
 ### Individual elements of a `<Node>`
@@ -207,8 +192,7 @@ for your own purposes.
 
 The ID field of each node has to be unique within the document!
 
-MUSCIMA++ before version 2.0 had two separate IDs. A dataset-wide "unique ID", 
-and an integer "node ID", that was valid within the scope of a single document.
+MUSCIMA++ before version 2.0 had two separate IDs. A dataset-wide "unique ID", e.g., `MUSCIMA-pp_1.0___CVC-MUSCIMA_W-01_N-10_D-ideal___0`, and an integer "node ID", that was valid within the scope of a single document.
 Give that the unique-id was just a join of `Dataset_Document_NodeId` 
 and not a globally unique value, such as a [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier)
 it caused more trouble than it was worth it, because it had to be kept in sync. 
@@ -217,12 +201,12 @@ The attribute was, therefore, removed.
 The dataset and document information has been moved to the root node as attributes 
 
     <Nodes dataset="MUSCIMA-pp_2.0" document="CVC-MUSCIMA_W-01_N-10_D-ideal">
-        <Node xml:id="..."> ... </Node>
-        <Node xml:id="..."> ... </Node>
+        <Node> ... </Node>
+        <Node> ... </Node>
     </Nodes>
 
-For compatibility reasons, the unique_id can be restored by joining the information from the
-root note with the ID field from each individual node with two underscores, e.g., `MUSCIMA-pp_2.0__CVC-MUSCIMA_W-01_N-10_D-ideal__352`.
+For compatibility reasons, the unique_id can be obtained by joining the information from the
+root note with the ID field from each individual node with two underscores, e.g., `MUSCIMA-pp_2.0__CVC-MUSCIMA_W-01_N-10_D-ideal__352` or simply call [`Node.unique_id`](https://mung.readthedocs.io/en/latest/mung.node.html#mung.node.Node.unique_id).
 
 
 ## Classes
@@ -341,8 +325,9 @@ Note (2018-01-05): The attribution [1] changed to a peer-reviewed article for MU
 
 If you wish to contact the authors of this dataset, write to:
 
+  alexander.pacha@tuwien.ac.at or 
   hajicj@ufal.mff.cuni.cz
-  alexander.pacha@tuwien.ac.at
+  
 
 We will be happy to hear your feedback!
 
