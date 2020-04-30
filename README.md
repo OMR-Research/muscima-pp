@@ -8,6 +8,11 @@ MUSCIMA++ has annotations for 140 images from the CVC-MUSCIMA dataset [2], used 
 
 The MUSCIMA++ dataset is intended for musical symbol detection and classification, and for music notation reconstruction. A thorough description of its design is published on [arXiv](https://arxiv.org/abs/1703.04824). The full definition of MuNG, the ground truth format, is given in the form of [annotator instructions](https://muscimarker.readthedocs.io/en/develop/instructions.html).
 
+## Introduction to MUSCIMA++ Video
+
+Watch Jan give a 30 minute introduction into this dataset on YouTube:
+
+[![Introduction to MUSCIMA++](https://img.youtube.com/vi/SvBvcxdGoE8/0.jpg)](https://www.youtube.com/watch?v=SvBvcxdGoE8)
 
 ## Tools
 Apart from the symbol annotation data themselves, we also provide two Python packages:
