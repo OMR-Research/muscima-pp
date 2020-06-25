@@ -1,0 +1,150 @@
+##############################################################################
+This is the dependency grammar for the default annotations symbols.
+
+
+##############################################################################
+# Notes and grace notes
+# (no notehead-to-text attachment)
+
+notehead* | accidental* legerLine stem
+notehead* | augmentationDot
+noteheadFull* | flag* beam
+
+notehead* | articulation* characterDot
+notehead* | slur tie dynamicCrescendoHairpin dynamicDiminuendoHairpin
+notehead* | ornament
+notehead* | wiggleTrill ornamentTrill arpeggio glissando fermata*
+notehead* | tuple
+notehead* | instrumentSpecific
+
+noteheadFull noteheadHalf noteheadWhole | noteheadFullSmall noteheadHalfSmall
+
+# Aggregate cardinalities
+
+noteheadFull{1,} |
+noteheadFullSmall{1,} |
+
+| noteheadFullSmall{1,}
+| noteheadHalfSmall{1,}
+| beam{1,} stem{1,}
+| augmentationDot{1,} characterDot{1,} articulation*{1,}
+| accidental*{1,}
+| legerLine{1,}
+| slur{2,} tie{2,}
+| flag*{1,}
+
+
+##############################################################################
+# Rests
+
+rest* | augmentationDot
+rest* | tuple
+rest* | fermata*
+
+
+##############################################################################
+# Stem modifiers
+
+stem | graceNoteAcciaccatura
+stem | tremoloMark singleNoteTremolo multipleNoteTremolo
+
+| graceNoteAcciaccatura{1}
+
+
+##############################################################################
+# Notations
+
+
+ornamentTrill | wiggleTrill characterSmallT characterSmallR characterDot characterCapitalT characterCapitalR characterOther
+ornamentTrill | accidental*
+| ornamentTrill{1,}
+ornamentTrill{1,} |
+
+tuple | tupleBracket numeral*
+tuple{1,}
+| tupleBracket{1,}
+
+volta | otherNumericSign horizontalSpanner dottedHorizontalSpanner
+transpositionText | horizontalSpanner dottedHorizontalSpanner
+
+clef* | transpositionText
+
+| arpeggio{1,}
+
+
+##############################################################################
+# Part defaults
+
+keySignature | accidental*
+keySignature{1,} |
+
+timeSignature | timeSigCommon timeSigCutCommon numeral*
+timeSignature{1,} |
+| timeSigCommon{1,} timeSigCutCommon{1,}
+
+
+##############################################################################
+# Measure delimiters
+
+measureSeparator | barline*
+measureSeparator{1,} |
+
+repeat | repeatDot barline barlineHeavy
+repeat{1,} |
+| repeatDot{1,}
+
+staffGrouping | barline* bracket brace
+staffGrouping | staffGrouping
+staffGrouping{1,}
+
+# Every barline is a measureSeparator or staff grouping
+| barline*{1,}
+
+# Non-duration fermatas are attached to a measure delimiter
+measureSeparator | fermata*
+
+
+##############################################################################
+# Staff rules
+
+staff | staffLine staffSpace
+keySignature timeSignature clefG clefC clefF | staff
+measureSeparator | staff
+staffGrouping | staff
+
+| staffLine{1,}
+
+
+
+##############################################################################
+# Text rules
+
+dynamicsText | characterSmallP characterSmallF characterSmallM characterSmallS characterSmallZ characterSmallR
+dynamicsText | characterCapitalF characterCapitalM characterCapitalP
+dynamicsText | dynamicLetterP dynamicLetterM dynamicLetterF dynamicLetterS dynamicLetterZ dynamicLetterR dynamicLetterN
+
+tempoText | character* numeral* characterDot
+
+lyricsText | character* characterDot
+
+instrumentName | character* numeral* characterDot
+
+rehearsalMark | character* numeral* characterDot
+
+transpositionText | characterSmallV characterCapitalV characterSmallA characterCapitalA characterSmallM characterCapitalM characterSmallE characterCapitalE
+transpositionText | numeral1 numeral5 numeral8
+
+figuredBassText | numeral* accidental*
+
+otherText | character* numeral* characterDot
+
+barNumber | numeral*
+otherNumericSign | numeral* characterDot characterOther
+
+# Figured bass is attached to noteheads
+notehead* | figuredBassText
+
+*Text{1,} |
+rehearsalMark{1,} |
+| numeral*{1,}
+| character*{1,1}
